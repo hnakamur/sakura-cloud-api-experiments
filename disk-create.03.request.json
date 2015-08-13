@@ -1,0 +1,13 @@
+{
+  "Disk":{
+    "Name":"SSD Disk",
+    "Description":"Create a disk with default disk plan ID",
+    "SizeMB":20480,
+    "Connection":"virtio",
+    "Tags": [
+      "SSD",
+      "FreeBSD",
+      "development"
+    ]
+  }
+}

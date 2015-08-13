@@ -1,0 +1,428 @@
+{
+  "From": 0,
+  "Count": 42,
+  "Total": 42,
+  "ServerPlans": [
+    {
+      "Index": 0,
+      "ID": 1001,
+      "Name": "プラン/1Core-1GB",
+      "Description": "",
+      "CPU": 1,
+      "MemoryMB": 1024,
+      "ServiceClass": "cloud/plan/1core-1gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 1,
+      "ID": 2001,
+      "Name": "プラン/1Core-2GB",
+      "Description": "",
+      "CPU": 1,
+      "MemoryMB": 2048,
+      "ServiceClass": "cloud/plan/1core-2gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 2,
+      "ID": 2002,
+      "Name": "プラン/2Core-2GB",
+      "Description": "",
+      "CPU": 2,
+      "MemoryMB": 2048,
+      "ServiceClass": "cloud/plan/2core-2gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 3,
+      "ID": 3001,
+      "Name": "プラン/1Core-3GB",
+      "Description": "",
+      "CPU": 1,
+      "MemoryMB": 3072,
+      "ServiceClass": "cloud/plan/1core-3gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 4,
+      "ID": 3002,
+      "Name": "プラン/2Core-3GB",
+      "Description": "",
+      "CPU": 2,
+      "MemoryMB": 3072,
+      "ServiceClass": "cloud/plan/2core-3gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 5,
+      "ID": 3003,
+      "Name": "プラン/3Core-3GB",
+      "Description": "",
+      "CPU": 3,
+      "MemoryMB": 3072,
+      "ServiceClass": "cloud/plan/3core-3gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 6,
+      "ID": 4001,
+      "Name": "プラン/1Core-4GB",
+      "Description": "",
+      "CPU": 1,
+      "MemoryMB": 4096,
+      "ServiceClass": "cloud/plan/1core-4gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 7,
+      "ID": 4002,
+      "Name": "プラン/2Core-4GB",
+      "Description": "",
+      "CPU": 2,
+      "MemoryMB": 4096,
+      "ServiceClass": "cloud/plan/2core-4gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 8,
+      "ID": 4003,
+      "Name": "プラン/3Core-4GB",
+      "Description": "",
+      "CPU": 3,
+      "MemoryMB": 4096,
+      "ServiceClass": "cloud/plan/3core-4gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 9,
+      "ID": 4004,
+      "Name": "プラン/4Core-4GB",
+      "Description": "",
+      "CPU": 4,
+      "MemoryMB": 4096,
+      "ServiceClass": "cloud/plan/4core-4gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 10,
+      "ID": 5001,
+      "Name": "プラン/1Core-5GB",
+      "Description": "",
+      "CPU": 1,
+      "MemoryMB": 5120,
+      "ServiceClass": "cloud/plan/1core-5gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 11,
+      "ID": 5002,
+      "Name": "プラン/2Core-5GB",
+      "Description": "",
+      "CPU": 2,
+      "MemoryMB": 5120,
+      "ServiceClass": "cloud/plan/2core-5gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 12,
+      "ID": 5003,
+      "Name": "プラン/3Core-5GB",
+      "Description": "",
+      "CPU": 3,
+      "MemoryMB": 5120,
+      "ServiceClass": "cloud/plan/3core-5gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 13,
+      "ID": 5004,
+      "Name": "プラン/4Core-5GB",
+      "Description": "",
+      "CPU": 4,
+      "MemoryMB": 5120,
+      "ServiceClass": "cloud/plan/4core-5gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 14,
+      "ID": 6002,
+      "Name": "プラン/2Core-6GB",
+      "Description": "",
+      "CPU": 2,
+      "MemoryMB": 6144,
+      "ServiceClass": "cloud/plan/2core-6gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 15,
+      "ID": 6003,
+      "Name": "プラン/3Core-6GB",
+      "Description": "",
+      "CPU": 3,
+      "MemoryMB": 6144,
+      "ServiceClass": "cloud/plan/3core-6gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 16,
+      "ID": 6004,
+      "Name": "プラン/4Core-6GB",
+      "Description": "",
+      "CPU": 4,
+      "MemoryMB": 6144,
+      "ServiceClass": "cloud/plan/4core-6gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 17,
+      "ID": 8003,
+      "Name": "プラン/3Core-8GB",
+      "Description": "",
+      "CPU": 3,
+      "MemoryMB": 8192,
+      "ServiceClass": "cloud/plan/3core-8gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 18,
+      "ID": 8004,
+      "Name": "プラン/4Core-8GB",
+      "Description": "",
+      "CPU": 4,
+      "MemoryMB": 8192,
+      "ServiceClass": "cloud/plan/4core-8gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 19,
+      "ID": 8005,
+      "Name": "プラン/5Core-8GB",
+      "Description": "",
+      "CPU": 5,
+      "MemoryMB": 8192,
+      "ServiceClass": "cloud/plan/5core-8gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 20,
+      "ID": 12003,
+      "Name": "プラン/3Core-12GB",
+      "Description": "",
+      "CPU": 3,
+      "MemoryMB": 12288,
+      "ServiceClass": "cloud/plan/3core-12gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 21,
+      "ID": 12004,
+      "Name": "プラン/4Core-12GB",
+      "Description": "",
+      "CPU": 4,
+      "MemoryMB": 12288,
+      "ServiceClass": "cloud/plan/4core-12gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 22,
+      "ID": 12005,
+      "Name": "プラン/5Core-12GB",
+      "Description": "",
+      "CPU": 5,
+      "MemoryMB": 12288,
+      "ServiceClass": "cloud/plan/5core-12gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 23,
+      "ID": 12006,
+      "Name": "プラン/6Core-12GB",
+      "Description": "",
+      "CPU": 6,
+      "MemoryMB": 12288,
+      "ServiceClass": "cloud/plan/6core-12gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 24,
+      "ID": 16004,
+      "Name": "プラン/4Core-16GB",
+      "Description": "",
+      "CPU": 4,
+      "MemoryMB": 16384,
+      "ServiceClass": "cloud/plan/4core-16gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 25,
+      "ID": 16005,
+      "Name": "プラン/5Core-16GB",
+      "Description": "",
+      "CPU": 5,
+      "MemoryMB": 16384,
+      "ServiceClass": "cloud/plan/5core-16gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 26,
+      "ID": 16006,
+      "Name": "プラン/6Core-16GB",
+      "Description": "",
+      "CPU": 6,
+      "MemoryMB": 16384,
+      "ServiceClass": "cloud/plan/6core-16gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 27,
+      "ID": 16008,
+      "Name": "プラン/8Core-16GB",
+      "Description": "",
+      "CPU": 8,
+      "MemoryMB": 16384,
+      "ServiceClass": "cloud/plan/8core-16gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 28,
+      "ID": 24005,
+      "Name": "プラン/5Core-24GB",
+      "Description": "",
+      "CPU": 5,
+      "MemoryMB": 24576,
+      "ServiceClass": "cloud/plan/5core-24gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 29,
+      "ID": 24006,
+      "Name": "プラン/6Core-24GB",
+      "Description": "",
+      "CPU": 6,
+      "MemoryMB": 24576,
+      "ServiceClass": "cloud/plan/6core-24gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 30,
+      "ID": 24008,
+      "Name": "プラン/8Core-24GB",
+      "Description": "",
+      "CPU": 8,
+      "MemoryMB": 24576,
+      "ServiceClass": "cloud/plan/8core-24gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 31,
+      "ID": 24010,
+      "Name": "プラン/10Core-24GB",
+      "Description": "",
+      "CPU": 10,
+      "MemoryMB": 24576,
+      "ServiceClass": "cloud/plan/10core-24gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 32,
+      "ID": 32006,
+      "Name": "プラン/6Core-32GB",
+      "Description": "",
+      "CPU": 6,
+      "MemoryMB": 32768,
+      "ServiceClass": "cloud/plan/6core-32gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 33,
+      "ID": 32008,
+      "Name": "プラン/8Core-32GB",
+      "Description": "",
+      "CPU": 8,
+      "MemoryMB": 32768,
+      "ServiceClass": "cloud/plan/8core-32gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 34,
+      "ID": 32010,
+      "Name": "プラン/10Core-32GB",
+      "Description": "",
+      "CPU": 10,
+      "MemoryMB": 32768,
+      "ServiceClass": "cloud/plan/10core-32gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 35,
+      "ID": 48008,
+      "Name": "プラン/8Core-48GB",
+      "Description": "",
+      "CPU": 8,
+      "MemoryMB": 49152,
+      "ServiceClass": "cloud/plan/8core-48gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 36,
+      "ID": 48010,
+      "Name": "プラン/10Core-48GB",
+      "Description": "",
+      "CPU": 10,
+      "MemoryMB": 49152,
+      "ServiceClass": "cloud/plan/10core-48gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 37,
+      "ID": 48012,
+      "Name": "プラン/12Core-48GB",
+      "Description": "",
+      "CPU": 12,
+      "MemoryMB": 49152,
+      "ServiceClass": "cloud/plan/12core-48gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 38,
+      "ID": 64010,
+      "Name": "プラン/10Core-64GB",
+      "Description": "",
+      "CPU": 10,
+      "MemoryMB": 65536,
+      "ServiceClass": "cloud/plan/10core-64gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 39,
+      "ID": 64012,
+      "Name": "プラン/12Core-64GB",
+      "Description": "",
+      "CPU": 12,
+      "MemoryMB": 65536,
+      "ServiceClass": "cloud/plan/12core-64gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 40,
+      "ID": 96012,
+      "Name": "プラン/12Core-96GB",
+      "Description": "",
+      "CPU": 12,
+      "MemoryMB": 98304,
+      "ServiceClass": "cloud/plan/12core-96gb",
+      "Availability": "available"
+    },
+    {
+      "Index": 41,
+      "ID": 128012,
+      "Name": "プラン/12Core-128GB",
+      "Description": "",
+      "CPU": 12,
+      "MemoryMB": 131072,
+      "ServiceClass": "cloud/plan/12core-128gb",
+      "Availability": "available"
+    }
+  ],
+  "is_ok": true
+}

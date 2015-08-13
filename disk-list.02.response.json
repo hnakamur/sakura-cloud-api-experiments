@@ -1,0 +1,172 @@
+{
+  "From": 0,
+  "Count": 2,
+  "Total": 2,
+  "Disks": [
+    {
+      "Index": 0,
+      "ID": "112700679397",
+      "Name": "New Disk",
+      "Description": "Creating an empty disk",
+      "Connection": "virtio",
+      "ConnectionOrder": null,
+      "ReinstallCount": 0,
+      "Availability": "available",
+      "SizeMB": 40960,
+      "MigratedMB": null,
+      "WaitingJobCount": null,
+      "JobStatus": null,
+      "ServiceClass": "cloud/disk/iscsi/40g",
+      "BundleID": null,
+      "CreatedAt": "2015-08-14T02:56:01+09:00",
+      "Icon": null,
+      "Plan": {
+        "ID": 2,
+        "StorageClass": "iscsi1204",
+        "Name": "標準プラン"
+      },
+      "SourceDisk": null,
+      "SourceDiskSnapshot": null,
+      "SourceArchive": null,
+      "SourceDiskTemplate": null,
+      "BundleInfo": null,
+      "DiskTemplate": null,
+      "Storage": {
+        "ID": "2900196001",
+        "Class": "iscsi1204",
+        "Name": "sac-tk1v-dummy-iscsi2-st01",
+        "Description": "",
+        "Zone": {
+          "ID": 29001,
+          "DisplayOrder": 80029001,
+          "Name": "tk1v",
+          "Description": "Sandbox",
+          "IsDummy": true,
+          "VNCProxy": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "FTPServer": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "Region": {
+            "ID": 290,
+            "Name": "Sandbox",
+            "Description": "Sandbox",
+            "NameServers": [
+              "133.242.0.3",
+              "133.242.0.4"
+            ]
+          }
+        },
+        "DiskPlan": {
+          "ID": 2,
+          "StorageClass": "iscsi1204",
+          "Name": "標準プラン"
+        },
+        "Capacity": []
+      },
+      "Appliance": null,
+      "Server": null,
+      "Tags": []
+    },
+    {
+      "Index": 1,
+      "ID": "112700679400",
+      "Name": "Copied Disk",
+      "Description": "Creating a disk with copying another disk",
+      "Connection": "virtio",
+      "ConnectionOrder": null,
+      "ReinstallCount": 0,
+      "Availability": "available",
+      "SizeMB": 40960,
+      "MigratedMB": 40960,
+      "WaitingJobCount": null,
+      "JobStatus": null,
+      "ServiceClass": "cloud/disk/iscsi/40g",
+      "BundleID": null,
+      "CreatedAt": "2015-08-14T02:59:23+09:00",
+      "Icon": null,
+      "Plan": {
+        "ID": 2,
+        "StorageClass": "iscsi1204",
+        "Name": "標準プラン"
+      },
+      "SourceDisk": {
+        "ID": "112700679397",
+        "Name": "New Disk",
+        "Availability": "available",
+        "SizeMB": 40960,
+        "Plan": {
+          "ID": 2,
+          "StorageClass": "iscsi1204",
+          "Name": "標準プラン"
+        },
+        "Storage": {
+          "ID": "2900196001",
+          "Class": "iscsi1204",
+          "Name": "sac-tk1v-dummy-iscsi2-st01",
+          "Zone": {
+            "ID": 29001,
+            "Name": "tk1v",
+            "Region": {
+              "ID": 290,
+              "Name": "Sandbox"
+            }
+          },
+          "DiskPlan": {
+            "ID": 2,
+            "StorageClass": "iscsi1204",
+            "Name": "標準プラン"
+          }
+        }
+      },
+      "SourceDiskSnapshot": null,
+      "SourceArchive": null,
+      "SourceDiskTemplate": null,
+      "BundleInfo": null,
+      "DiskTemplate": null,
+      "Storage": {
+        "ID": "2900196001",
+        "Class": "iscsi1204",
+        "Name": "sac-tk1v-dummy-iscsi2-st01",
+        "Description": "",
+        "Zone": {
+          "ID": 29001,
+          "DisplayOrder": 80029001,
+          "Name": "tk1v",
+          "Description": "Sandbox",
+          "IsDummy": true,
+          "VNCProxy": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "FTPServer": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "Region": {
+            "ID": 290,
+            "Name": "Sandbox",
+            "Description": "Sandbox",
+            "NameServers": [
+              "133.242.0.3",
+              "133.242.0.4"
+            ]
+          }
+        },
+        "DiskPlan": {
+          "ID": 2,
+          "StorageClass": "iscsi1204",
+          "Name": "標準プラン"
+        },
+        "Capacity": []
+      },
+      "Appliance": null,
+      "Server": null,
+      "Tags": []
+    }
+  ],
+  "is_ok": true
+}

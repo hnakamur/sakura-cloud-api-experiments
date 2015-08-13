@@ -1,0 +1,9 @@
+{
+  "Disk":{
+    "Name":"Copied Disk",
+    "Description":"Creating a disk with copying another disk",
+    "Plan":{"ID":2},
+    "SourceDisk":{"ID":"112700679397"},
+    "Connection":"virtio"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "Server": {
+    "Name": "New Server",
+    "Description": "Hello Sakura Cloud!",
+    "ServerPlan": {
+      "ID": 1001
+    },
+    "Tags": [
+      "My Server"
+    ],
+    "ConnectedSwitches": [
+      {
+        "Scope": "shared"
+      }
+    ]
+  },
+  "Count": 0
+}

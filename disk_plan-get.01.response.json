@@ -1,0 +1,41 @@
+{
+  "DiskPlan": {
+    "ID": 4,
+    "StorageClass": "iscsi1204",
+    "DisplayOrder": 400,
+    "Name": "SSDプラン",
+    "Description": "",
+    "Availability": "available",
+    "Size": [
+      {
+        "SizeMB": 20480,
+        "DisplaySize": 20,
+        "DisplaySuffix": "GB",
+        "Availability": "available",
+        "ServiceClass": "cloud/disk/ssd/20g"
+      },
+      {
+        "SizeMB": 102400,
+        "DisplaySize": 100,
+        "DisplaySuffix": "GB",
+        "Availability": "available",
+        "ServiceClass": "cloud/disk/ssd/100g"
+      },
+      {
+        "SizeMB": 256000,
+        "DisplaySize": 250,
+        "DisplaySuffix": "GB",
+        "Availability": "available",
+        "ServiceClass": "cloud/disk/ssd/250g"
+      },
+      {
+        "SizeMB": 512000,
+        "DisplaySize": 500,
+        "DisplaySuffix": "GB",
+        "Availability": "available",
+        "ServiceClass": "cloud/disk/ssd/500g"
+      }
+    ]
+  },
+  "is_ok": true
+}

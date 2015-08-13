@@ -1,0 +1,9 @@
+{
+  "Disk":{
+    "Name":"New Disk",
+    "Description":"Creating an empty disk",
+    "Plan":{"ID":2},
+    "SizeMB":40960,
+    "Connection":"virtio"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "Zone": {
+    "ID": 31002,
+    "DisplayOrder": 20031002,
+    "Name": "is1b",
+    "Description": "石狩第2ゾーン",
+    "IsDummy": false,
+    "VNCProxy": {
+      "HostName": "sac-is1b-ssl.sakura.ad.jp",
+      "IPAddress": "133.242.239.244"
+    },
+    "FTPServer": {
+      "HostName": "sac-is1b-ssl.sakura.ad.jp",
+      "IPAddress": "133.242.239.244"
+    },
+    "CreatedAt": "2013-10-01T07:01:04+09:00",
+    "Region": {
+      "ID": 310,
+      "Name": "石狩",
+      "Description": "石狩",
+      "NameServers": [
+        "133.242.0.3",
+        "133.242.0.4"
+      ]
+    }
+  },
+  "is_ok": true
+}

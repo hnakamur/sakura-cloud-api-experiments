@@ -1,0 +1,112 @@
+{
+  "From": 0,
+  "Count": 4,
+  "Total": 4,
+  "Zones": [
+    {
+      "Index": 0,
+      "ID": 21001,
+      "DisplayOrder": 20021001,
+      "Name": "tk1a",
+      "Description": "東京第1ゾーン",
+      "IsDummy": false,
+      "VNCProxy": {
+        "HostName": "sac-tk1a-ssl.sakura.ad.jp",
+        "IPAddress": "27.133.143.244"
+      },
+      "FTPServer": {
+        "HostName": "sac-tk1a-ssl.sakura.ad.jp",
+        "IPAddress": "27.133.143.244"
+      },
+      "CreatedAt": "2015-04-06T12:25:20+09:00",
+      "Region": {
+        "ID": 210,
+        "Name": "東京",
+        "Description": "東京",
+        "NameServers": [
+          "210.188.224.10",
+          "210.188.224.11"
+        ]
+      }
+    },
+    {
+      "Index": 1,
+      "ID": 31001,
+      "DisplayOrder": 20031001,
+      "Name": "is1a",
+      "Description": "石狩第1ゾーン",
+      "IsDummy": false,
+      "VNCProxy": {
+        "HostName": "sac-is1a-ssl.sakura.ad.jp",
+        "IPAddress": "133.242.31.244"
+      },
+      "FTPServer": {
+        "HostName": "sac-is1a-ssl.sakura.ad.jp",
+        "IPAddress": "133.242.31.244"
+      },
+      "CreatedAt": "2011-11-03T22:41:11+09:00",
+      "Region": {
+        "ID": 310,
+        "Name": "石狩",
+        "Description": "石狩",
+        "NameServers": [
+          "133.242.0.3",
+          "133.242.0.4"
+        ]
+      }
+    },
+    {
+      "Index": 2,
+      "ID": 31002,
+      "DisplayOrder": 20031002,
+      "Name": "is1b",
+      "Description": "石狩第2ゾーン",
+      "IsDummy": false,
+      "VNCProxy": {
+        "HostName": "sac-is1b-ssl.sakura.ad.jp",
+        "IPAddress": "133.242.239.244"
+      },
+      "FTPServer": {
+        "HostName": "sac-is1b-ssl.sakura.ad.jp",
+        "IPAddress": "133.242.239.244"
+      },
+      "CreatedAt": "2013-10-01T07:01:04+09:00",
+      "Region": {
+        "ID": 310,
+        "Name": "石狩",
+        "Description": "石狩",
+        "NameServers": [
+          "133.242.0.3",
+          "133.242.0.4"
+        ]
+      }
+    },
+    {
+      "Index": 3,
+      "ID": 29001,
+      "DisplayOrder": 80029001,
+      "Name": "tk1v",
+      "Description": "Sandbox",
+      "IsDummy": true,
+      "VNCProxy": {
+        "HostName": "sac-tk1v-ssl.example.jp",
+        "IPAddress": "0.0.0.1"
+      },
+      "FTPServer": {
+        "HostName": "sac-tk1v-ssl.example.jp",
+        "IPAddress": "0.0.0.1"
+      },
+      "CreatedAt": "2014-09-01T15:12:25+09:00",
+      "Region": {
+        "ID": 290,
+        "Name": "Sandbox",
+        "Description": "Sandbox",
+        "NameServers": [
+          "133.242.0.3",
+          "133.242.0.4"
+        ]
+      }
+    }
+  ],
+  "is_ok": true
+}

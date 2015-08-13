@@ -1,0 +1,12 @@
+{
+  "ServerPlan": {
+    "ID": 1001,
+    "Name": "プラン/1Core-1GB",
+    "Description": "",
+    "CPU": 1,
+    "MemoryMB": 1024,
+    "ServiceClass": "cloud/plan/1core-1gb",
+    "Availability": "available"
+  },
+  "is_ok": true
+}

@@ -1,0 +1,13 @@
+{
+  "Server": {
+    "Name": "New Server Name",
+    "Description": "New Server Description",
+    "Tags": [
+      "FreeBSD",
+      "development"
+    ],
+    "Icon": {
+      "ID": "112300511984"
+    }
+  }
+}

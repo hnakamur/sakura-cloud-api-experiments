@@ -1,0 +1,7 @@
+{
+  "Disk":{
+    "Name":"Updated Disk Name",
+    "Description":"Updated Description",
+    "Connection":"ide"
+  }
+}

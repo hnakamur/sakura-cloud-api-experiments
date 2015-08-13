@@ -1,0 +1,12 @@
+{
+  "Region": {
+    "ID": 310,
+    "Name": "石狩",
+    "Description": "石狩",
+    "NameServers": [
+      "133.242.0.3",
+      "133.242.0.4"
+    ]
+  },
+  "is_ok": true
+}

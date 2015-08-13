@@ -1,0 +1,63 @@
+{
+  "Server": {
+    "ID": "112700654127",
+    "Name": "foo",
+    "HostName": "localhost",
+    "Description": "",
+    "ServiceClass": "cloud/plan/12core-128gb",
+    "CreatedAt": "2015-08-02T23:10:31+09:00",
+    "Icon": null,
+    "ServerPlan": {
+      "ID": 128012,
+      "Name": "プラン/12Core-128GB",
+      "CPU": 12,
+      "MemoryMB": 131072,
+      "ServiceClass": "cloud/plan/12core-128gb"
+    },
+    "Zone": {
+      "ID": 29001,
+      "DisplayOrder": 80029001,
+      "Name": "tk1v",
+      "Description": "Sandbox",
+      "IsDummy": true,
+      "VNCProxy": {
+        "HostName": "sac-tk1v-ssl.example.jp",
+        "IPAddress": "0.0.0.1"
+      },
+      "FTPServer": {
+        "HostName": "sac-tk1v-ssl.example.jp",
+        "IPAddress": "0.0.0.1"
+      },
+      "Region": {
+        "ID": 290,
+        "Name": "Sandbox",
+        "Description": "Sandbox",
+        "NameServers": [
+          "133.242.0.3",
+          "133.242.0.4"
+        ]
+      }
+    },
+    "Instance": {
+      "Server": {
+        "ID": "112700654127"
+      },
+      "Status": "down",
+      "BeforeStatus": null,
+      "StatusChangedAt": null,
+      "MigrationProgress": null,
+      "MigrationSchedule": null,
+      "IsMigrating": null,
+      "MigrationAllowed": null,
+      "ModifiedAt": "2015-08-02T23:10:31+09:00",
+      "Host": null,
+      "CDROM": null,
+      "CDROMStorage": null
+    },
+    "Disks": [],
+    "Interfaces": [],
+    "Appliance": null,
+    "Tags": []
+  },
+  "is_ok": true
+}

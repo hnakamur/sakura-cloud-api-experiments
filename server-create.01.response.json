@@ -1,0 +1,93 @@
+{
+  "Server": {
+    "ID": "112700679351",
+    "Name": "New Server",
+    "HostName": "localhost",
+    "Description": "Hello Sakura Cloud!",
+    "ServiceClass": "cloud/plan/1core-1gb",
+    "CreatedAt": "2015-08-14T01:51:42+09:00",
+    "Icon": null,
+    "ServerPlan": {
+      "ID": 1001,
+      "Name": "プラン/1Core-1GB",
+      "CPU": 1,
+      "MemoryMB": 1024,
+      "ServiceClass": "cloud/plan/1core-1gb"
+    },
+    "Zone": {
+      "ID": 29001,
+      "DisplayOrder": 80029001,
+      "Name": "tk1v",
+      "Description": "Sandbox",
+      "IsDummy": true,
+      "VNCProxy": {
+        "HostName": "sac-tk1v-ssl.example.jp",
+        "IPAddress": "0.0.0.1"
+      },
+      "FTPServer": {
+        "HostName": "sac-tk1v-ssl.example.jp",
+        "IPAddress": "0.0.0.1"
+      },
+      "Region": {
+        "ID": 290,
+        "Name": "Sandbox",
+        "Description": "Sandbox",
+        "NameServers": [
+          "133.242.0.3",
+          "133.242.0.4"
+        ]
+      }
+    },
+    "Instance": {
+      "Server": {
+        "ID": "112700679351"
+      },
+      "Status": "down",
+      "BeforeStatus": null,
+      "StatusChangedAt": null,
+      "MigrationProgress": null,
+      "MigrationSchedule": null,
+      "IsMigrating": null,
+      "MigrationAllowed": null,
+      "ModifiedAt": "2015-08-14T01:51:43+09:00",
+      "Host": null,
+      "CDROM": null,
+      "CDROMStorage": null
+    },
+    "Disks": [],
+    "Interfaces": [
+      {
+        "ID": "112700679352",
+        "MACAddress": "9C:A3:BA:12:24:6A",
+        "IPAddress": "100.65.6.58",
+        "UserIPAddress": null,
+        "HostName": null,
+        "Switch": {
+          "ID": "112600699555",
+          "Name": "スイッチ",
+          "Scope": "shared",
+          "Subnet": {
+            "ID": null,
+            "NetworkAddress": "100.65.0.0",
+            "NetworkMaskLen": 18,
+            "DefaultRoute": "100.65.0.1",
+            "Internet": {
+              "BandWidthMbps": 100
+            }
+          },
+          "UserSubnet": {
+            "DefaultRoute": "100.65.0.1",
+            "NetworkMaskLen": 18
+          }
+        },
+        "PacketFilter": null
+      }
+    ],
+    "Appliance": null,
+    "Tags": [
+      "My Server"
+    ]
+  },
+  "Success": true,
+  "is_ok": true
+}

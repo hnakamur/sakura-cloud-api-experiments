@@ -1,0 +1,13 @@
+{
+  "Icon": {
+    "ID": "112300511380",
+    "URL": "https://secure.sakura.ad.jp/cloud/zone/tk1v/api/cloud/1.1/icon/112300511380.png",
+    "Name": "CGI",
+    "Scope": "shared",
+    "Availability": "available",
+    "CreatedAt": "2011-11-03T19:51:26+09:00",
+    "ModifiedAt": "2011-08-30T22:12:48+09:00",
+    "Tags": []
+  },
+  "is_ok": true
+}
