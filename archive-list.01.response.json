@@ -1,0 +1,3538 @@
+{
+  "From": 0,
+  "Count": 20,
+  "Total": 20,
+  "Archives": [
+    {
+      "Index": 0,
+      "ID": "112801142446",
+      "DisplayOrder": "100100400120",
+      "Name": "KUSANAGI 8.0 (CentOS 7.2)",
+      "Description": "<div class=\"lang ja\">\n管理ユーザ名は「root」です。\nサーバ作成後、rootユーザでログインしてください。\n<div class=\"advanced\">\n全サイズ対応：選択されたディスクプランに合わせてパーティションサイズが最適化されます。\n</div>\nKUSANAGI上でWordPressを立ち上げるには、コントロールパネルの\nリモートスクリーンからコマンドを入力する必要があります。\n詳細は下記URLをご覧下さい。\n<a href=\"http://kusanagi.tokyo/cloud/kusanagi-for-sakuracloud/\" target=\"_blank\">http://kusanagi.tokyo/cloud/kusanagi-for-sakuracloud/</a>\n\nKUSANAGIパブリックアーカイブに関するお問い合わせにつきましては、開発元の\nプライム・ストラテジー様の窓口までお願いいたします。\n\nプライム・ストラテジー様 お問い合わせ情報ページ\n<a href=\"https://www.prime-strategy.co.jp/inquiry/\" target=\"_blank\">https://www.prime-strategy.co.jp/inquiry/</a>\n</div>\n<div class=\"lang en\">\nThe administrator account name is \"root\".\nPlease login as \"root\" after the server has been created.\n<div class=\"advanced\">\nthis is a size extendable archive : partition size will be optimized to the capacity of the disk you selected\n</div>\nTo setup WordPress on KUSANAGI, you will be required to perform \ncommand line operation using remote screen.\nPlease refer to the link below for details.\n<a href=\"http://kusanagi.tokyo/cloud/kusanagi-for-sakuracloud/\" target=\"_blank\">http://kusanagi.tokyo/cloud/kusanagi-for-sakuracloud/</a>\n\nIf you have any questions regarding to KUSANAGI public archive, \nplease contact PRIME STRATEGY CO.,LTD.\n\nPRIME STRATEGY CO.,LTD. Inquiry Page\n<a href=\"https://www.prime-strategy.co.jp/inquiry/\" target=\"_blank\">https://www.prime-strategy.co.jp/inquiry/</a>\n</div>",
+      "Scope": "shared",
+      "Availability": "available",
+      "SizeMB": 20480,
+      "MigratedMB": null,
+      "WaitingJobCount": null,
+      "JobStatus": null,
+      "OriginalArchive": {
+        "ID": "112801142446"
+      },
+      "SourceInfo": {
+        "ArchiveUnderZone": {
+          "ID": "112801142356",
+          "Account": {
+            "Member": {
+              "ID": "system",
+              "OperationPenalty": "none",
+              "IsEmailSakura": null,
+              "Code": "system",
+              "LastName": null,
+              "Errors": null,
+              "IsOTPSet": false,
+              "Remark": null,
+              "Class": "internal",
+              "OTP": null,
+              "DefaultPaymentMethod": "foc",
+              "Attr": null,
+              "InstancePenalty": "none",
+              "AccountClassLimit": "admin"
+            },
+            "PaymentMethod": "foc",
+            "ID": 1,
+            "Availability": "available",
+            "Code": "root",
+            "IsPasswordSet": true,
+            "Class": "admin",
+            "PasswordEncrypted": "IohMAry4E7bxcFXrwB/9xN7sjx/VXls=",
+            "Name": "internal.system.root",
+            "Description": ""
+          },
+          "Zone": {
+            "ID": 31001,
+            "FTPServer": {
+              "BGIPAddress": "10.131.1.42",
+              "IPAddress": "133.242.31.244",
+              "HostName": "sac-is1a-ssl.cloud.sakura.ad.jp"
+            },
+            "VNCProxy": {
+              "BGIPAddress": "10.131.1.42",
+              "IPAddress": "133.242.31.244",
+              "HostName": "sac-is1a-ssl.cloud.sakura.ad.jp"
+            },
+            "DisplayOrder": 20031001,
+            "Region": {
+              "ID": 310,
+              "Description_ja": "石狩",
+              "Bridge": {
+                "UserName": "admin",
+                "IPAddress": "0.0.0.0"
+              },
+              "Description_en": "Ishikari",
+              "Branch": "master",
+              "NameServers": [
+                "133.242.0.3",
+                "133.242.0.4"
+              ],
+              "Name_en": "Ishikari",
+              "PhysicalGroup": 3,
+              "Name": "石狩",
+              "Description": "石狩",
+              "Name_ja": "石狩"
+            },
+            "Description_ja": "石狩第1ゾーン",
+            "Manager": {
+              "BandWidthMbps": 500,
+              "IPAddress": "10.131.1.42"
+            },
+            "Settings": {
+              "CommonServiceItem": {
+                "Autobackup": {
+                  "Settings": {
+                    "BackupHour": {
+                      "Disable": [
+                        0,
+                        6
+                      ]
+                    }
+                  }
+                }
+              },
+              "DisablePassport": true,
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "Description_en": "Ishikari 1st Zone",
+            "IsDummy": false,
+            "UserSVLANIDDef": "200-1001,1025-3500",
+            "BridgeIndex": 1,
+            "SharedSVLANIDDef": "100-139",
+            "PhysicalGroup": 30001,
+            "Remark": {
+              "TargetManager": {
+                "Real1IPAddress": "192.168.8.218",
+                "IPAddress": "192.168.8.220",
+                "Real2IPAddress": "192.168.8.219"
+              },
+              "Appliance": {
+                "loadbalancer": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112700885058",
+                    "2": "112700885058"
+                  }
+                },
+                "vpcrouter": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112600461236",
+                    "3": "112600461236",
+                    "2": "112600461236"
+                  }
+                }
+              },
+              "Bridge": {
+                "LAGNumber": 1
+              },
+              "Worker": {
+                "ConfigDirectory": "/var/mnt/s03100197001-archive/config",
+                "Real1IPAddress": "10.131.1.118",
+                "IPAddress": "10.131.1.42",
+                "CopyJobTimeoutSecPerGiB": 67.5,
+                "Real2IPAddress": "10.131.1.120"
+              },
+              "Host": {
+                "Selection": {
+                  "Span": 4,
+                  "Shuffle": true
+                }
+              },
+              "Watchers": [
+                {
+                  "IPAddress": "10.131.1.105",
+                  "Name": "perfmate1"
+                }
+              ],
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "Description": "石狩第1ゾーン",
+            "Name": "is1a"
+          }
+        }
+      },
+      "ServiceClass": "cloud/archive/20g",
+      "CreatedAt": "2016-11-02T10:28:17+09:00",
+      "Icon": null,
+      "Plan": {
+        "ID": 2,
+        "StorageClass": "iscsi1204",
+        "Name": "標準プラン"
+      },
+      "SourceDisk": null,
+      "SourceArchive": null,
+      "BundleInfo": null,
+      "Storage": {
+        "ID": "2900197001",
+        "Class": "iscsi1204",
+        "Name": "sac-tk1v-dummy-arc-st01",
+        "Description": "",
+        "Zone": {
+          "ID": 29001,
+          "DisplayOrder": 80029001,
+          "Name": "tk1v",
+          "Description": "Sandbox",
+          "IsDummy": true,
+          "VNCProxy": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "FTPServer": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "Settings": {
+            "Subnet": {
+              "Plan": {
+                "Member": [
+                  28,
+                  27,
+                  26
+                ],
+                "Staff": [
+                  28,
+                  27,
+                  26,
+                  25,
+                  24
+                ]
+              }
+            }
+          },
+          "Region": {
+            "ID": 290,
+            "Name": "Sandbox",
+            "Description": "Sandbox",
+            "NameServers": [
+              "133.242.0.3",
+              "133.242.0.4"
+            ]
+          }
+        },
+        "DiskPlan": {
+          "ID": 2,
+          "StorageClass": "iscsi1204",
+          "Name": "標準プラン"
+        }
+      },
+      "Tags": [
+        "@size-extendable",
+        "arch-64bit",
+        "current-stable",
+        "distro-ver-1.3",
+        "os-linux",
+        "pkg-kusanagi"
+      ]
+    },
+    {
+      "Index": 1,
+      "ID": "112700955963",
+      "DisplayOrder": "100100403000",
+      "Name": "SiteGuard Lite Ver3.00 Update2 (CentOS 6.8)",
+      "Description": "<div class=\"lang ja\">\n管理ユーザ名は「root」です。\nサーバ作成後、rootユーザでログインしてください。\n<div class=\"advanced\">\n全サイズ対応：選択されたディスクプランに合わせてパーティションサイズが最適化されます。\n</div>\nセットアップ手順は下記リンク先の [JP Secure SiteGuard Lite ご利用ガイド] をご参照ください。\n<a href=\"http://cloud-news.sakura.ad.jp/siteguard-litewaf/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/siteguard-litewaf/</a>\n\n上記サイト内のドキュメント閲覧用のパスワードは下記になります。\nsakuracloud\n</div>\n<div class=\"lang en\">\nThe administrator account name is \"root\".\nPlease login as \"root\" after the server has been created.\n<div class=\"advanced\">\nthis is a size extendable archive : partition size will be optimized to the capacity of the disk you selected\n</div>\nFor detailed setup instructions, please refer to [JP Secure SiteGuard Lite user's guide].\n<a href=\"http://cloud-news.sakura.ad.jp/siteguard-litewaf/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/siteguard-litewaf/</a>\n\nPlease enter the password \"sakuracloud\" to view the document linked above.\n</div>",
+      "Scope": "shared",
+      "Availability": "available",
+      "SizeMB": 20480,
+      "MigratedMB": null,
+      "WaitingJobCount": null,
+      "JobStatus": null,
+      "OriginalArchive": {
+        "ID": "112700955963"
+      },
+      "SourceInfo": {
+        "ArchiveUnderZone": {
+          "ID": "112700954504",
+          "Account": {
+            "Member": {
+              "ID": "yjn45386",
+              "OperationPenalty": "none",
+              "IsEmailSakura": true,
+              "Code": "yjn45386",
+              "LastName": "小泉",
+              "Errors": null,
+              "IsOTPSet": false,
+              "Remark": null,
+              "Class": "sakura",
+              "OTP": null,
+              "DefaultPaymentMethod": "foc",
+              "Attr": null,
+              "InstancePenalty": "none",
+              "AccountClassLimit": "staff"
+            },
+            "PaymentMethod": "foc",
+            "ID": "112400496160",
+            "Availability": "available",
+            "Code": "local-server",
+            "IsPasswordSet": true,
+            "Remark": null,
+            "Class": "staff",
+            "PasswordEncrypted": "1zP+iEN7oPHl+WQTmHEx9uA2aLM8N/E=",
+            "Name": "社内サーバ(ローカル環境)",
+            "Description": ""
+          },
+          "Zone": {
+            "ID": 31001,
+            "FTPServer": {
+              "BGIPAddress": "10.131.1.42",
+              "IPAddress": "133.242.31.244",
+              "HostName": "sac-is1a-ssl.sakura.ad.jp"
+            },
+            "Settings": {
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "Manager": {
+              "BandWidthMbps": 500,
+              "IPAddress": "10.131.1.42"
+            },
+            "VNCProxy": {
+              "BGIPAddress": "10.131.1.42",
+              "IPAddress": "133.242.31.244",
+              "HostName": "sac-is1a-ssl.sakura.ad.jp"
+            },
+            "IsDummy": false,
+            "DisplayOrder": 20031001,
+            "UserSVLANIDDef": "200-1001,1025-3500",
+            "SharedSVLANIDDef": "100-139",
+            "BridgeIndex": 1,
+            "Remark": {
+              "Appliance": {
+                "loadbalancer": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112700885058",
+                    "2": "112700885058"
+                  }
+                },
+                "vpcrouter": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112600461236",
+                    "2": "112600461236"
+                  }
+                }
+              },
+              "Bridge": {
+                "LAGNumber": 1
+              },
+              "Worker": {
+                "ConfigDirectory": "/var/mnt/s03100197001-archive/config",
+                "Real1IPAddress": "10.131.1.118",
+                "IPAddress": "10.131.1.42",
+                "CopyJobTimeoutSecPerGiB": 67.5,
+                "Real2IPAddress": "10.131.1.120"
+              },
+              "Watchers": [
+                {
+                  "IPAddress": "10.131.1.105",
+                  "Name": "perfmate1"
+                }
+              ],
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "PhysicalGroup": 30001,
+            "Region": {
+              "ID": 310,
+              "NameServers": [
+                "133.242.0.3",
+                "133.242.0.4"
+              ],
+              "Bridge": {
+                "UserName": "admin",
+                "IPAddress": "0.0.0.0"
+              },
+              "PhysicalGroup": 3,
+              "Branch": "master",
+              "Description": "石狩",
+              "Name": "石狩"
+            },
+            "Name": "is1a",
+            "Description": "石狩第1ゾーン"
+          }
+        }
+      },
+      "ServiceClass": "cloud/archive/20g",
+      "CreatedAt": "2015-11-10T11:27:02+09:00",
+      "Icon": null,
+      "Plan": {
+        "ID": 2,
+        "StorageClass": "iscsi1204",
+        "Name": "標準プラン"
+      },
+      "SourceDisk": null,
+      "SourceArchive": null,
+      "BundleInfo": null,
+      "Storage": {
+        "ID": "2900197001",
+        "Class": "iscsi1204",
+        "Name": "sac-tk1v-dummy-arc-st01",
+        "Description": "",
+        "Zone": {
+          "ID": 29001,
+          "DisplayOrder": 80029001,
+          "Name": "tk1v",
+          "Description": "Sandbox",
+          "IsDummy": true,
+          "VNCProxy": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "FTPServer": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "Settings": {
+            "Subnet": {
+              "Plan": {
+                "Member": [
+                  28,
+                  27,
+                  26
+                ],
+                "Staff": [
+                  28,
+                  27,
+                  26,
+                  25,
+                  24
+                ]
+              }
+            }
+          },
+          "Region": {
+            "ID": 290,
+            "Name": "Sandbox",
+            "Description": "Sandbox",
+            "NameServers": [
+              "133.242.0.3",
+              "133.242.0.4"
+            ]
+          }
+        },
+        "DiskPlan": {
+          "ID": 2,
+          "StorageClass": "iscsi1204",
+          "Name": "標準プラン"
+        }
+      },
+      "Tags": [
+        "@size-extendable",
+        "arch-64bit",
+        "os-linux",
+        "pkg-siteguard"
+      ]
+    },
+    {
+      "Index": 2,
+      "ID": "112701001674",
+      "DisplayOrder": "100100403000",
+      "Name": "SiteGuard Lite Ver3.00 Update2 (CentOS 7.2)",
+      "Description": "<div class=\"lang ja\">\n管理ユーザ名は「root」です。\nサーバ作成後、rootユーザでログインしてください。\n<div class=\"advanced\">\n全サイズ対応：選択されたディスクプランに合わせてパーティションサイズが最適化されます。\n</div>\nセットアップ手順は下記リンク先の [JP Secure SiteGuard Lite ご利用ガイド] をご参照ください。\n<a href=\"http://cloud-news.sakura.ad.jp/siteguard-litewaf/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/siteguard-litewaf/</a>\n\n上記サイト内のドキュメント閲覧用のパスワードは下記になります。\nsakuracloud\n</div>\n<div class=\"lang en\">\nThe administrator account name is \"root\".\nPlease login as \"root\" after the server has been created.\n<div class=\"advanced\">\nthis is a size extendable archive : partition size will be optimized to the capacity of the disk you selected\n</div>\nFor detailed setup instructions, please refer to [JP Secure SiteGuard Lite user's guide].\n<a href=\"http://cloud-news.sakura.ad.jp/siteguard-litewaf/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/siteguard-litewaf/</a>\n\nPlease enter the password \"sakuracloud\" to view the document linked above.\n</div>",
+      "Scope": "shared",
+      "Availability": "available",
+      "SizeMB": 20480,
+      "MigratedMB": null,
+      "WaitingJobCount": null,
+      "JobStatus": null,
+      "OriginalArchive": {
+        "ID": "112701001674"
+      },
+      "SourceInfo": {
+        "ArchiveUnderZone": {
+          "ID": "112700957358",
+          "Account": {
+            "Member": {
+              "ID": "system",
+              "OperationPenalty": "none",
+              "IsEmailSakura": null,
+              "Code": "system",
+              "LastName": null,
+              "Errors": null,
+              "IsOTPSet": false,
+              "Remark": null,
+              "Class": "internal",
+              "OTP": null,
+              "DefaultPaymentMethod": "foc",
+              "Attr": null,
+              "InstancePenalty": "none",
+              "AccountClassLimit": "admin"
+            },
+            "PaymentMethod": "foc",
+            "ID": 1,
+            "Availability": "available",
+            "Code": "root",
+            "IsPasswordSet": true,
+            "Remark": null,
+            "Class": "admin",
+            "PasswordEncrypted": "IohMAry4E7bxcFXrwB/9xN7sjx/VXls=",
+            "Name": "internal.system.root",
+            "Description": ""
+          },
+          "Zone": {
+            "ID": 31001,
+            "FTPServer": {
+              "BGIPAddress": "10.131.1.42",
+              "IPAddress": "133.242.31.244",
+              "HostName": "sac-is1a-ssl.sakura.ad.jp"
+            },
+            "Settings": {
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "Manager": {
+              "BandWidthMbps": 500,
+              "IPAddress": "10.131.1.42"
+            },
+            "VNCProxy": {
+              "BGIPAddress": "10.131.1.42",
+              "IPAddress": "133.242.31.244",
+              "HostName": "sac-is1a-ssl.sakura.ad.jp"
+            },
+            "IsDummy": false,
+            "DisplayOrder": 20031001,
+            "UserSVLANIDDef": "200-1001,1025-3500",
+            "SharedSVLANIDDef": "100-139",
+            "BridgeIndex": 1,
+            "Remark": {
+              "Appliance": {
+                "loadbalancer": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112700885058",
+                    "2": "112700885058"
+                  }
+                },
+                "vpcrouter": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112600461236",
+                    "2": "112600461236"
+                  }
+                }
+              },
+              "Bridge": {
+                "LAGNumber": 1
+              },
+              "Worker": {
+                "ConfigDirectory": "/var/mnt/s03100197001-archive/config",
+                "Real1IPAddress": "10.131.1.118",
+                "IPAddress": "10.131.1.42",
+                "CopyJobTimeoutSecPerGiB": 67.5,
+                "Real2IPAddress": "10.131.1.120"
+              },
+              "Host": {
+                "Selection": {
+                  "Span": 4,
+                  "Shuffle": true
+                }
+              },
+              "Watchers": [
+                {
+                  "IPAddress": "10.131.1.105",
+                  "Name": "perfmate1"
+                }
+              ],
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "PhysicalGroup": 30001,
+            "Region": {
+              "ID": 310,
+              "NameServers": [
+                "133.242.0.3",
+                "133.242.0.4"
+              ],
+              "Bridge": {
+                "UserName": "admin",
+                "IPAddress": "0.0.0.0"
+              },
+              "PhysicalGroup": 3,
+              "Branch": "master",
+              "Description": "石狩",
+              "Name": "石狩"
+            },
+            "Name": "is1a",
+            "Description": "石狩第1ゾーン"
+          }
+        }
+      },
+      "ServiceClass": "cloud/archive/20g",
+      "CreatedAt": "2015-11-26T11:23:26+09:00",
+      "Icon": null,
+      "Plan": {
+        "ID": 2,
+        "StorageClass": "iscsi1204",
+        "Name": "標準プラン"
+      },
+      "SourceDisk": null,
+      "SourceArchive": null,
+      "BundleInfo": null,
+      "Storage": {
+        "ID": "2900197001",
+        "Class": "iscsi1204",
+        "Name": "sac-tk1v-dummy-arc-st01",
+        "Description": "",
+        "Zone": {
+          "ID": 29001,
+          "DisplayOrder": 80029001,
+          "Name": "tk1v",
+          "Description": "Sandbox",
+          "IsDummy": true,
+          "VNCProxy": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "FTPServer": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "Settings": {
+            "Subnet": {
+              "Plan": {
+                "Member": [
+                  28,
+                  27,
+                  26
+                ],
+                "Staff": [
+                  28,
+                  27,
+                  26,
+                  25,
+                  24
+                ]
+              }
+            }
+          },
+          "Region": {
+            "ID": 290,
+            "Name": "Sandbox",
+            "Description": "Sandbox",
+            "NameServers": [
+              "133.242.0.3",
+              "133.242.0.4"
+            ]
+          }
+        },
+        "DiskPlan": {
+          "ID": 2,
+          "StorageClass": "iscsi1204",
+          "Name": "標準プラン"
+        }
+      },
+      "Tags": [
+        "@size-extendable",
+        "arch-64bit",
+        "os-linux",
+        "pkg-siteguard"
+      ]
+    },
+    {
+      "Index": 3,
+      "ID": "112700890481",
+      "DisplayOrder": "100100608010",
+      "Name": "CentOS 6.8 64bit",
+      "Description": "<div class=\"lang ja\">\n管理ユーザ名は「root」です。\nサーバ作成後、rootユーザでログインしてください。\n<div class=\"advanced\">\n全サイズ対応：選択されたディスクプランに合わせてパーティションサイズが最適化されます。\n</div>\n</div>\n<div class=\"lang en\">\nThe administrator account name is \"root\".\nPlease login as \"root\" after the server has been created.\n<div class=\"advanced\">\nthis is a size extendable archive : partition size will be optimized to the capacity of the disk you selected\n</div>\n</div>",
+      "Scope": "shared",
+      "Availability": "available",
+      "SizeMB": 20480,
+      "MigratedMB": null,
+      "WaitingJobCount": null,
+      "JobStatus": null,
+      "OriginalArchive": {
+        "ID": "112700890481"
+      },
+      "SourceInfo": {
+        "ArchiveUnderZone": {
+          "ID": "112700883650",
+          "Account": {
+            "Member": {
+              "ID": "system",
+              "OperationPenalty": "none",
+              "IsEmailSakura": null,
+              "Code": "system",
+              "LastName": null,
+              "Errors": null,
+              "IsOTPSet": false,
+              "Remark": null,
+              "Class": "internal",
+              "OTP": null,
+              "DefaultPaymentMethod": "foc",
+              "Attr": null,
+              "InstancePenalty": "none",
+              "AccountClassLimit": "admin"
+            },
+            "PaymentMethod": "foc",
+            "ID": 1,
+            "Availability": "available",
+            "Code": "root",
+            "IsPasswordSet": true,
+            "Remark": null,
+            "Class": "admin",
+            "PasswordEncrypted": "IohMAry4E7bxcFXrwB/9xN7sjx/VXls=",
+            "Name": "internal.system.root",
+            "Description": ""
+          },
+          "Zone": {
+            "ID": 31001,
+            "FTPServer": {
+              "BGIPAddress": "10.131.1.42",
+              "IPAddress": "133.242.31.244",
+              "HostName": "sac-is1a-ssl.sakura.ad.jp"
+            },
+            "Settings": {
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "Manager": {
+              "BandWidthMbps": 500,
+              "IPAddress": "10.131.1.42"
+            },
+            "VNCProxy": {
+              "BGIPAddress": "10.131.1.42",
+              "IPAddress": "133.242.31.244",
+              "HostName": "sac-is1a-ssl.sakura.ad.jp"
+            },
+            "IsDummy": false,
+            "DisplayOrder": 20031001,
+            "UserSVLANIDDef": "200-1001,1025-3500",
+            "SharedSVLANIDDef": "100-139",
+            "BridgeIndex": 1,
+            "Remark": {
+              "Appliance": {
+                "loadbalancer": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112700885058",
+                    "2": "112700885058"
+                  }
+                },
+                "vpcrouter": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112600461236",
+                    "2": "112600461236"
+                  }
+                }
+              },
+              "Bridge": {
+                "LAGNumber": 1
+              },
+              "Worker": {
+                "ConfigDirectory": "/var/mnt/s03100197001-archive/config",
+                "Real1IPAddress": "10.131.1.118",
+                "IPAddress": "10.131.1.42",
+                "CopyJobTimeoutSecPerGiB": 67.5,
+                "Real2IPAddress": "10.131.1.120"
+              },
+              "Watchers": [
+                {
+                  "IPAddress": "10.131.1.105",
+                  "Name": "perfmate1"
+                }
+              ],
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "PhysicalGroup": 30001,
+            "Region": {
+              "ID": 310,
+              "NameServers": [
+                "133.242.0.3",
+                "133.242.0.4"
+              ],
+              "Bridge": {
+                "UserName": "admin",
+                "IPAddress": "0.0.0.0"
+              },
+              "PhysicalGroup": 3,
+              "Branch": "master",
+              "Description": "石狩",
+              "Name": "石狩"
+            },
+            "Name": "is1a",
+            "Description": "石狩第1ゾーン"
+          }
+        }
+      },
+      "ServiceClass": "cloud/archive/20g",
+      "CreatedAt": "2015-10-22T02:31:39+09:00",
+      "Icon": null,
+      "Plan": {
+        "ID": 2,
+        "StorageClass": "iscsi1204",
+        "Name": "標準プラン"
+      },
+      "SourceDisk": null,
+      "SourceArchive": null,
+      "BundleInfo": null,
+      "Storage": {
+        "ID": "2900197001",
+        "Class": "iscsi1204",
+        "Name": "sac-tk1v-dummy-arc-st01",
+        "Description": "",
+        "Zone": {
+          "ID": 29001,
+          "DisplayOrder": 80029001,
+          "Name": "tk1v",
+          "Description": "Sandbox",
+          "IsDummy": true,
+          "VNCProxy": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "FTPServer": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "Settings": {
+            "Subnet": {
+              "Plan": {
+                "Member": [
+                  28,
+                  27,
+                  26
+                ],
+                "Staff": [
+                  28,
+                  27,
+                  26,
+                  25,
+                  24
+                ]
+              }
+            }
+          },
+          "Region": {
+            "ID": 290,
+            "Name": "Sandbox",
+            "Description": "Sandbox",
+            "NameServers": [
+              "133.242.0.3",
+              "133.242.0.4"
+            ]
+          }
+        },
+        "DiskPlan": {
+          "ID": 2,
+          "StorageClass": "iscsi1204",
+          "Name": "標準プラン"
+        }
+      },
+      "Tags": [
+        "@size-extendable",
+        "arch-64bit",
+        "distro-centos",
+        "distro-ver-6.8",
+        "os-linux"
+      ]
+    },
+    {
+      "Index": 4,
+      "ID": "112700934837",
+      "DisplayOrder": "100100702010",
+      "Name": "CentOS 7.2 64bit",
+      "Description": "<div class=\"lang ja\">\n管理ユーザ名は「root」です。\nサーバ作成後、rootユーザでログインしてください。\n<div class=\"advanced\">\n全サイズ対応：選択されたディスクプランに合わせてパーティションサイズが最適化されます。\n</div>\n</div>\n<div class=\"lang en\">\nThe administrator account name is \"root\".\nPlease login as \"root\" after the server has been created.\n<div class=\"advanced\">\nthis is a size extendable archive : partition size will be optimized to the capacity of the disk you selected\n</div>\n</div>",
+      "Scope": "shared",
+      "Availability": "available",
+      "SizeMB": 20480,
+      "MigratedMB": null,
+      "WaitingJobCount": null,
+      "JobStatus": null,
+      "OriginalArchive": {
+        "ID": "112700934837"
+      },
+      "SourceInfo": {
+        "ArchiveUnderZone": {
+          "ID": "112700919825",
+          "Account": {
+            "Member": {
+              "ID": "system",
+              "OperationPenalty": "none",
+              "IsEmailSakura": null,
+              "Code": "system",
+              "LastName": null,
+              "Errors": null,
+              "IsOTPSet": false,
+              "Remark": null,
+              "Class": "internal",
+              "OTP": null,
+              "DefaultPaymentMethod": "foc",
+              "Attr": null,
+              "InstancePenalty": "none",
+              "AccountClassLimit": "admin"
+            },
+            "PaymentMethod": "foc",
+            "ID": 1,
+            "Availability": "available",
+            "Code": "root",
+            "IsPasswordSet": true,
+            "Remark": null,
+            "Class": "admin",
+            "PasswordEncrypted": "IohMAry4E7bxcFXrwB/9xN7sjx/VXls=",
+            "Name": "internal.system.root",
+            "Description": ""
+          },
+          "Zone": {
+            "ID": 31001,
+            "FTPServer": {
+              "BGIPAddress": "10.131.1.42",
+              "IPAddress": "133.242.31.244",
+              "HostName": "sac-is1a-ssl.sakura.ad.jp"
+            },
+            "Settings": {
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "Manager": {
+              "BandWidthMbps": 500,
+              "IPAddress": "10.131.1.42"
+            },
+            "VNCProxy": {
+              "BGIPAddress": "10.131.1.42",
+              "IPAddress": "133.242.31.244",
+              "HostName": "sac-is1a-ssl.sakura.ad.jp"
+            },
+            "IsDummy": false,
+            "DisplayOrder": 20031001,
+            "UserSVLANIDDef": "200-1001,1025-3500",
+            "SharedSVLANIDDef": "100-139",
+            "BridgeIndex": 1,
+            "Remark": {
+              "Appliance": {
+                "loadbalancer": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112700885058",
+                    "2": "112700885058"
+                  }
+                },
+                "vpcrouter": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112600461236",
+                    "2": "112600461236"
+                  }
+                }
+              },
+              "Bridge": {
+                "LAGNumber": 1
+              },
+              "Worker": {
+                "ConfigDirectory": "/var/mnt/s03100197001-archive/config",
+                "Real1IPAddress": "10.131.1.118",
+                "IPAddress": "10.131.1.42",
+                "CopyJobTimeoutSecPerGiB": 67.5,
+                "Real2IPAddress": "10.131.1.120"
+              },
+              "Watchers": [
+                {
+                  "IPAddress": "10.131.1.105",
+                  "Name": "perfmate1"
+                }
+              ],
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "PhysicalGroup": 30001,
+            "Region": {
+              "ID": 310,
+              "NameServers": [
+                "133.242.0.3",
+                "133.242.0.4"
+              ],
+              "Bridge": {
+                "UserName": "admin",
+                "IPAddress": "0.0.0.0"
+              },
+              "PhysicalGroup": 3,
+              "Branch": "master",
+              "Description": "石狩",
+              "Name": "石狩"
+            },
+            "Name": "is1a",
+            "Description": "石狩第1ゾーン"
+          }
+        }
+      },
+      "ServiceClass": "cloud/archive/20g",
+      "CreatedAt": "2015-11-02T18:29:26+09:00",
+      "Icon": null,
+      "Plan": {
+        "ID": 2,
+        "StorageClass": "iscsi1204",
+        "Name": "標準プラン"
+      },
+      "SourceDisk": null,
+      "SourceArchive": null,
+      "BundleInfo": null,
+      "Storage": {
+        "ID": "2900197001",
+        "Class": "iscsi1204",
+        "Name": "sac-tk1v-dummy-arc-st01",
+        "Description": "",
+        "Zone": {
+          "ID": 29001,
+          "DisplayOrder": 80029001,
+          "Name": "tk1v",
+          "Description": "Sandbox",
+          "IsDummy": true,
+          "VNCProxy": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "FTPServer": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "Settings": {
+            "Subnet": {
+              "Plan": {
+                "Member": [
+                  28,
+                  27,
+                  26
+                ],
+                "Staff": [
+                  28,
+                  27,
+                  26,
+                  25,
+                  24
+                ]
+              }
+            }
+          },
+          "Region": {
+            "ID": 290,
+            "Name": "Sandbox",
+            "Description": "Sandbox",
+            "NameServers": [
+              "133.242.0.3",
+              "133.242.0.4"
+            ]
+          }
+        },
+        "DiskPlan": {
+          "ID": 2,
+          "StorageClass": "iscsi1204",
+          "Name": "標準プラン"
+        }
+      },
+      "Tags": [
+        "@size-extendable",
+        "arch-64bit",
+        "current-stable",
+        "distro-centos",
+        "distro-ver-7.2",
+        "os-linux"
+      ]
+    },
+    {
+      "Index": 5,
+      "ID": "112600699404",
+      "DisplayOrder": "100301003010",
+      "Name": "FreeBSD 10.3 64bit",
+      "Description": "<div class=\"lang ja\">\n管理ユーザ名は「root」です。\nサーバ作成後、rootユーザでログインしてください。\n<div class=\"advanced\">\nこちらは20GB固定サイズのアーカイブです。\n20GBのディスクにインストールしてお使いください。\n</div>\n</div>\n<div class=\"lang en\">\nThe administrator account name is \"root\".\nPlease login as \"root\" after the server has been created.\n<div class=\"advanced\">\nThis is a 20GB fixed size archive.\nPlease install on to a 20GB disk .\n</div>\n</div>",
+      "Scope": "shared",
+      "Availability": "available",
+      "SizeMB": 20480,
+      "MigratedMB": null,
+      "WaitingJobCount": null,
+      "JobStatus": null,
+      "OriginalArchive": {
+        "ID": "112600699404"
+      },
+      "SourceInfo": null,
+      "ServiceClass": "cloud/archive/20g",
+      "CreatedAt": "2014-09-03T17:56:03+09:00",
+      "Icon": null,
+      "Plan": {
+        "ID": 2,
+        "StorageClass": "iscsi1204",
+        "Name": "標準プラン"
+      },
+      "SourceDisk": null,
+      "SourceArchive": null,
+      "BundleInfo": null,
+      "Storage": {
+        "ID": "2900197001",
+        "Class": "iscsi1204",
+        "Name": "sac-tk1v-dummy-arc-st01",
+        "Description": "",
+        "Zone": {
+          "ID": 29001,
+          "DisplayOrder": 80029001,
+          "Name": "tk1v",
+          "Description": "Sandbox",
+          "IsDummy": true,
+          "VNCProxy": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "FTPServer": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "Settings": {
+            "Subnet": {
+              "Plan": {
+                "Member": [
+                  28,
+                  27,
+                  26
+                ],
+                "Staff": [
+                  28,
+                  27,
+                  26,
+                  25,
+                  24
+                ]
+              }
+            }
+          },
+          "Region": {
+            "ID": 290,
+            "Name": "Sandbox",
+            "Description": "Sandbox",
+            "NameServers": [
+              "133.242.0.3",
+              "133.242.0.4"
+            ]
+          }
+        },
+        "DiskPlan": {
+          "ID": 2,
+          "StorageClass": "iscsi1204",
+          "Name": "標準プラン"
+        }
+      },
+      "Tags": [
+        "arch-64bit",
+        "current-stable",
+        "distro-freebsd",
+        "distro-ver-10.3",
+        "os-unix"
+      ]
+    },
+    {
+      "Index": 6,
+      "ID": "112600699417",
+      "DisplayOrder": "100301003011",
+      "Name": "FreeBSD 10.3 64bit",
+      "Description": "<div class=\"lang ja\">\n管理ユーザ名は「root」です。\nサーバ作成後、rootユーザでログインしてください。\n<div class=\"advanced\">\nこちらは100GB固定サイズのアーカイブです。\n100GBのディスクにインストールしてお使いください。\n</div>\n</div>\n<div class=\"lang en\">\nThe administrator account name is \"root\".\nPlease login as \"root\" after the server has been created.\n<div class=\"advanced\">\nThis is a 100GB fixed size archive.\nPlease install on to a 100GB disk .\n</div>\n</div>",
+      "Scope": "shared",
+      "Availability": "available",
+      "SizeMB": 102400,
+      "MigratedMB": null,
+      "WaitingJobCount": null,
+      "JobStatus": null,
+      "OriginalArchive": {
+        "ID": "112600699417"
+      },
+      "SourceInfo": null,
+      "ServiceClass": "cloud/archive/100g",
+      "CreatedAt": "2014-09-03T17:56:23+09:00",
+      "Icon": null,
+      "Plan": {
+        "ID": 2,
+        "StorageClass": "iscsi1204",
+        "Name": "標準プラン"
+      },
+      "SourceDisk": null,
+      "SourceArchive": null,
+      "BundleInfo": null,
+      "Storage": {
+        "ID": "2900197001",
+        "Class": "iscsi1204",
+        "Name": "sac-tk1v-dummy-arc-st01",
+        "Description": "",
+        "Zone": {
+          "ID": 29001,
+          "DisplayOrder": 80029001,
+          "Name": "tk1v",
+          "Description": "Sandbox",
+          "IsDummy": true,
+          "VNCProxy": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "FTPServer": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "Settings": {
+            "Subnet": {
+              "Plan": {
+                "Member": [
+                  28,
+                  27,
+                  26
+                ],
+                "Staff": [
+                  28,
+                  27,
+                  26,
+                  25,
+                  24
+                ]
+              }
+            }
+          },
+          "Region": {
+            "ID": 290,
+            "Name": "Sandbox",
+            "Description": "Sandbox",
+            "NameServers": [
+              "133.242.0.3",
+              "133.242.0.4"
+            ]
+          }
+        },
+        "DiskPlan": {
+          "ID": 2,
+          "StorageClass": "iscsi1204",
+          "Name": "標準プラン"
+        }
+      },
+      "Tags": [
+        "arch-64bit",
+        "current-stable",
+        "distro-freebsd",
+        "distro-ver-10.3",
+        "os-unix"
+      ]
+    },
+    {
+      "Index": 7,
+      "ID": "112700955895",
+      "DisplayOrder": "100401404410",
+      "Name": "Ubuntu Server 14.04.4 LTS 64bit",
+      "Description": "<div class=\"lang ja\">\n管理ユーザ名は「ubuntu」です。\nサーバ作成後、ubuntuユーザでログインしてください。\n<div class=\"advanced\">\n全サイズ対応：選択されたディスクプランに合わせてパーティションサイズが最適化されます。\n</div>\n</div>\n<div class=\"lang en\">\nThe administrator account name is \"ubuntu\".\nPlease login as \"ubuntu\" after the server has been created.\n<div class=\"advanced\">\nthis is a size extendable archive : partition size will be optimized to the capacity of the disk you selected\n</div>\n</div>",
+      "Scope": "shared",
+      "Availability": "available",
+      "SizeMB": 20480,
+      "MigratedMB": null,
+      "WaitingJobCount": null,
+      "JobStatus": null,
+      "OriginalArchive": {
+        "ID": "112700955895"
+      },
+      "SourceInfo": {
+        "ArchiveUnderZone": {
+          "ID": "112700954421",
+          "Account": {
+            "Member": {
+              "ID": "system",
+              "OperationPenalty": "none",
+              "IsEmailSakura": null,
+              "Code": "system",
+              "LastName": null,
+              "Errors": null,
+              "IsOTPSet": false,
+              "Remark": null,
+              "Class": "internal",
+              "OTP": null,
+              "DefaultPaymentMethod": "foc",
+              "Attr": null,
+              "InstancePenalty": "none",
+              "AccountClassLimit": "admin"
+            },
+            "PaymentMethod": "foc",
+            "ID": 1,
+            "Availability": "available",
+            "Code": "root",
+            "IsPasswordSet": true,
+            "Remark": null,
+            "Class": "admin",
+            "PasswordEncrypted": "IohMAry4E7bxcFXrwB/9xN7sjx/VXls=",
+            "Name": "internal.system.root",
+            "Description": ""
+          },
+          "Zone": {
+            "ID": 31001,
+            "FTPServer": {
+              "BGIPAddress": "10.131.1.42",
+              "IPAddress": "133.242.31.244",
+              "HostName": "sac-is1a-ssl.sakura.ad.jp"
+            },
+            "Settings": {
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "Manager": {
+              "BandWidthMbps": 500,
+              "IPAddress": "10.131.1.42"
+            },
+            "VNCProxy": {
+              "BGIPAddress": "10.131.1.42",
+              "IPAddress": "133.242.31.244",
+              "HostName": "sac-is1a-ssl.sakura.ad.jp"
+            },
+            "IsDummy": false,
+            "DisplayOrder": 20031001,
+            "UserSVLANIDDef": "200-1001,1025-3500",
+            "SharedSVLANIDDef": "100-139",
+            "BridgeIndex": 1,
+            "Remark": {
+              "Appliance": {
+                "loadbalancer": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112700885058",
+                    "2": "112700885058"
+                  }
+                },
+                "vpcrouter": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112600461236",
+                    "2": "112600461236"
+                  }
+                }
+              },
+              "Bridge": {
+                "LAGNumber": 1
+              },
+              "Worker": {
+                "ConfigDirectory": "/var/mnt/s03100197001-archive/config",
+                "Real1IPAddress": "10.131.1.118",
+                "IPAddress": "10.131.1.42",
+                "CopyJobTimeoutSecPerGiB": 67.5,
+                "Real2IPAddress": "10.131.1.120"
+              },
+              "Watchers": [
+                {
+                  "IPAddress": "10.131.1.105",
+                  "Name": "perfmate1"
+                }
+              ],
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "PhysicalGroup": 30001,
+            "Region": {
+              "ID": 310,
+              "NameServers": [
+                "133.242.0.3",
+                "133.242.0.4"
+              ],
+              "Bridge": {
+                "UserName": "admin",
+                "IPAddress": "0.0.0.0"
+              },
+              "PhysicalGroup": 3,
+              "Branch": "master",
+              "Description": "石狩",
+              "Name": "石狩"
+            },
+            "Name": "is1a",
+            "Description": "石狩第1ゾーン"
+          }
+        }
+      },
+      "ServiceClass": "cloud/archive/20g",
+      "CreatedAt": "2015-11-10T11:14:04+09:00",
+      "Icon": null,
+      "Plan": {
+        "ID": 2,
+        "StorageClass": "iscsi1204",
+        "Name": "標準プラン"
+      },
+      "SourceDisk": null,
+      "SourceArchive": null,
+      "BundleInfo": null,
+      "Storage": {
+        "ID": "2900197001",
+        "Class": "iscsi1204",
+        "Name": "sac-tk1v-dummy-arc-st01",
+        "Description": "",
+        "Zone": {
+          "ID": 29001,
+          "DisplayOrder": 80029001,
+          "Name": "tk1v",
+          "Description": "Sandbox",
+          "IsDummy": true,
+          "VNCProxy": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "FTPServer": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "Settings": {
+            "Subnet": {
+              "Plan": {
+                "Member": [
+                  28,
+                  27,
+                  26
+                ],
+                "Staff": [
+                  28,
+                  27,
+                  26,
+                  25,
+                  24
+                ]
+              }
+            }
+          },
+          "Region": {
+            "ID": 290,
+            "Name": "Sandbox",
+            "Description": "Sandbox",
+            "NameServers": [
+              "133.242.0.3",
+              "133.242.0.4"
+            ]
+          }
+        },
+        "DiskPlan": {
+          "ID": 2,
+          "StorageClass": "iscsi1204",
+          "Name": "標準プラン"
+        }
+      },
+      "Tags": [
+        "@size-extendable",
+        "arch-64bit",
+        "current-stable",
+        "distro-ubuntu",
+        "distro-ver-14.04.4",
+        "os-linux"
+      ]
+    },
+    {
+      "Index": 8,
+      "ID": "112600699405",
+      "DisplayOrder": "100401604110",
+      "Name": "Ubuntu Server 16.04.1 LTS 64bit",
+      "Description": "<div class=\"lang ja\">\n管理ユーザ名は「ubuntu」です。\nサーバ作成後、ubuntuユーザでログインしてください。\n<div class=\"advanced\">\n全サイズ対応：選択されたディスクプランに合わせてパーティションサイズが最適化されます。\n</div>\n</div>\n<div class=\"lang en\">\nThe administrator account name is \"ubuntu\".\nPlease login as \"ubuntu\" after the server has been created.\n<div class=\"advanced\">\nthis is a size extendable archive : partition size will be optimized to the capacity of the disk you selected\n</div>\n</div>",
+      "Scope": "shared",
+      "Availability": "available",
+      "SizeMB": 20480,
+      "MigratedMB": null,
+      "WaitingJobCount": null,
+      "JobStatus": null,
+      "OriginalArchive": {
+        "ID": "112600699405"
+      },
+      "SourceInfo": null,
+      "ServiceClass": "cloud/archive/20g",
+      "CreatedAt": "2014-09-03T17:56:04+09:00",
+      "Icon": null,
+      "Plan": {
+        "ID": 2,
+        "StorageClass": "iscsi1204",
+        "Name": "標準プラン"
+      },
+      "SourceDisk": null,
+      "SourceArchive": null,
+      "BundleInfo": null,
+      "Storage": {
+        "ID": "2900197001",
+        "Class": "iscsi1204",
+        "Name": "sac-tk1v-dummy-arc-st01",
+        "Description": "",
+        "Zone": {
+          "ID": 29001,
+          "DisplayOrder": 80029001,
+          "Name": "tk1v",
+          "Description": "Sandbox",
+          "IsDummy": true,
+          "VNCProxy": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "FTPServer": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "Settings": {
+            "Subnet": {
+              "Plan": {
+                "Member": [
+                  28,
+                  27,
+                  26
+                ],
+                "Staff": [
+                  28,
+                  27,
+                  26,
+                  25,
+                  24
+                ]
+              }
+            }
+          },
+          "Region": {
+            "ID": 290,
+            "Name": "Sandbox",
+            "Description": "Sandbox",
+            "NameServers": [
+              "133.242.0.3",
+              "133.242.0.4"
+            ]
+          }
+        },
+        "DiskPlan": {
+          "ID": 2,
+          "StorageClass": "iscsi1204",
+          "Name": "標準プラン"
+        }
+      },
+      "Tags": [
+        "@size-extendable",
+        "arch-64bit",
+        "current-stable",
+        "distro-ubuntu",
+        "distro-ver-16.04.1",
+        "os-linux"
+      ]
+    },
+    {
+      "Index": 9,
+      "ID": "112600699410",
+      "DisplayOrder": "100500711010",
+      "Name": "Debian GNU/Linux 7.11.0 64bit",
+      "Description": "<div class=\"lang ja\">\n管理ユーザ名は「root」です。\nサーバ作成後、rootユーザでログインしてください。\n<div class=\"advanced\">\n全サイズ対応：選択されたディスクプランに合わせてパーティションサイズが最適化されます。\n</div>\n</div>\n<div class=\"lang en\">\nThe administrator account name is \"root\".\nPlease login as \"root\" after the server has been created.\n<div class=\"advanced\">\nthis is a size extendable archive : partition size will be optimized to the capacity of the disk you selected\n</div>\n</div>",
+      "Scope": "shared",
+      "Availability": "available",
+      "SizeMB": 20480,
+      "MigratedMB": null,
+      "WaitingJobCount": null,
+      "JobStatus": null,
+      "OriginalArchive": {
+        "ID": "112600699410"
+      },
+      "SourceInfo": null,
+      "ServiceClass": "cloud/archive/20g",
+      "CreatedAt": "2014-09-03T17:56:13+09:00",
+      "Icon": null,
+      "Plan": {
+        "ID": 2,
+        "StorageClass": "iscsi1204",
+        "Name": "標準プラン"
+      },
+      "SourceDisk": null,
+      "SourceArchive": null,
+      "BundleInfo": null,
+      "Storage": {
+        "ID": "2900197001",
+        "Class": "iscsi1204",
+        "Name": "sac-tk1v-dummy-arc-st01",
+        "Description": "",
+        "Zone": {
+          "ID": 29001,
+          "DisplayOrder": 80029001,
+          "Name": "tk1v",
+          "Description": "Sandbox",
+          "IsDummy": true,
+          "VNCProxy": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "FTPServer": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "Settings": {
+            "Subnet": {
+              "Plan": {
+                "Member": [
+                  28,
+                  27,
+                  26
+                ],
+                "Staff": [
+                  28,
+                  27,
+                  26,
+                  25,
+                  24
+                ]
+              }
+            }
+          },
+          "Region": {
+            "ID": 290,
+            "Name": "Sandbox",
+            "Description": "Sandbox",
+            "NameServers": [
+              "133.242.0.3",
+              "133.242.0.4"
+            ]
+          }
+        },
+        "DiskPlan": {
+          "ID": 2,
+          "StorageClass": "iscsi1204",
+          "Name": "標準プラン"
+        }
+      },
+      "Tags": [
+        "@size-extendable",
+        "arch-64bit",
+        "distro-debian",
+        "distro-ver-7.11.0",
+        "os-linux"
+      ]
+    },
+    {
+      "Index": 10,
+      "ID": "112800134275",
+      "DisplayOrder": "100500806010",
+      "Name": "Debian GNU/Linux 8.6.0 64bit",
+      "Description": "<div class=\"lang ja\">\n管理ユーザ名は「root」です。\nサーバ作成後、rootユーザでログインしてください。\n<div class=\"advanced\">\n全サイズ対応：選択されたディスクプランに合わせてパーティションサイズが最適化されます。\n</div>\n</div>\n<div class=\"lang en\">\nThe administrator account name is \"root\".\nPlease login as \"root\" after the server has been created.\n<div class=\"advanced\">\nthis is a size extendable archive : partition size will be optimized to the capacity of the disk you selected\n</div>\n</div>",
+      "Scope": "shared",
+      "Availability": "available",
+      "SizeMB": 20480,
+      "MigratedMB": null,
+      "WaitingJobCount": null,
+      "JobStatus": null,
+      "OriginalArchive": {
+        "ID": "112800134275"
+      },
+      "SourceInfo": {
+        "ArchiveUnderZone": {
+          "ID": "112800130091",
+          "Account": {
+            "Member": {
+              "ID": "system",
+              "OperationPenalty": "none",
+              "IsEmailSakura": null,
+              "Code": "system",
+              "LastName": null,
+              "Errors": null,
+              "IsOTPSet": false,
+              "Remark": null,
+              "Class": "internal",
+              "OTP": null,
+              "DefaultPaymentMethod": "foc",
+              "Attr": null,
+              "InstancePenalty": "none",
+              "AccountClassLimit": "admin"
+            },
+            "PaymentMethod": "foc",
+            "ID": 1,
+            "Availability": "available",
+            "Code": "root",
+            "IsPasswordSet": true,
+            "Remark": null,
+            "Class": "admin",
+            "PasswordEncrypted": "IohMAry4E7bxcFXrwB/9xN7sjx/VXls=",
+            "Name": "internal.system.root",
+            "Description": ""
+          },
+          "Zone": {
+            "ID": 31001,
+            "FTPServer": {
+              "BGIPAddress": "10.131.1.42",
+              "IPAddress": "133.242.31.244",
+              "HostName": "sac-is1a-ssl.sakura.ad.jp"
+            },
+            "Settings": {
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "Manager": {
+              "BandWidthMbps": 500,
+              "IPAddress": "10.131.1.42"
+            },
+            "VNCProxy": {
+              "BGIPAddress": "10.131.1.42",
+              "IPAddress": "133.242.31.244",
+              "HostName": "sac-is1a-ssl.sakura.ad.jp"
+            },
+            "IsDummy": false,
+            "DisplayOrder": 20031001,
+            "UserSVLANIDDef": "200-1001,1025-3500",
+            "SharedSVLANIDDef": "100-139",
+            "BridgeIndex": 1,
+            "Remark": {
+              "Appliance": {
+                "loadbalancer": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112700885058",
+                    "2": "112700885058"
+                  }
+                },
+                "vpcrouter": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112600461236",
+                    "3": "112600461236",
+                    "2": "112600461236"
+                  }
+                }
+              },
+              "Bridge": {
+                "LAGNumber": 1
+              },
+              "Worker": {
+                "ConfigDirectory": "/var/mnt/s03100197001-archive/config",
+                "Real1IPAddress": "10.131.1.118",
+                "IPAddress": "10.131.1.42",
+                "CopyJobTimeoutSecPerGiB": 67.5,
+                "Real2IPAddress": "10.131.1.120"
+              },
+              "Host": {
+                "Selection": {
+                  "Span": 4,
+                  "Shuffle": true
+                }
+              },
+              "Watchers": [
+                {
+                  "IPAddress": "10.131.1.105",
+                  "Name": "perfmate1"
+                }
+              ],
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "PhysicalGroup": 30001,
+            "Region": {
+              "ID": 310,
+              "NameServers": [
+                "133.242.0.3",
+                "133.242.0.4"
+              ],
+              "Bridge": {
+                "UserName": "admin",
+                "IPAddress": "0.0.0.0"
+              },
+              "PhysicalGroup": 3,
+              "Branch": "master",
+              "Description": "石狩",
+              "Name": "石狩"
+            },
+            "Name": "is1a",
+            "Description": "石狩第1ゾーン"
+          }
+        }
+      },
+      "ServiceClass": "cloud/archive/20g",
+      "CreatedAt": "2016-02-03T15:34:30+09:00",
+      "Icon": null,
+      "Plan": {
+        "ID": 2,
+        "StorageClass": "iscsi1204",
+        "Name": "標準プラン"
+      },
+      "SourceDisk": null,
+      "SourceArchive": null,
+      "BundleInfo": null,
+      "Storage": {
+        "ID": "2900197001",
+        "Class": "iscsi1204",
+        "Name": "sac-tk1v-dummy-arc-st01",
+        "Description": "",
+        "Zone": {
+          "ID": 29001,
+          "DisplayOrder": 80029001,
+          "Name": "tk1v",
+          "Description": "Sandbox",
+          "IsDummy": true,
+          "VNCProxy": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "FTPServer": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "Settings": {
+            "Subnet": {
+              "Plan": {
+                "Member": [
+                  28,
+                  27,
+                  26
+                ],
+                "Staff": [
+                  28,
+                  27,
+                  26,
+                  25,
+                  24
+                ]
+              }
+            }
+          },
+          "Region": {
+            "ID": 290,
+            "Name": "Sandbox",
+            "Description": "Sandbox",
+            "NameServers": [
+              "133.242.0.3",
+              "133.242.0.4"
+            ]
+          }
+        },
+        "DiskPlan": {
+          "ID": 2,
+          "StorageClass": "iscsi1204",
+          "Name": "標準プラン"
+        }
+      },
+      "Tags": [
+        "@size-extendable",
+        "arch-64bit",
+        "current-stable",
+        "distro-debian",
+        "distro-ver-8.6.0",
+        "os-linux"
+      ]
+    },
+    {
+      "Index": 11,
+      "ID": "112701060354",
+      "DisplayOrder": "300300117010",
+      "Name": "VyOS 1.1.7 64bit",
+      "Description": "<div class=\"lang ja\">\n仮想ルータアプライアンス、VyOS のテンプレートです。\n\n管理ユーザ名は「vyos」です。\nサーバ作成後、vyosユーザでログインしてください。\n\n[注意事項]\n○ 弊社では、VyOSの操作方法についてのサポートを行っておりません。\n\n○ コマンドマニュアルは以下サイトを参照してください。\n▽ VyOS Community - Documentation\n<a href=\"http://vyos.net/wiki/Category:User_documentation\" target=\"_blank\">http://vyos.net/wiki/Category:User_documentation</a>\n</div>\n<div class=\"lang en\">\nThis is a template of VyOS, a virtual router appliance.\n\nThe administrator account name is \"vyos\".\nPlease login as \"vyos\" after a server has been created.\n\n[Note]\n○ SAKURA Internet does not provide user support for using VyOS.\n\n○ Please refer to the link below for command manuals.\n▽ VyOS Community - Documentation\n<a href=\"http://vyos.net/wiki/Category:User_documentation\" target=\"_blank\">http://vyos.net/wiki/Category:User_documentation</a>\n</div>",
+      "Scope": "shared",
+      "Availability": "available",
+      "SizeMB": 20480,
+      "MigratedMB": null,
+      "WaitingJobCount": null,
+      "JobStatus": null,
+      "OriginalArchive": {
+        "ID": "112701060354"
+      },
+      "SourceInfo": {
+        "ArchiveUnderZone": {
+          "ID": "112701054004",
+          "Account": {
+            "Member": {
+              "ID": "system",
+              "OperationPenalty": "none",
+              "IsEmailSakura": null,
+              "Code": "system",
+              "LastName": null,
+              "Errors": null,
+              "IsOTPSet": false,
+              "Remark": null,
+              "Class": "internal",
+              "OTP": null,
+              "DefaultPaymentMethod": "foc",
+              "Attr": null,
+              "InstancePenalty": "none",
+              "AccountClassLimit": "admin"
+            },
+            "PaymentMethod": "foc",
+            "ID": 1,
+            "Availability": "available",
+            "Code": "root",
+            "IsPasswordSet": true,
+            "Remark": null,
+            "Class": "admin",
+            "PasswordEncrypted": "IohMAry4E7bxcFXrwB/9xN7sjx/VXls=",
+            "Name": "internal.system.root",
+            "Description": ""
+          },
+          "Zone": {
+            "ID": 31001,
+            "FTPServer": {
+              "BGIPAddress": "10.131.1.42",
+              "IPAddress": "133.242.31.244",
+              "HostName": "sac-is1a-ssl.sakura.ad.jp"
+            },
+            "Settings": {
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "Manager": {
+              "BandWidthMbps": 500,
+              "IPAddress": "10.131.1.42"
+            },
+            "VNCProxy": {
+              "BGIPAddress": "10.131.1.42",
+              "IPAddress": "133.242.31.244",
+              "HostName": "sac-is1a-ssl.sakura.ad.jp"
+            },
+            "IsDummy": false,
+            "DisplayOrder": 20031001,
+            "UserSVLANIDDef": "200-1001,1025-3500",
+            "SharedSVLANIDDef": "100-139",
+            "BridgeIndex": 1,
+            "Remark": {
+              "Appliance": {
+                "loadbalancer": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112700885058",
+                    "2": "112700885058"
+                  }
+                },
+                "vpcrouter": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112600461236",
+                    "2": "112600461236"
+                  }
+                }
+              },
+              "Bridge": {
+                "LAGNumber": 1
+              },
+              "Worker": {
+                "ConfigDirectory": "/var/mnt/s03100197001-archive/config",
+                "Real1IPAddress": "10.131.1.118",
+                "IPAddress": "10.131.1.42",
+                "CopyJobTimeoutSecPerGiB": 67.5,
+                "Real2IPAddress": "10.131.1.120"
+              },
+              "Host": {
+                "Selection": {
+                  "Span": 4,
+                  "Shuffle": true
+                }
+              },
+              "Watchers": [
+                {
+                  "IPAddress": "10.131.1.105",
+                  "Name": "perfmate1"
+                }
+              ],
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "PhysicalGroup": 30001,
+            "Region": {
+              "ID": 310,
+              "NameServers": [
+                "133.242.0.3",
+                "133.242.0.4"
+              ],
+              "Bridge": {
+                "UserName": "admin",
+                "IPAddress": "0.0.0.0"
+              },
+              "PhysicalGroup": 3,
+              "Branch": "master",
+              "Description": "石狩",
+              "Name": "石狩"
+            },
+            "Name": "is1a",
+            "Description": "石狩第1ゾーン"
+          }
+        }
+      },
+      "ServiceClass": "cloud/archive/20g",
+      "CreatedAt": "2015-12-09T15:18:37+09:00",
+      "Icon": null,
+      "Plan": {
+        "ID": 2,
+        "StorageClass": "iscsi1204",
+        "Name": "標準プラン"
+      },
+      "SourceDisk": null,
+      "SourceArchive": null,
+      "BundleInfo": null,
+      "Storage": {
+        "ID": "2900197001",
+        "Class": "iscsi1204",
+        "Name": "sac-tk1v-dummy-arc-st01",
+        "Description": "",
+        "Zone": {
+          "ID": 29001,
+          "DisplayOrder": 80029001,
+          "Name": "tk1v",
+          "Description": "Sandbox",
+          "IsDummy": true,
+          "VNCProxy": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "FTPServer": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "Settings": {
+            "Subnet": {
+              "Plan": {
+                "Member": [
+                  28,
+                  27,
+                  26
+                ],
+                "Staff": [
+                  28,
+                  27,
+                  26,
+                  25,
+                  24
+                ]
+              }
+            }
+          },
+          "Region": {
+            "ID": 290,
+            "Name": "Sandbox",
+            "Description": "Sandbox",
+            "NameServers": [
+              "133.242.0.3",
+              "133.242.0.4"
+            ]
+          }
+        },
+        "DiskPlan": {
+          "ID": 2,
+          "StorageClass": "iscsi1204",
+          "Name": "標準プラン"
+        }
+      },
+      "Tags": [
+        "arch-64bit",
+        "current-stable",
+        "distro-ver-1.1.7",
+        "distro-vyos",
+        "os-linux"
+      ]
+    },
+    {
+      "Index": 12,
+      "ID": "112600699426",
+      "DisplayOrder": "300436701010",
+      "Name": "CoreOS 367.1.0 (stable)",
+      "Description": "<div class=\"lang ja\">\n管理ユーザ名は「core」です。\nサーバ作成後、coreユーザでログインしてください。\n<div class=\"advanced\">\nこちらは20GB固定サイズのアーカイブです。\n20GBのディスクにインストールしてお使いください。\n</div>\n</div>\n<div class=\"lang en\">\nThe administrator account name is \"core\".\nPlease login as \"core\" after the server has been created.\n<div class=\"advanced\">\nThis is a 20GB fixed size archive.\nPlease install on to a 20GB disk .\n</div>\n</div>",
+      "Scope": "shared",
+      "Availability": "available",
+      "SizeMB": 20480,
+      "MigratedMB": null,
+      "WaitingJobCount": null,
+      "JobStatus": null,
+      "OriginalArchive": {
+        "ID": "112600699426"
+      },
+      "SourceInfo": null,
+      "ServiceClass": "cloud/archive/20g",
+      "CreatedAt": "2014-09-03T17:56:38+09:00",
+      "Icon": null,
+      "Plan": {
+        "ID": 2,
+        "StorageClass": "iscsi1204",
+        "Name": "標準プラン"
+      },
+      "SourceDisk": null,
+      "SourceArchive": null,
+      "BundleInfo": null,
+      "Storage": {
+        "ID": "2900197001",
+        "Class": "iscsi1204",
+        "Name": "sac-tk1v-dummy-arc-st01",
+        "Description": "",
+        "Zone": {
+          "ID": 29001,
+          "DisplayOrder": 80029001,
+          "Name": "tk1v",
+          "Description": "Sandbox",
+          "IsDummy": true,
+          "VNCProxy": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "FTPServer": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "Settings": {
+            "Subnet": {
+              "Plan": {
+                "Member": [
+                  28,
+                  27,
+                  26
+                ],
+                "Staff": [
+                  28,
+                  27,
+                  26,
+                  25,
+                  24
+                ]
+              }
+            }
+          },
+          "Region": {
+            "ID": 290,
+            "Name": "Sandbox",
+            "Description": "Sandbox",
+            "NameServers": [
+              "133.242.0.3",
+              "133.242.0.4"
+            ]
+          }
+        },
+        "DiskPlan": {
+          "ID": 2,
+          "StorageClass": "iscsi1204",
+          "Name": "標準プラン"
+        }
+      },
+      "Tags": [
+        "arch-64bit",
+        "current-stable",
+        "distro-coreos",
+        "distro-ver-367.1.0",
+        "os-linux"
+      ]
+    },
+    {
+      "Index": 13,
+      "ID": "112600699428",
+      "DisplayOrder": "400200821002",
+      "Name": "Windows Server 2008 R2 Datacenter Edition",
+      "Description": "<div class=\"lang ja\">\n・サーバ、ディスク料金の他、OSの利用料金が必要となります。\n・ディスク修正機能はご利用いただけません。\n　サーバ作成後、お客様にて初期設定を行っていただく必要があります。\n　手順については以下URLを参照してください。\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/</a>\n<div class=\"advanced\">\n100GB以上の全サイズ対応：初回起動時に選択されたディスクプランに合わせてパーティションサイズが最適化されます\n</div>\n</div>\n<div class=\"lang en\">\n・License fee for operating system is not included to your server and disk charge.\n　An additional charge is required to use Windows OS.\n・Disk modification function is not available for Windows servsers.\n　You will need to perform initial configuration after creating a server.\n　Please refer to the link below for instructions.\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/</a>\n<div class=\"advanced\">\nsize extendable archive for 100GB+ disks : partition size will be optimized to the capacity of the disk at the first boot\n</div>\n</div>",
+      "Scope": "shared",
+      "Availability": "available",
+      "SizeMB": 102400,
+      "MigratedMB": null,
+      "WaitingJobCount": null,
+      "JobStatus": null,
+      "OriginalArchive": {
+        "ID": "112600699428"
+      },
+      "SourceInfo": null,
+      "ServiceClass": "cloud/archive/100g",
+      "CreatedAt": "2014-09-03T17:56:41+09:00",
+      "Icon": null,
+      "Plan": {
+        "ID": 2,
+        "StorageClass": "iscsi1204",
+        "Name": "標準プラン"
+      },
+      "SourceDisk": null,
+      "SourceArchive": null,
+      "BundleInfo": {
+        "ID": 10000,
+        "Group": null,
+        "HostClass": "ms_windows",
+        "Name": "Windows_DC",
+        "ServiceClass": "cloud/os/windows/datacenter",
+        "Attr": null
+      },
+      "Storage": {
+        "ID": "2900197001",
+        "Class": "iscsi1204",
+        "Name": "sac-tk1v-dummy-arc-st01",
+        "Description": "",
+        "Zone": {
+          "ID": 29001,
+          "DisplayOrder": 80029001,
+          "Name": "tk1v",
+          "Description": "Sandbox",
+          "IsDummy": true,
+          "VNCProxy": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "FTPServer": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "Settings": {
+            "Subnet": {
+              "Plan": {
+                "Member": [
+                  28,
+                  27,
+                  26
+                ],
+                "Staff": [
+                  28,
+                  27,
+                  26,
+                  25,
+                  24
+                ]
+              }
+            }
+          },
+          "Region": {
+            "ID": 290,
+            "Name": "Sandbox",
+            "Description": "Sandbox",
+            "NameServers": [
+              "133.242.0.3",
+              "133.242.0.4"
+            ]
+          }
+        },
+        "DiskPlan": {
+          "ID": 2,
+          "StorageClass": "iscsi1204",
+          "Name": "標準プラン"
+        }
+      },
+      "Tags": [
+        "arch-64bit",
+        "distro-ver-2008.2",
+        "os-windows"
+      ]
+    },
+    {
+      "Index": 14,
+      "ID": "112600699429",
+      "DisplayOrder": "400201220002",
+      "Name": "Windows Server 2012 R2 Datacenter Edition",
+      "Description": "<div class=\"lang ja\">\n・サーバ、ディスク料金の他、OSの利用料金が必要となります。\n・ディスク修正機能はご利用いただけません。\n　サーバ作成後、お客様にて初期設定を行っていただく必要があります。\n　手順については以下URLを参照してください。\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/</a>\n<div class=\"advanced\">\n100GB以上の全サイズ対応：初回起動時に選択されたディスクプランに合わせてパーティションサイズが最適化されます\n</div>\n</div>\n<div class=\"lang en\">\n・License fee for operating system is not included to your server and disk charge.\n　An additional charge is required to use Windows OS.\n・Disk modification function is not available for Windows servsers.\n　You will need to perform initial configuration after creating a server.\n　Please refer to the link below for instructions.\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/</a>\n<div class=\"advanced\">\nsize extendable archive for 100GB+ disks : partition size will be optimized to the capacity of the disk at the first boot\n</div>\n</div>",
+      "Scope": "shared",
+      "Availability": "available",
+      "SizeMB": 102400,
+      "MigratedMB": null,
+      "WaitingJobCount": null,
+      "JobStatus": null,
+      "OriginalArchive": {
+        "ID": "112600699429"
+      },
+      "SourceInfo": null,
+      "ServiceClass": "cloud/archive/100g",
+      "CreatedAt": "2014-09-03T17:56:43+09:00",
+      "Icon": null,
+      "Plan": {
+        "ID": 2,
+        "StorageClass": "iscsi1204",
+        "Name": "標準プラン"
+      },
+      "SourceDisk": null,
+      "SourceArchive": null,
+      "BundleInfo": {
+        "ID": 10000,
+        "Group": null,
+        "HostClass": "ms_windows",
+        "Name": "Windows_DC",
+        "ServiceClass": "cloud/os/windows/datacenter",
+        "Attr": null
+      },
+      "Storage": {
+        "ID": "2900197001",
+        "Class": "iscsi1204",
+        "Name": "sac-tk1v-dummy-arc-st01",
+        "Description": "",
+        "Zone": {
+          "ID": 29001,
+          "DisplayOrder": 80029001,
+          "Name": "tk1v",
+          "Description": "Sandbox",
+          "IsDummy": true,
+          "VNCProxy": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "FTPServer": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "Settings": {
+            "Subnet": {
+              "Plan": {
+                "Member": [
+                  28,
+                  27,
+                  26
+                ],
+                "Staff": [
+                  28,
+                  27,
+                  26,
+                  25,
+                  24
+                ]
+              }
+            }
+          },
+          "Region": {
+            "ID": 290,
+            "Name": "Sandbox",
+            "Description": "Sandbox",
+            "NameServers": [
+              "133.242.0.3",
+              "133.242.0.4"
+            ]
+          }
+        },
+        "DiskPlan": {
+          "ID": 2,
+          "StorageClass": "iscsi1204",
+          "Name": "標準プラン"
+        }
+      },
+      "Tags": [
+        "arch-64bit",
+        "current-stable",
+        "distro-ver-2012.2",
+        "os-windows"
+      ]
+    },
+    {
+      "Index": 15,
+      "ID": "112801280167",
+      "DisplayOrder": "400201620002",
+      "Name": "Windows Server 2016 Datacenter Edition",
+      "Description": "<div class=\"lang ja\">\n・サーバ、ディスク料金の他、OSの利用料金が必要となります。\n・ディスク修正機能はご利用いただけません。\n　サーバ作成後、お客様にて初期設定を行っていただく必要があります。\n　手順については以下URLを参照してください。\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/</a>\n<div class=\"advanced\">\n100GB以上の全サイズ対応：初回起動時に選択されたディスクプランに合わせてパーティションサイズが最適化されます\n</div>\n</div>\n<div class=\"lang en\">\n・License fee for operating system is not included to your server and disk charge.\n　An additional charge is required to use Windows OS.\n・Disk modification function is not available for Windows servsers.\n　You will need to perform initial configuration after creating a server.\n　Please refer to the link below for instructions.\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/</a>\n<div class=\"advanced\">\nsize extendable archive for 100GB+ disks : partition size will be optimized to the capacity of the disk at the first boot\n</div>\n</div>",
+      "Scope": "shared",
+      "Availability": "available",
+      "SizeMB": 102400,
+      "MigratedMB": null,
+      "WaitingJobCount": null,
+      "JobStatus": null,
+      "OriginalArchive": {
+        "ID": "112801280167"
+      },
+      "SourceInfo": {
+        "ArchiveUnderZone": {
+          "ID": "112801277587",
+          "Account": {
+            "Member": {
+              "ID": "system",
+              "OperationPenalty": "none",
+              "IsEmailSakura": null,
+              "Code": "system",
+              "LastName": null,
+              "Errors": null,
+              "IsOTPSet": false,
+              "Remark": null,
+              "Class": "internal",
+              "OTP": null,
+              "DefaultPaymentMethod": "foc",
+              "Attr": null,
+              "InstancePenalty": "none",
+              "AccountClassLimit": "admin"
+            },
+            "PaymentMethod": "foc",
+            "ID": 1,
+            "Availability": "available",
+            "Code": "root",
+            "IsPasswordSet": true,
+            "Class": "admin",
+            "PasswordEncrypted": "IohMAry4E7bxcFXrwB/9xN7sjx/VXls=",
+            "Name": "internal.system.root",
+            "Description": ""
+          },
+          "Zone": {
+            "ID": 21001,
+            "FTPServer": {
+              "BGIPAddress": "10.132.1.30",
+              "IPAddress": "27.133.143.244",
+              "HostName": "sac-tk1a-ssl.cloud.sakura.ad.jp"
+            },
+            "VNCProxy": {
+              "BGIPAddress": "10.132.1.30",
+              "IPAddress": "27.133.143.244",
+              "HostName": "sac-tk1a-ssl.cloud.sakura.ad.jp"
+            },
+            "DisplayOrder": 20021001,
+            "Region": {
+              "ID": 210,
+              "Description_ja": "東京",
+              "Bridge": {
+                "UserName": "admin",
+                "IPAddress": "127.0.0.1"
+              },
+              "Description_en": "Tokyo",
+              "Branch": "tk1a",
+              "NameServers": [
+                "210.188.224.10",
+                "210.188.224.11"
+              ],
+              "Name_en": "Tokyo",
+              "PhysicalGroup": 2,
+              "Name": "東京",
+              "Description": "東京",
+              "Name_ja": "東京"
+            },
+            "Description_ja": "東京第1ゾーン",
+            "Manager": {
+              "BandWidthMbps": 500,
+              "IPAddress": "10.132.1.30"
+            },
+            "Settings": {
+              "Appliance": {
+                "Database": {
+                  "Products": [
+                    {
+                      "Versions": [
+                        "9.4.7"
+                      ],
+                      "Availability": "available",
+                      "DefaultPort": 5432,
+                      "Name": "PostgreSQL",
+                      "Package": "postgres"
+                    },
+                    {
+                      "Versions": [
+                        "10.1.17"
+                      ],
+                      "Availability": "available",
+                      "DefaultPort": 3306,
+                      "Name": "MariaDB",
+                      "Package": "MariaDB"
+                    }
+                  ]
+                }
+              },
+              "CommonServiceItem": {
+                "Autobackup": {
+                  "Settings": {
+                    "BackupHour": {
+                      "Disable": [
+                        0
+                      ]
+                    }
+                  }
+                }
+              },
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "Description_en": "Tokyo 1st Zone",
+            "IsDummy": false,
+            "UserSVLANIDDef": "200-1001,1025-3500",
+            "BridgeIndex": 99,
+            "SharedSVLANIDDef": "100-149",
+            "PhysicalGroup": 20001,
+            "Remark": {
+              "TargetManager": {
+                "Real1IPAddress": "192.168.6.123",
+                "IPAddress": "192.168.6.125",
+                "Real2IPAddress": "192.168.6.124"
+              },
+              "Appliance": {
+                "database": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "2-old": "112800550428",
+                    "1": "112800999313",
+                    "3-old": "112800583948",
+                    "1-old": "112800687444"
+                  }
+                },
+                "loadbalancer": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112700943418",
+                    "2": "112700943418"
+                  }
+                },
+                "vpcrouter": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112700943417",
+                    "3": "112700943417",
+                    "2": "112700943417"
+                  }
+                }
+              },
+              "Bridge": {
+                "LAGNumber": 101
+              },
+              "Worker": {
+                "ConfigDirectory": "/var/mnt/s02100197001-archive/config",
+                "Real1IPAddress": "10.132.1.31",
+                "IPAddress": "10.132.1.30",
+                "CopyJobTimeoutSecPerGiB": 67.5,
+                "Real2IPAddress": "10.132.1.32"
+              },
+              "Host": {
+                "Selection": {
+                  "Span": 4,
+                  "Shuffle": true
+                }
+              },
+              "Watchers": [
+                {
+                  "IPAddress": "10.132.1.51",
+                  "Name": "perfmate1"
+                }
+              ],
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "Description": "東京第1ゾーン",
+            "Name": "tk1a"
+          }
+        }
+      },
+      "ServiceClass": "cloud/archive/100g",
+      "CreatedAt": "2016-12-08T10:26:28+09:00",
+      "Icon": null,
+      "Plan": {
+        "ID": 2,
+        "StorageClass": "iscsi1204",
+        "Name": "標準プラン"
+      },
+      "SourceDisk": null,
+      "SourceArchive": null,
+      "BundleInfo": {
+        "ID": 10000,
+        "Group": null,
+        "HostClass": "ms_windows",
+        "Name": "Windows_DC",
+        "ServiceClass": "cloud/os/windows/datacenter",
+        "Attr": null
+      },
+      "Storage": {
+        "ID": "2900197001",
+        "Class": "iscsi1204",
+        "Name": "sac-tk1v-dummy-arc-st01",
+        "Description": "",
+        "Zone": {
+          "ID": 29001,
+          "DisplayOrder": 80029001,
+          "Name": "tk1v",
+          "Description": "Sandbox",
+          "IsDummy": true,
+          "VNCProxy": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "FTPServer": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "Settings": {
+            "Subnet": {
+              "Plan": {
+                "Member": [
+                  28,
+                  27,
+                  26
+                ],
+                "Staff": [
+                  28,
+                  27,
+                  26,
+                  25,
+                  24
+                ]
+              }
+            }
+          },
+          "Region": {
+            "ID": 290,
+            "Name": "Sandbox",
+            "Description": "Sandbox",
+            "NameServers": [
+              "133.242.0.3",
+              "133.242.0.4"
+            ]
+          }
+        },
+        "DiskPlan": {
+          "ID": 2,
+          "StorageClass": "iscsi1204",
+          "Name": "標準プラン"
+        }
+      },
+      "Tags": [
+        "arch-64bit",
+        "current-stable",
+        "distro-ver-2016",
+        "os-windows"
+      ]
+    },
+    {
+      "Index": 16,
+      "ID": "112600699430",
+      "DisplayOrder": "410200802002",
+      "Name": "Windows Server 2008 R2 for RDS",
+      "Description": "<div class=\"lang ja\">\n・サーバ、ディスク料金の他、OSの利用料金が必要となります。\n・ディスク修正機能はご利用いただけません。\n　サーバ作成後、お客様にて初期設定を行っていただく必要があります。\n　手順については以下URLを参照してください。\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/</a>\n・リモートデスクトップ用途でご利用いただけるライセンスが1つ組み込まれています。\n　2名以上でのご利用される場合には人数のライセンスをお申し込みください。\n　詳細は下記URLを参照してください。\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-rds/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-rds/</a>\n<div class=\"advanced\">\n100GB以上の全サイズ対応：初回起動時に選択されたディスクプランに合わせてパーティションサイズが最適化されます\n</div>\n</div>\n<div class=\"lang en\">\n・License fee for operating system is not included to your server and disk charge.\n　An additional charge is required to use Windows OS.\n・Disk modification function is not available for Windows servsers.\n　You will need to perform initial configuration after creating a server.\n　Please refer to the link below for instructions.\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/</a>\n・The seleced archive includes Remote Desktop Licence for 1 user.\n　Please purchase additional license according to the number of users\n　if more than 2 users make concurrent connections to the server.\n　Please refer to the link below for details.\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-rds/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-rds/</a>\n<div class=\"advanced\">\nsize extendable archive for 100GB+ disks : partition size will be optimized to the capacity of the disk at the first boot\n</div>\n</div>",
+      "Scope": "shared",
+      "Availability": "available",
+      "SizeMB": 102400,
+      "MigratedMB": null,
+      "WaitingJobCount": null,
+      "JobStatus": null,
+      "OriginalArchive": {
+        "ID": "112600699430"
+      },
+      "SourceInfo": null,
+      "ServiceClass": "cloud/archive/100g",
+      "CreatedAt": "2014-09-03T17:56:44+09:00",
+      "Icon": null,
+      "Plan": {
+        "ID": 2,
+        "StorageClass": "iscsi1204",
+        "Name": "標準プラン"
+      },
+      "SourceDisk": null,
+      "SourceArchive": null,
+      "BundleInfo": {
+        "ID": 10010,
+        "Group": null,
+        "HostClass": "ms_windows",
+        "Name": "Windows_DC RDS用",
+        "ServiceClass": "cloud/os/windows/datacenter/rds",
+        "Attr": null
+      },
+      "Storage": {
+        "ID": "2900197001",
+        "Class": "iscsi1204",
+        "Name": "sac-tk1v-dummy-arc-st01",
+        "Description": "",
+        "Zone": {
+          "ID": 29001,
+          "DisplayOrder": 80029001,
+          "Name": "tk1v",
+          "Description": "Sandbox",
+          "IsDummy": true,
+          "VNCProxy": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "FTPServer": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "Settings": {
+            "Subnet": {
+              "Plan": {
+                "Member": [
+                  28,
+                  27,
+                  26
+                ],
+                "Staff": [
+                  28,
+                  27,
+                  26,
+                  25,
+                  24
+                ]
+              }
+            }
+          },
+          "Region": {
+            "ID": 290,
+            "Name": "Sandbox",
+            "Description": "Sandbox",
+            "NameServers": [
+              "133.242.0.3",
+              "133.242.0.4"
+            ]
+          }
+        },
+        "DiskPlan": {
+          "ID": 2,
+          "StorageClass": "iscsi1204",
+          "Name": "標準プラン"
+        }
+      },
+      "Tags": [
+        "arch-64bit",
+        "distro-ver-2008.2",
+        "os-windows",
+        "windows-rds"
+      ]
+    },
+    {
+      "Index": 17,
+      "ID": "112800341462",
+      "DisplayOrder": "410201220002",
+      "Name": "Windows Server 2012 R2 for RDS",
+      "Description": "<div class=\"lang ja\">\n・サーバ、ディスク料金の他、OSの利用料金が必要となります。\n・ディスク修正機能はご利用いただけません。\n　サーバ作成後、お客様にて初期設定を行っていただく必要があります。\n　手順については以下URLを参照してください。\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/</a>\n・リモートデスクトップ用途でご利用いただけるライセンスが1つ組み込まれています。\n　2名以上でのご利用される場合には人数のライセンスをお申し込みください。\n　詳細は下記URLを参照してください。\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-rds/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-rds/</a>\n<div class=\"advanced\">\n100GB以上の全サイズ対応：初回起動時に選択されたディスクプランに合わせてパーティションサイズが最適化されます\n</div>\n</div>\n<div class=\"lang en\">\n・License fee for operating system is not included to your server and disk charge.\n　An additional charge is required to use Windows OS.\n・Disk modification function is not available for Windows servsers.\n　You will need to perform initial configuration after creating a server.\n　Please refer to the link below for instructions.\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/</a>\n・The seleced archive includes Remote Desktop Licence for 1 user.\n　Please purchase additional license according to the number of users\n　if more than 2 users make concurrent connections to the server.\n　Please refer to the link below for details.\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-rds/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-rds/</a>\n<div class=\"advanced\">\nsize extendable archive for 100GB+ disks : partition size will be optimized to the capacity of the disk at the first boot\n</div>\n</div>",
+      "Scope": "shared",
+      "Availability": "available",
+      "SizeMB": 102400,
+      "MigratedMB": null,
+      "WaitingJobCount": null,
+      "JobStatus": null,
+      "OriginalArchive": {
+        "ID": "112800341462"
+      },
+      "SourceInfo": {
+        "ArchiveUnderZone": {
+          "ID": "112800288504",
+          "Account": {
+            "Member": {
+              "ID": "system",
+              "OperationPenalty": "none",
+              "IsEmailSakura": null,
+              "Code": "system",
+              "LastName": null,
+              "Errors": null,
+              "IsOTPSet": false,
+              "Remark": null,
+              "Class": "internal",
+              "OTP": null,
+              "DefaultPaymentMethod": "foc",
+              "Attr": null,
+              "InstancePenalty": "none",
+              "AccountClassLimit": "admin"
+            },
+            "PaymentMethod": "foc",
+            "ID": 1,
+            "Availability": "available",
+            "Code": "root",
+            "IsPasswordSet": true,
+            "Remark": null,
+            "Class": "admin",
+            "PasswordEncrypted": "IohMAry4E7bxcFXrwB/9xN7sjx/VXls=",
+            "Name": "internal.system.root",
+            "Description": ""
+          },
+          "Zone": {
+            "ID": 31001,
+            "FTPServer": {
+              "BGIPAddress": "10.131.1.42",
+              "IPAddress": "133.242.31.244",
+              "HostName": "sac-is1a-ssl.sakura.ad.jp"
+            },
+            "VNCProxy": {
+              "BGIPAddress": "10.131.1.42",
+              "IPAddress": "133.242.31.244",
+              "HostName": "sac-is1a-ssl.sakura.ad.jp"
+            },
+            "DisplayOrder": 20031001,
+            "Region": {
+              "ID": 310,
+              "Description_ja": "石狩",
+              "Bridge": {
+                "UserName": "admin",
+                "IPAddress": "0.0.0.0"
+              },
+              "Description_en": "Ishikari",
+              "Branch": "master",
+              "NameServers": [
+                "133.242.0.3",
+                "133.242.0.4"
+              ],
+              "Name_en": "Ishikari",
+              "PhysicalGroup": 3,
+              "Name": "石狩",
+              "Description": "石狩",
+              "Name_ja": "石狩"
+            },
+            "Description_ja": "石狩第1ゾーン",
+            "Manager": {
+              "BandWidthMbps": 500,
+              "IPAddress": "10.131.1.42"
+            },
+            "Settings": {
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "Description_en": "Ishikari 1st Zone",
+            "IsDummy": false,
+            "UserSVLANIDDef": "200-1001,1025-3500",
+            "BridgeIndex": 1,
+            "SharedSVLANIDDef": "100-139",
+            "PhysicalGroup": 30001,
+            "Remark": {
+              "Appliance": {
+                "loadbalancer": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112700885058",
+                    "2": "112700885058"
+                  }
+                },
+                "vpcrouter": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112600461236",
+                    "3": "112600461236",
+                    "2": "112600461236"
+                  }
+                }
+              },
+              "Bridge": {
+                "LAGNumber": 1
+              },
+              "Worker": {
+                "ConfigDirectory": "/var/mnt/s03100197001-archive/config",
+                "Real1IPAddress": "10.131.1.118",
+                "IPAddress": "10.131.1.42",
+                "CopyJobTimeoutSecPerGiB": 67.5,
+                "Real2IPAddress": "10.131.1.120"
+              },
+              "Host": {
+                "Selection": {
+                  "Span": 4,
+                  "Shuffle": true
+                }
+              },
+              "Watchers": [
+                {
+                  "IPAddress": "10.131.1.105",
+                  "Name": "perfmate1"
+                }
+              ],
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "Description": "石狩第1ゾーン",
+            "Name": "is1a"
+          }
+        }
+      },
+      "ServiceClass": "cloud/archive/100g",
+      "CreatedAt": "2016-03-31T11:10:10+09:00",
+      "Icon": null,
+      "Plan": {
+        "ID": 2,
+        "StorageClass": "iscsi1204",
+        "Name": "標準プラン"
+      },
+      "SourceDisk": null,
+      "SourceArchive": null,
+      "BundleInfo": {
+        "ID": 10010,
+        "Group": null,
+        "HostClass": "ms_windows",
+        "Name": "Windows_DC RDS用",
+        "ServiceClass": "cloud/os/windows/datacenter/rds",
+        "Attr": null
+      },
+      "Storage": {
+        "ID": "2900197001",
+        "Class": "iscsi1204",
+        "Name": "sac-tk1v-dummy-arc-st01",
+        "Description": "",
+        "Zone": {
+          "ID": 29001,
+          "DisplayOrder": 80029001,
+          "Name": "tk1v",
+          "Description": "Sandbox",
+          "IsDummy": true,
+          "VNCProxy": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "FTPServer": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "Settings": {
+            "Subnet": {
+              "Plan": {
+                "Member": [
+                  28,
+                  27,
+                  26
+                ],
+                "Staff": [
+                  28,
+                  27,
+                  26,
+                  25,
+                  24
+                ]
+              }
+            }
+          },
+          "Region": {
+            "ID": 290,
+            "Name": "Sandbox",
+            "Description": "Sandbox",
+            "NameServers": [
+              "133.242.0.3",
+              "133.242.0.4"
+            ]
+          }
+        },
+        "DiskPlan": {
+          "ID": 2,
+          "StorageClass": "iscsi1204",
+          "Name": "標準プラン"
+        }
+      },
+      "Tags": [
+        "arch-64bit",
+        "current-stable",
+        "distro-ver-2012.2",
+        "os-windows",
+        "windows-rds"
+      ]
+    },
+    {
+      "Index": 18,
+      "ID": "112600699431",
+      "DisplayOrder": "411200802002",
+      "Name": "Windows Server 2008 R2 for RDS(MS Office付)",
+      "Description": "<div class=\"lang ja\">\n・サーバ、ディスク料金の他、OSの利用料金が必要となります。\n・ディスク修正機能はご利用いただけません。\n　サーバ作成後、お客様にて初期設定を行っていただく必要があります。\n　手順については以下URLを参照してください。\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/</a>\n・リモートデスクトップ用途でご利用いただけるライセンスが1つ組み込まれています。\n　2名以上でのご利用される場合には人数のライセンスをお申し込みください。\n　詳細は下記URLを参照してください。\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-rds/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-rds/</a>\n<div class=\"advanced\">\n100GB以上の全サイズ対応：初回起動時に選択されたディスクプランに合わせてパーティションサイズが最適化されます\n</div>\n</div>\n<div class=\"lang en\">\n・License fee for operating system is not included to your server and disk charge.\n　An additional charge is required to use Windows OS.\n・Disk modification function is not available for Windows servsers.\n　You will need to perform initial configuration after creating a server.\n　Please refer to the link below for instructions.\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/</a>\n・The seleced archive includes Remote Desktop Licence for 1 user.\n　Please purchase additional license according to the number of users\n　if more than 2 users make concurrent connections to the server.\n　Please refer to the link below for details.\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-rds/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-rds/</a>\n<div class=\"advanced\">\nsize extendable archive for 100GB+ disks : partition size will be optimized to the capacity of the disk at the first boot\n</div>\n</div>",
+      "Scope": "shared",
+      "Availability": "available",
+      "SizeMB": 102400,
+      "MigratedMB": null,
+      "WaitingJobCount": null,
+      "JobStatus": null,
+      "OriginalArchive": {
+        "ID": "112600699431"
+      },
+      "SourceInfo": null,
+      "ServiceClass": "cloud/archive/100g",
+      "CreatedAt": "2014-09-03T17:56:46+09:00",
+      "Icon": null,
+      "Plan": {
+        "ID": 2,
+        "StorageClass": "iscsi1204",
+        "Name": "標準プラン"
+      },
+      "SourceDisk": null,
+      "SourceArchive": null,
+      "BundleInfo": {
+        "ID": 10110,
+        "Group": null,
+        "HostClass": "ms_windows",
+        "Name": "Windows_DC RDS用 +Office",
+        "ServiceClass": "cloud/os/windows/datacenter/rds+office",
+        "Attr": null
+      },
+      "Storage": {
+        "ID": "2900197001",
+        "Class": "iscsi1204",
+        "Name": "sac-tk1v-dummy-arc-st01",
+        "Description": "",
+        "Zone": {
+          "ID": 29001,
+          "DisplayOrder": 80029001,
+          "Name": "tk1v",
+          "Description": "Sandbox",
+          "IsDummy": true,
+          "VNCProxy": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "FTPServer": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "Settings": {
+            "Subnet": {
+              "Plan": {
+                "Member": [
+                  28,
+                  27,
+                  26
+                ],
+                "Staff": [
+                  28,
+                  27,
+                  26,
+                  25,
+                  24
+                ]
+              }
+            }
+          },
+          "Region": {
+            "ID": 290,
+            "Name": "Sandbox",
+            "Description": "Sandbox",
+            "NameServers": [
+              "133.242.0.3",
+              "133.242.0.4"
+            ]
+          }
+        },
+        "DiskPlan": {
+          "ID": 2,
+          "StorageClass": "iscsi1204",
+          "Name": "標準プラン"
+        }
+      },
+      "Tags": [
+        "arch-64bit",
+        "distro-ver-2008.2",
+        "os-windows",
+        "windows-rds",
+        "with-office"
+      ]
+    },
+    {
+      "Index": 19,
+      "ID": "112800341461",
+      "DisplayOrder": "411201220002",
+      "Name": "Windows Server 2012 R2 for RDS(MS Office付)",
+      "Description": "<div class=\"lang ja\">\n・サーバ、ディスク料金の他、OSの利用料金が必要となります。\n・ディスク修正機能はご利用いただけません。\n　サーバ作成後、お客様にて初期設定を行っていただく必要があります。\n　手順については以下URLを参照してください。\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/</a>\n・リモートデスクトップ用途でご利用いただけるライセンスが1つ組み込まれています。\n　2名以上でのご利用される場合には人数のライセンスをお申し込みください。\n　詳細は下記URLを参照してください。\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-rds/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-rds/</a>\n<div class=\"advanced\">\n100GB以上の全サイズ対応：初回起動時に選択されたディスクプランに合わせてパーティションサイズが最適化されます\n</div>\n</div>\n<div class=\"lang en\">\n・License fee for operating system is not included to your server and disk charge.\n　An additional charge is required to use Windows OS.\n・Disk modification function is not available for Windows servsers.\n　You will need to perform initial configuration after creating a server.\n　Please refer to the link below for instructions.\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/</a>\n・The seleced archive includes Remote Desktop Licence for 1 user.\n　Please purchase additional license according to the number of users\n　if more than 2 users make concurrent connections to the server.\n　Please refer to the link below for details.\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-rds/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-rds/</a>\n<div class=\"advanced\">\nsize extendable archive for 100GB+ disks : partition size will be optimized to the capacity of the disk at the first boot\n</div>\n</div>",
+      "Scope": "shared",
+      "Availability": "available",
+      "SizeMB": 102400,
+      "MigratedMB": null,
+      "WaitingJobCount": null,
+      "JobStatus": null,
+      "OriginalArchive": {
+        "ID": "112800341461"
+      },
+      "SourceInfo": {
+        "ArchiveUnderZone": {
+          "ID": "112800288500",
+          "Account": {
+            "Member": {
+              "ID": "system",
+              "OperationPenalty": "none",
+              "IsEmailSakura": null,
+              "Code": "system",
+              "LastName": null,
+              "Errors": null,
+              "IsOTPSet": false,
+              "Remark": null,
+              "Class": "internal",
+              "OTP": null,
+              "DefaultPaymentMethod": "foc",
+              "Attr": null,
+              "InstancePenalty": "none",
+              "AccountClassLimit": "admin"
+            },
+            "PaymentMethod": "foc",
+            "ID": 1,
+            "Availability": "available",
+            "Code": "root",
+            "IsPasswordSet": true,
+            "Remark": null,
+            "Class": "admin",
+            "PasswordEncrypted": "IohMAry4E7bxcFXrwB/9xN7sjx/VXls=",
+            "Name": "internal.system.root",
+            "Description": ""
+          },
+          "Zone": {
+            "ID": 31001,
+            "FTPServer": {
+              "BGIPAddress": "10.131.1.42",
+              "IPAddress": "133.242.31.244",
+              "HostName": "sac-is1a-ssl.sakura.ad.jp"
+            },
+            "VNCProxy": {
+              "BGIPAddress": "10.131.1.42",
+              "IPAddress": "133.242.31.244",
+              "HostName": "sac-is1a-ssl.sakura.ad.jp"
+            },
+            "DisplayOrder": 20031001,
+            "Region": {
+              "ID": 310,
+              "Description_ja": "石狩",
+              "Bridge": {
+                "UserName": "admin",
+                "IPAddress": "0.0.0.0"
+              },
+              "Description_en": "Ishikari",
+              "Branch": "master",
+              "NameServers": [
+                "133.242.0.3",
+                "133.242.0.4"
+              ],
+              "Name_en": "Ishikari",
+              "PhysicalGroup": 3,
+              "Name": "石狩",
+              "Description": "石狩",
+              "Name_ja": "石狩"
+            },
+            "Description_ja": "石狩第1ゾーン",
+            "Manager": {
+              "BandWidthMbps": 500,
+              "IPAddress": "10.131.1.42"
+            },
+            "Settings": {
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "Description_en": "Ishikari 1st Zone",
+            "IsDummy": false,
+            "UserSVLANIDDef": "200-1001,1025-3500",
+            "BridgeIndex": 1,
+            "SharedSVLANIDDef": "100-139",
+            "PhysicalGroup": 30001,
+            "Remark": {
+              "Appliance": {
+                "loadbalancer": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112700885058",
+                    "2": "112700885058"
+                  }
+                },
+                "vpcrouter": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112600461236",
+                    "3": "112600461236",
+                    "2": "112600461236"
+                  }
+                }
+              },
+              "Bridge": {
+                "LAGNumber": 1
+              },
+              "Worker": {
+                "ConfigDirectory": "/var/mnt/s03100197001-archive/config",
+                "Real1IPAddress": "10.131.1.118",
+                "IPAddress": "10.131.1.42",
+                "CopyJobTimeoutSecPerGiB": 67.5,
+                "Real2IPAddress": "10.131.1.120"
+              },
+              "Host": {
+                "Selection": {
+                  "Span": 4,
+                  "Shuffle": true
+                }
+              },
+              "Watchers": [
+                {
+                  "IPAddress": "10.131.1.105",
+                  "Name": "perfmate1"
+                }
+              ],
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "Description": "石狩第1ゾーン",
+            "Name": "is1a"
+          }
+        }
+      },
+      "ServiceClass": "cloud/archive/100g",
+      "CreatedAt": "2016-03-31T11:09:53+09:00",
+      "Icon": null,
+      "Plan": {
+        "ID": 2,
+        "StorageClass": "iscsi1204",
+        "Name": "標準プラン"
+      },
+      "SourceDisk": null,
+      "SourceArchive": null,
+      "BundleInfo": {
+        "ID": 10110,
+        "Group": null,
+        "HostClass": "ms_windows",
+        "Name": "Windows_DC RDS用 +Office",
+        "ServiceClass": "cloud/os/windows/datacenter/rds+office",
+        "Attr": null
+      },
+      "Storage": {
+        "ID": "2900197001",
+        "Class": "iscsi1204",
+        "Name": "sac-tk1v-dummy-arc-st01",
+        "Description": "",
+        "Zone": {
+          "ID": 29001,
+          "DisplayOrder": 80029001,
+          "Name": "tk1v",
+          "Description": "Sandbox",
+          "IsDummy": true,
+          "VNCProxy": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "FTPServer": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "Settings": {
+            "Subnet": {
+              "Plan": {
+                "Member": [
+                  28,
+                  27,
+                  26
+                ],
+                "Staff": [
+                  28,
+                  27,
+                  26,
+                  25,
+                  24
+                ]
+              }
+            }
+          },
+          "Region": {
+            "ID": 290,
+            "Name": "Sandbox",
+            "Description": "Sandbox",
+            "NameServers": [
+              "133.242.0.3",
+              "133.242.0.4"
+            ]
+          }
+        },
+        "DiskPlan": {
+          "ID": 2,
+          "StorageClass": "iscsi1204",
+          "Name": "標準プラン"
+        }
+      },
+      "Tags": [
+        "arch-64bit",
+        "current-stable",
+        "distro-ver-2012.2",
+        "os-windows",
+        "windows-rds",
+        "with-office"
+      ]
+    }
+  ],
+  "is_ok": true
+}
