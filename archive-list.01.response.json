@@ -2660,9 +2660,9 @@
     },
     {
       "Index": 13,
-      "ID": "112900475034",
-      "DisplayOrder": "300500100000",
-      "Name": "RancherOS v1.0.0 LTS",
+      "ID": "112900571238",
+      "DisplayOrder": "300500101000",
+      "Name": "RancherOS v1.0.1 LTS",
       "Description": "<div class=\"lang ja\">\n管理ユーザ名は「rancher」です。\nサーバ作成後、rancherユーザでログインしてください。\n\n<span style=\"color:#d2322d\">[注意事項]\nサーバへの接続の際には公開鍵の登録が必須となります。\nリモートコンソールからのログインは出来ません。</span>\n<div class=\"advanced\">\nこちらは20GB固定サイズのアーカイブです。\n20GBより大きいディスクを作成する場合、\nパーティションをリサイズする cloud-config をご利用ください。\nhttps://docs.rancher.com/os/configuration/resizing-device-partition/\n</div>\n</div>\n<div class=\"lang en\">\nThe administrator account name is \"rancher\".\nPlease login as \"rancher\" after the server has been created.\n\n<span style=\"color:#d2322d\">[Notice]\nPublic key authentication is required to access RancherOS.\nPlease specify a public key in this page.\nYou cannot login to Remote Console using a password.</span>\n<div class=\"advanced\">\nThis is a 20GB fixed size archive.\nIf you create a disk larger than 20 GB,\nplease use cloud-config to resize the partition.\nhttps://docs.rancher.com/os/configuration/resizing-device-partition/\n</div>\n</div>",
       "Scope": "shared",
       "Availability": "available",
@@ -2671,11 +2671,11 @@
       "WaitingJobCount": null,
       "JobStatus": null,
       "OriginalArchive": {
-        "ID": "112900475034"
+        "ID": "112900571238"
       },
       "SourceInfo": {
         "ArchiveUnderZone": {
-          "ID": "112900470901",
+          "ID": "112900571127",
           "Account": {
             "Member": {
               "ID": "system",
@@ -2704,43 +2704,71 @@
             "Description": ""
           },
           "Zone": {
-            "ID": 31001,
+            "ID": 21001,
             "FTPServer": {
-              "BGIPAddress": "10.131.1.42",
-              "IPAddress": "133.242.31.244",
-              "HostName": "sac-is1a-ssl.cloud.sakura.ad.jp"
+              "BGIPAddress": "10.132.1.30",
+              "IPAddress": "27.133.143.244",
+              "HostName": "sac-tk1a-ftp.cloud.sakura.ad.jp"
             },
             "VNCProxy": {
-              "BGIPAddress": "10.131.1.42",
-              "IPAddress": "133.242.31.244",
-              "HostName": "sac-is1a-ssl.cloud.sakura.ad.jp"
+              "BGIPAddress": "10.132.1.30",
+              "IPAddress": "27.133.143.244",
+              "HostName": "sac-tk1a-ssl.cloud.sakura.ad.jp"
             },
-            "DisplayOrder": 20031001,
+            "DisplayOrder": 20021001,
             "Region": {
-              "ID": 310,
-              "Description_ja": "石狩",
+              "ID": 210,
+              "Description_ja": "東京",
               "Bridge": {
                 "UserName": "admin",
-                "IPAddress": "0.0.0.0"
+                "IPAddress": "127.0.0.1"
               },
-              "Description_en": "Ishikari",
-              "Branch": "master",
+              "Description_en": "Tokyo",
+              "Branch": "tk1a",
               "NameServers": [
-                "133.242.0.3",
-                "133.242.0.4"
+                "210.188.224.10",
+                "210.188.224.11"
               ],
-              "Name_en": "Ishikari",
-              "PhysicalGroup": 3,
-              "Name": "石狩",
-              "Description": "石狩",
-              "Name_ja": "石狩"
+              "Name_en": "Tokyo",
+              "PhysicalGroup": 2,
+              "Name": "東京",
+              "Description": "東京",
+              "Name_ja": "東京"
             },
-            "Description_ja": "石狩第1ゾーン",
+            "Description_ja": "東京第1ゾーン",
             "Manager": {
               "BandWidthMbps": 500,
-              "IPAddress": "10.131.1.42"
+              "IPAddress": "10.132.1.30"
             },
             "Settings": {
+              "Appliance": {
+                "Database": {
+                  "Products": [
+                    {
+                      "Versions": [
+                        "9.6.2"
+                      ],
+                      "Availability": "available",
+                      "DefaultPort": 5432,
+                      "Name": "PostgreSQL",
+                      "Package": "postgres"
+                    },
+                    {
+                      "Versions": [
+                        "10.1.22"
+                      ],
+                      "Availability": "available",
+                      "DefaultPort": 3306,
+                      "Name": "MariaDB",
+                      "Package": "MariaDB"
+                    }
+                  ],
+                  "Backup": {
+                    "LockLimit": 8,
+                    "RotateLimit": 8
+                  }
+                }
+              },
               "CommonServiceItem": {
                 "Autobackup": {
                   "Settings": {
@@ -2750,7 +2778,6 @@
                   }
                 }
               },
-              "DisablePassport": true,
               "Subnet": {
                 "Plan": {
                   "Member": [
@@ -2768,26 +2795,37 @@
                 }
               }
             },
-            "Description_en": "Ishikari 1st Zone",
+            "Description_en": "Tokyo 1st Zone",
             "IsDummy": false,
             "UserSVLANIDDef": "200-1001,1025-3500",
-            "BridgeIndex": 1,
-            "SharedSVLANIDDef": "100-139",
-            "PhysicalGroup": 30001,
+            "BridgeIndex": 99,
+            "SharedSVLANIDDef": "100-149",
+            "PhysicalGroup": 20001,
             "Remark": {
               "TargetManager": {
-                "Real1IPAddress": "192.168.8.218",
-                "IPAddress": "192.168.8.220",
-                "Real2IPAddress": "192.168.8.219"
+                "Real1IPAddress": "192.168.6.123",
+                "IPAddress": "192.168.6.125",
+                "Real2IPAddress": "192.168.6.124"
               },
               "Appliance": {
+                "database": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112900422239",
+                    "3": "112900422239",
+                    "1-old": "112800999313",
+                    "2": "112900422239"
+                  }
+                },
                 "loadbalancer": {
                   "Icon": {
                     "ID": null
                   },
                   "SourceArchive": {
-                    "1": "112700885058",
-                    "2": "112700885058"
+                    "1": "112700943418",
+                    "2": "112700943418"
                   }
                 },
                 "vpcrouter": {
@@ -2795,21 +2833,21 @@
                     "ID": null
                   },
                   "SourceArchive": {
-                    "1": "112600461236",
-                    "3": "112600461236",
-                    "2": "112600461236"
+                    "1": "112700943417",
+                    "3": "112700943417",
+                    "2": "112700943417"
                   }
                 }
               },
               "Bridge": {
-                "LAGNumber": 1
+                "LAGNumber": 101
               },
               "Worker": {
-                "ConfigDirectory": "/var/mnt/s03100197001-archive/config",
-                "Real1IPAddress": "10.131.1.118",
-                "IPAddress": "10.131.1.42",
+                "ConfigDirectory": "/var/mnt/s02100197001-archive/config",
+                "Real1IPAddress": "10.132.1.31",
+                "IPAddress": "10.132.1.30",
                 "CopyJobTimeoutSecPerGiB": 67.5,
-                "Real2IPAddress": "10.131.1.120"
+                "Real2IPAddress": "10.132.1.32"
               },
               "Host": {
                 "Selection": {
@@ -2819,7 +2857,7 @@
               },
               "Watchers": [
                 {
-                  "IPAddress": "10.131.1.105",
+                  "IPAddress": "10.132.1.51",
                   "Name": "perfmate1"
                 }
               ],
@@ -2840,13 +2878,13 @@
                 }
               }
             },
-            "Description": "石狩第1ゾーン",
-            "Name": "is1a"
+            "Description": "東京第1ゾーン",
+            "Name": "tk1a"
           }
         }
       },
       "ServiceClass": "cloud/archive/20g",
-      "CreatedAt": "2017-04-19T17:48:35+09:00",
+      "CreatedAt": "2017-05-09T10:38:46+09:00",
       "Icon": null,
       "Plan": {
         "ID": 2,
@@ -2913,7 +2951,7 @@
         "arch-64bit",
         "current-stable",
         "distro-rancheros",
-        "distro-ver-1-0-0",
+        "distro-ver-1.0.1",
         "os-linux"
       ]
     },
@@ -3165,7 +3203,8 @@
         "Attr": {
           "Constraint": {
             "MaxCPU": 0
-          }
+          },
+          "RequireInitialize": true
         }
       },
       "Storage": {
@@ -3479,7 +3518,8 @@
         "Attr": {
           "Constraint": {
             "MaxCPU": 0
-          }
+          },
+          "RequireInitialize": true
         }
       },
       "Storage": {
