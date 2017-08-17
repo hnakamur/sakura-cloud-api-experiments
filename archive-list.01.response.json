@@ -268,534 +268,10 @@
     },
     {
       "Index": 1,
-      "ID": "112900184396",
-      "DisplayOrder": "100100403100",
-      "Name": "SiteGuard Lite Ver3.10 (CentOS 7.3)",
-      "Description": "<div class=\"lang ja\">\n管理ユーザ名は「root」です。\nサーバ作成後、rootユーザでログインしてください。\n<div class=\"advanced\">\n全サイズ対応：選択されたディスクプランに合わせてパーティションサイズが最適化されます。\n</div>\nセットアップ手順は下記リンク先の [JP Secure SiteGuard Lite ご利用ガイド] をご参照ください。\n<a href=\"http://cloud-news.sakura.ad.jp/siteguard-litewaf/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/siteguard-litewaf/</a>\n\n上記サイト内のドキュメント閲覧用のパスワードは下記になります。\nsakuracloud\n</div>\n<div class=\"lang en\">\nThe administrator account name is \"root\".\nPlease login as \"root\" after the server has been created.\n<div class=\"advanced\">\nthis is a size extendable archive : partition size will be optimized to the capacity of the disk you selected\n</div>\nFor detailed setup instructions, please refer to [JP Secure SiteGuard Lite user's guide].\n<a href=\"http://cloud-news.sakura.ad.jp/siteguard-litewaf/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/siteguard-litewaf/</a>\n\nPlease enter the password \"sakuracloud\" to view the document linked above.\n</div>",
-      "Scope": "shared",
-      "Availability": "available",
-      "SizeMB": 20480,
-      "MigratedMB": null,
-      "WaitingJobCount": null,
-      "JobStatus": null,
-      "OriginalArchive": {
-        "ID": "112900184396"
-      },
-      "SourceInfo": {
-        "ArchiveUnderZone": {
-          "ID": "112900182875",
-          "Account": {
-            "Member": {
-              "ID": "system",
-              "OperationPenalty": "none",
-              "IsEmailSakura": null,
-              "Code": "system",
-              "LastName": null,
-              "Errors": null,
-              "IsOTPSet": false,
-              "Remark": null,
-              "Class": "internal",
-              "OTP": null,
-              "DefaultPaymentMethod": "foc",
-              "Attr": null,
-              "InstancePenalty": "none",
-              "AccountClassLimit": "admin"
-            },
-            "PaymentMethod": "foc",
-            "ID": 1,
-            "Availability": "available",
-            "Code": "root",
-            "IsPasswordSet": true,
-            "Class": "admin",
-            "PasswordEncrypted": "IohMAry4E7bxcFXrwB/9xN7sjx/VXls=",
-            "Name": "internal.system.root",
-            "Description": ""
-          },
-          "Zone": {
-            "ID": 31001,
-            "FTPServer": {
-              "BGIPAddress": "10.131.1.42",
-              "IPAddress": "133.242.31.244",
-              "HostName": "sac-is1a-ssl.cloud.sakura.ad.jp"
-            },
-            "VNCProxy": {
-              "BGIPAddress": "10.131.1.42",
-              "IPAddress": "133.242.31.244",
-              "HostName": "sac-is1a-ssl.cloud.sakura.ad.jp"
-            },
-            "DisplayOrder": 20031001,
-            "Region": {
-              "ID": 310,
-              "Description_ja": "石狩",
-              "Bridge": {
-                "UserName": "admin",
-                "IPAddress": "0.0.0.0"
-              },
-              "Description_en": "Ishikari",
-              "Branch": "master",
-              "NameServers": [
-                "133.242.0.3",
-                "133.242.0.4"
-              ],
-              "Name_en": "Ishikari",
-              "PhysicalGroup": 3,
-              "Name": "石狩",
-              "Description": "石狩",
-              "Name_ja": "石狩"
-            },
-            "Description_ja": "石狩第1ゾーン",
-            "Manager": {
-              "BandWidthMbps": 500,
-              "IPAddress": "10.131.1.42"
-            },
-            "Settings": {
-              "CommonServiceItem": {
-                "Autobackup": {
-                  "Settings": {
-                    "BackupHour": {
-                      "Disable": [
-                        0,
-                        6
-                      ]
-                    }
-                  }
-                }
-              },
-              "DisablePassport": true,
-              "Subnet": {
-                "Plan": {
-                  "Member": [
-                    28,
-                    27,
-                    26
-                  ],
-                  "Staff": [
-                    28,
-                    27,
-                    26,
-                    25,
-                    24
-                  ]
-                }
-              }
-            },
-            "Description_en": "Ishikari 1st Zone",
-            "IsDummy": false,
-            "UserSVLANIDDef": "200-1001,1025-3500",
-            "BridgeIndex": 1,
-            "SharedSVLANIDDef": "100-139",
-            "PhysicalGroup": 30001,
-            "Remark": {
-              "TargetManager": {
-                "Real1IPAddress": "192.168.8.218",
-                "IPAddress": "192.168.8.220",
-                "Real2IPAddress": "192.168.8.219"
-              },
-              "Appliance": {
-                "loadbalancer": {
-                  "Icon": {
-                    "ID": null
-                  },
-                  "SourceArchive": {
-                    "1": "112700885058",
-                    "2": "112700885058"
-                  }
-                },
-                "vpcrouter": {
-                  "Icon": {
-                    "ID": null
-                  },
-                  "SourceArchive": {
-                    "1": "112600461236",
-                    "3": "112600461236",
-                    "2": "112600461236"
-                  }
-                }
-              },
-              "Bridge": {
-                "LAGNumber": 1
-              },
-              "Worker": {
-                "ConfigDirectory": "/var/mnt/s03100197001-archive/config",
-                "Real1IPAddress": "10.131.1.118",
-                "IPAddress": "10.131.1.42",
-                "CopyJobTimeoutSecPerGiB": 67.5,
-                "Real2IPAddress": "10.131.1.120"
-              },
-              "Host": {
-                "Selection": {
-                  "Span": 4,
-                  "Shuffle": true
-                }
-              },
-              "Watchers": [
-                {
-                  "IPAddress": "10.131.1.105",
-                  "Name": "perfmate1"
-                }
-              ],
-              "Subnet": {
-                "Plan": {
-                  "Member": [
-                    28,
-                    27,
-                    26
-                  ],
-                  "Staff": [
-                    28,
-                    27,
-                    26,
-                    25,
-                    24
-                  ]
-                }
-              }
-            },
-            "Description": "石狩第1ゾーン",
-            "Name": "is1a"
-          }
-        }
-      },
-      "ServiceClass": "cloud/archive/20g",
-      "CreatedAt": "2017-02-09T11:13:58+09:00",
-      "Icon": null,
-      "Plan": {
-        "ID": 2,
-        "StorageClass": "iscsi1204",
-        "Name": "標準プラン"
-      },
-      "SourceDisk": null,
-      "SourceArchive": null,
-      "BundleInfo": null,
-      "Storage": {
-        "ID": "2900197001",
-        "Class": "iscsi1204",
-        "Name": "sac-tk1v-dummy-arc-st01",
-        "Description": "",
-        "Zone": {
-          "ID": 29001,
-          "DisplayOrder": 80029001,
-          "Name": "tk1v",
-          "Description": "Sandbox",
-          "IsDummy": true,
-          "VNCProxy": {
-            "HostName": "sac-tk1v-ssl.example.jp",
-            "IPAddress": "0.0.0.1"
-          },
-          "FTPServer": {
-            "HostName": "sac-tk1v-ftp.example.jp",
-            "IPAddress": "0.0.0.1"
-          },
-          "Settings": {
-            "Subnet": {
-              "Plan": {
-                "Member": [
-                  28,
-                  27,
-                  26
-                ],
-                "Staff": [
-                  28,
-                  27,
-                  26,
-                  25,
-                  24
-                ]
-              }
-            }
-          },
-          "Region": {
-            "ID": 290,
-            "Name": "Sandbox",
-            "Description": "Sandbox",
-            "NameServers": [
-              "133.242.0.3",
-              "133.242.0.4"
-            ]
-          }
-        },
-        "DiskPlan": {
-          "ID": 2,
-          "StorageClass": "iscsi1204",
-          "Name": "標準プラン"
-        }
-      },
-      "Tags": [
-        "@size-extendable",
-        "arch-64bit",
-        "current-stable",
-        "os-linux",
-        "pkg-siteguard"
-      ]
-    },
-    {
-      "Index": 2,
-      "ID": "112900184440",
-      "DisplayOrder": "100100403100",
-      "Name": "SiteGuard Lite Ver3.10 (CentOS 6.8)",
-      "Description": "<div class=\"lang ja\">\n管理ユーザ名は「root」です。\nサーバ作成後、rootユーザでログインしてください。\n<div class=\"advanced\">\n全サイズ対応：選択されたディスクプランに合わせてパーティションサイズが最適化されます。\n</div>\nセットアップ手順は下記リンク先の [JP Secure SiteGuard Lite ご利用ガイド] をご参照ください。\n<a href=\"http://cloud-news.sakura.ad.jp/siteguard-litewaf/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/siteguard-litewaf/</a>\n\n上記サイト内のドキュメント閲覧用のパスワードは下記になります。\nsakuracloud\n</div>\n<div class=\"lang en\">\nThe administrator account name is \"root\".\nPlease login as \"root\" after the server has been created.\n<div class=\"advanced\">\nthis is a size extendable archive : partition size will be optimized to the capacity of the disk you selected\n</div>\nFor detailed setup instructions, please refer to [JP Secure SiteGuard Lite user's guide].\n<a href=\"http://cloud-news.sakura.ad.jp/siteguard-litewaf/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/siteguard-litewaf/</a>\n\nPlease enter the password \"sakuracloud\" to view the document linked above.\n</div>",
-      "Scope": "shared",
-      "Availability": "available",
-      "SizeMB": 20480,
-      "MigratedMB": null,
-      "WaitingJobCount": null,
-      "JobStatus": null,
-      "OriginalArchive": {
-        "ID": "112900184440"
-      },
-      "SourceInfo": {
-        "ArchiveUnderZone": {
-          "ID": "112900182727",
-          "Account": {
-            "Member": {
-              "ID": "system",
-              "OperationPenalty": "none",
-              "IsEmailSakura": null,
-              "Code": "system",
-              "LastName": null,
-              "Errors": null,
-              "IsOTPSet": false,
-              "Remark": null,
-              "Class": "internal",
-              "OTP": null,
-              "DefaultPaymentMethod": "foc",
-              "Attr": null,
-              "InstancePenalty": "none",
-              "AccountClassLimit": "admin"
-            },
-            "PaymentMethod": "foc",
-            "ID": 1,
-            "Availability": "available",
-            "Code": "root",
-            "IsPasswordSet": true,
-            "Class": "admin",
-            "PasswordEncrypted": "IohMAry4E7bxcFXrwB/9xN7sjx/VXls=",
-            "Name": "internal.system.root",
-            "Description": ""
-          },
-          "Zone": {
-            "ID": 31001,
-            "FTPServer": {
-              "BGIPAddress": "10.131.1.42",
-              "IPAddress": "133.242.31.244",
-              "HostName": "sac-is1a-ssl.cloud.sakura.ad.jp"
-            },
-            "VNCProxy": {
-              "BGIPAddress": "10.131.1.42",
-              "IPAddress": "133.242.31.244",
-              "HostName": "sac-is1a-ssl.cloud.sakura.ad.jp"
-            },
-            "DisplayOrder": 20031001,
-            "Region": {
-              "ID": 310,
-              "Description_ja": "石狩",
-              "Bridge": {
-                "UserName": "admin",
-                "IPAddress": "0.0.0.0"
-              },
-              "Description_en": "Ishikari",
-              "Branch": "master",
-              "NameServers": [
-                "133.242.0.3",
-                "133.242.0.4"
-              ],
-              "Name_en": "Ishikari",
-              "PhysicalGroup": 3,
-              "Name": "石狩",
-              "Description": "石狩",
-              "Name_ja": "石狩"
-            },
-            "Description_ja": "石狩第1ゾーン",
-            "Manager": {
-              "BandWidthMbps": 500,
-              "IPAddress": "10.131.1.42"
-            },
-            "Settings": {
-              "CommonServiceItem": {
-                "Autobackup": {
-                  "Settings": {
-                    "BackupHour": {
-                      "Disable": [
-                        0,
-                        6
-                      ]
-                    }
-                  }
-                }
-              },
-              "DisablePassport": true,
-              "Subnet": {
-                "Plan": {
-                  "Member": [
-                    28,
-                    27,
-                    26
-                  ],
-                  "Staff": [
-                    28,
-                    27,
-                    26,
-                    25,
-                    24
-                  ]
-                }
-              }
-            },
-            "Description_en": "Ishikari 1st Zone",
-            "IsDummy": false,
-            "UserSVLANIDDef": "200-1001,1025-3500",
-            "BridgeIndex": 1,
-            "SharedSVLANIDDef": "100-139",
-            "PhysicalGroup": 30001,
-            "Remark": {
-              "TargetManager": {
-                "Real1IPAddress": "192.168.8.218",
-                "IPAddress": "192.168.8.220",
-                "Real2IPAddress": "192.168.8.219"
-              },
-              "Appliance": {
-                "loadbalancer": {
-                  "Icon": {
-                    "ID": null
-                  },
-                  "SourceArchive": {
-                    "1": "112700885058",
-                    "2": "112700885058"
-                  }
-                },
-                "vpcrouter": {
-                  "Icon": {
-                    "ID": null
-                  },
-                  "SourceArchive": {
-                    "1": "112600461236",
-                    "3": "112600461236",
-                    "2": "112600461236"
-                  }
-                }
-              },
-              "Bridge": {
-                "LAGNumber": 1
-              },
-              "Worker": {
-                "ConfigDirectory": "/var/mnt/s03100197001-archive/config",
-                "Real1IPAddress": "10.131.1.118",
-                "IPAddress": "10.131.1.42",
-                "CopyJobTimeoutSecPerGiB": 67.5,
-                "Real2IPAddress": "10.131.1.120"
-              },
-              "Host": {
-                "Selection": {
-                  "Span": 4,
-                  "Shuffle": true
-                }
-              },
-              "Watchers": [
-                {
-                  "IPAddress": "10.131.1.105",
-                  "Name": "perfmate1"
-                }
-              ],
-              "Subnet": {
-                "Plan": {
-                  "Member": [
-                    28,
-                    27,
-                    26
-                  ],
-                  "Staff": [
-                    28,
-                    27,
-                    26,
-                    25,
-                    24
-                  ]
-                }
-              }
-            },
-            "Description": "石狩第1ゾーン",
-            "Name": "is1a"
-          }
-        }
-      },
-      "ServiceClass": "cloud/archive/20g",
-      "CreatedAt": "2017-02-09T11:22:50+09:00",
-      "Icon": null,
-      "Plan": {
-        "ID": 2,
-        "StorageClass": "iscsi1204",
-        "Name": "標準プラン"
-      },
-      "SourceDisk": null,
-      "SourceArchive": null,
-      "BundleInfo": null,
-      "Storage": {
-        "ID": "2900197001",
-        "Class": "iscsi1204",
-        "Name": "sac-tk1v-dummy-arc-st01",
-        "Description": "",
-        "Zone": {
-          "ID": 29001,
-          "DisplayOrder": 80029001,
-          "Name": "tk1v",
-          "Description": "Sandbox",
-          "IsDummy": true,
-          "VNCProxy": {
-            "HostName": "sac-tk1v-ssl.example.jp",
-            "IPAddress": "0.0.0.1"
-          },
-          "FTPServer": {
-            "HostName": "sac-tk1v-ftp.example.jp",
-            "IPAddress": "0.0.0.1"
-          },
-          "Settings": {
-            "Subnet": {
-              "Plan": {
-                "Member": [
-                  28,
-                  27,
-                  26
-                ],
-                "Staff": [
-                  28,
-                  27,
-                  26,
-                  25,
-                  24
-                ]
-              }
-            }
-          },
-          "Region": {
-            "ID": 290,
-            "Name": "Sandbox",
-            "Description": "Sandbox",
-            "NameServers": [
-              "133.242.0.3",
-              "133.242.0.4"
-            ]
-          }
-        },
-        "DiskPlan": {
-          "ID": 2,
-          "StorageClass": "iscsi1204",
-          "Name": "標準プラン"
-        }
-      },
-      "Tags": [
-        "@size-extendable",
-        "arch-64bit",
-        "current-stable",
-        "os-linux",
-        "pkg-siteguard"
-      ]
-    },
-    {
-      "Index": 3,
       "ID": "112900439759",
       "DisplayOrder": "100100609010",
       "Name": "CentOS 6.9 64bit",
-      "Description": "<div class=\"lang ja\">\n管理ユーザ名は「root」です。\nサーバ作成後、rootユーザでログインしてください。\n<div class=\"advanced\">\n全サイズ対応：選択されたディスクプランに合わせてパーティションサイズが最適化されます。\n</div>\n</div>\n<div class=\"lang en\">\nThe administrator account name is \"root\".\nPlease login as \"root\" after the server has been created.\n<div class=\"advanced\">\nthis is a size extendable archive : partition size will be optimized to the capacity of the disk you selected\n</div>\n</div>",
+      "Description": "<div class=\"lang ja\">\n管理ユーザ名は「root」です。\nサーバ作成後、rootユーザでログインしてください。\n初期設定・パッケージ情報等、リリースノートは次のURLを参照してください。\n <a href=\"https://cloud-news.sakura.ad.jp/public_archive_iso/centos69-releasenote/\" target=\"_blank\">https://cloud-news.sakura.ad.jp/public_archive_iso/centos69-releasenote/</a>\n<div class=\"advanced\">\n全サイズ対応：選択されたディスクプランに合わせてパーティションサイズが最適化されます。\n</div>\n</div>\n<div class=\"lang en\">\nThe administrator account name is \"root\".\nPlease login as \"root\" after the server has been created.\nAnd, please check this release note.\n <a href=\"https://cloud-news.sakura.ad.jp/public_archive_iso/centos69-releasenote/\" target=\"_blank\">https://cloud-news.sakura.ad.jp/public_archive_iso/centos69-releasenote/</a>\n<div class=\"advanced\">\nthis is a size extendable archive : partition size will be optimized to the capacity of the disk you selected\n</div>\n</div>",
       "Scope": "shared",
       "Availability": "available",
       "SizeMB": 20480,
@@ -1050,11 +526,11 @@
       ]
     },
     {
-      "Index": 4,
+      "Index": 2,
       "ID": "112900084258",
       "DisplayOrder": "100100703010",
       "Name": "CentOS 7.3 (1611) 64bit",
-      "Description": "<div class=\"lang ja\">\n管理ユーザ名は「root」です。\nサーバ作成後、rootユーザでログインしてください。\n<div class=\"advanced\">\n全サイズ対応：選択されたディスクプランに合わせてパーティションサイズが最適化されます。\n</div>\n</div>\n<div class=\"lang en\">\nThe administrator account name is \"root\".\nPlease login as \"root\" after the server has been created.\n<div class=\"advanced\">\nthis is a size extendable archive : partition size will be optimized to the capacity of the disk you selected\n</div>\n</div>",
+      "Description": "<div class=\"lang ja\">\n管理ユーザ名は「root」です。\nサーバ作成後、rootユーザでログインしてください。\n初期設定・パッケージ情報等、リリースノートは次のURLを参照してください。\n <a href=\"https://cloud-news.sakura.ad.jp/public_archive_iso/centos73-releasenote/\" target=\"_blank\">https://cloud-news.sakura.ad.jp/public_archive_iso/centos73-releasenote/</a>\n<div class=\"advanced\">\n全サイズ対応：選択されたディスクプランに合わせてパーティションサイズが最適化されます。\n</div>\n</div>\n<div class=\"lang en\">\nThe administrator account name is \"root\".\nPlease login as \"root\" after the server has been created.\nAnd, please check this release note.\n <a href=\"https://cloud-news.sakura.ad.jp/public_archive_iso/centos73-releasenote/\" target=\"_blank\">https://cloud-news.sakura.ad.jp/public_archive_iso/centos73-releasenote/</a>\n<div class=\"advanced\">\nthis is a size extendable archive : partition size will be optimized to the capacity of the disk you selected\n</div>\n</div>",
       "Scope": "shared",
       "Availability": "available",
       "SizeMB": 20480,
@@ -1313,7 +789,7 @@
       ]
     },
     {
-      "Index": 5,
+      "Index": 3,
       "ID": "112600699404",
       "DisplayOrder": "100301003010",
       "Name": "FreeBSD 10.3 64bit",
@@ -1401,7 +877,7 @@
       ]
     },
     {
-      "Index": 6,
+      "Index": 4,
       "ID": "112600699417",
       "DisplayOrder": "100301003011",
       "Name": "FreeBSD 10.3 64bit",
@@ -1489,7 +965,7 @@
       ]
     },
     {
-      "Index": 7,
+      "Index": 5,
       "ID": "112700955895",
       "DisplayOrder": "100401404410",
       "Name": "Ubuntu Server 14.04.4 LTS 64bit",
@@ -1722,8 +1198,8 @@
       ]
     },
     {
-      "Index": 8,
-      "ID": "112900439822",
+      "Index": 6,
+      "ID": "112900758037",
       "DisplayOrder": "100401604210",
       "Name": "Ubuntu Server 16.04.2 LTS 64bit",
       "Description": "<div class=\"lang ja\">\n管理ユーザ名は「ubuntu」です。\nサーバ作成後、ubuntuユーザでログインしてください。\n<div class=\"advanced\">\n全サイズ対応：選択されたディスクプランに合わせてパーティションサイズが最適化されます。\n</div>\n</div>\n<div class=\"lang en\">\nThe administrator account name is \"ubuntu\".\nPlease login as \"ubuntu\" after the server has been created.\n<div class=\"advanced\">\nthis is a size extendable archive : partition size will be optimized to the capacity of the disk you selected\n</div>\n</div>",
@@ -1734,11 +1210,11 @@
       "WaitingJobCount": null,
       "JobStatus": null,
       "OriginalArchive": {
-        "ID": "112900439822"
+        "ID": "112900758037"
       },
       "SourceInfo": {
         "ArchiveUnderZone": {
-          "ID": "112900439740",
+          "ID": "112900757970",
           "Account": {
             "Member": {
               "ID": "system",
@@ -1767,18 +1243,18 @@
             "Description": ""
           },
           "Zone": {
-            "ID": 31001,
+            "ID": 31002,
             "FTPServer": {
-              "BGIPAddress": "10.131.1.42",
-              "IPAddress": "133.242.31.244",
-              "HostName": "sac-is1a-ssl.cloud.sakura.ad.jp"
+              "BGIPAddress": "10.131.63.3",
+              "IPAddress": "133.242.239.244",
+              "HostName": "sac-is1b-ftp.cloud.sakura.ad.jp"
             },
             "VNCProxy": {
-              "BGIPAddress": "10.131.1.42",
-              "IPAddress": "133.242.31.244",
-              "HostName": "sac-is1a-ssl.cloud.sakura.ad.jp"
+              "BGIPAddress": "10.131.63.3",
+              "IPAddress": "133.242.239.244",
+              "HostName": "sac-is1b-ssl.cloud.sakura.ad.jp"
             },
-            "DisplayOrder": 20031001,
+            "DisplayOrder": 20031002,
             "Region": {
               "ID": 310,
               "Description_ja": "石狩",
@@ -1798,12 +1274,40 @@
               "Description": "石狩",
               "Name_ja": "石狩"
             },
-            "Description_ja": "石狩第1ゾーン",
+            "Description_ja": "石狩第2ゾーン",
             "Manager": {
               "BandWidthMbps": 500,
-              "IPAddress": "10.131.1.42"
+              "IPAddress": "10.131.63.3"
             },
             "Settings": {
+              "Appliance": {
+                "Database": {
+                  "Products": [
+                    {
+                      "Versions": [
+                        "9.6.2"
+                      ],
+                      "Availability": "available",
+                      "DefaultPort": 5432,
+                      "Name": "PostgreSQL",
+                      "Package": "postgres"
+                    },
+                    {
+                      "Versions": [
+                        "10.1.22"
+                      ],
+                      "Availability": "available",
+                      "DefaultPort": 3306,
+                      "Name": "MariaDB",
+                      "Package": "MariaDB"
+                    }
+                  ],
+                  "Backup": {
+                    "LockLimit": 8,
+                    "RotateLimit": 8
+                  }
+                }
+              },
               "CommonServiceItem": {
                 "Autobackup": {
                   "Settings": {
@@ -1813,7 +1317,6 @@
                   }
                 }
               },
-              "DisablePassport": true,
               "Subnet": {
                 "Plan": {
                   "Member": [
@@ -1831,17 +1334,27 @@
                 }
               }
             },
-            "Description_en": "Ishikari 1st Zone",
+            "Description_en": "Ishikari 2nd Zone",
             "IsDummy": false,
             "UserSVLANIDDef": "200-1001,1025-3500",
-            "BridgeIndex": 1,
-            "SharedSVLANIDDef": "100-139",
-            "PhysicalGroup": 30001,
+            "BridgeIndex": 2,
+            "SharedSVLANIDDef": "100-149",
+            "PhysicalGroup": 30002,
             "Remark": {
               "TargetManager": {
-                "Real1IPAddress": "192.168.8.218",
-                "IPAddress": "192.168.8.220",
-                "Real2IPAddress": "192.168.8.219"
+                "Real1IPAddress": "192.168.6.120",
+                "IPAddress": "192.168.6.122",
+                "Real2IPAddress": "192.168.6.121"
+              },
+              "Licence": {
+                "CDROM": {
+                  "SQLSERVER": {
+                    "2016": {
+                      "web": "112900577264",
+                      "standard": "112900577278"
+                    }
+                  }
+                }
               },
               "Appliance": {
                 "loadbalancer": {
@@ -1849,8 +1362,8 @@
                     "ID": null
                   },
                   "SourceArchive": {
-                    "1": "112700885058",
-                    "2": "112700885058"
+                    "1": "112700885887",
+                    "2": "112700885887"
                   }
                 },
                 "vpcrouter": {
@@ -1858,34 +1371,29 @@
                     "ID": null
                   },
                   "SourceArchive": {
-                    "1": "112600461236",
-                    "3": "112600461236",
-                    "2": "112600461236"
+                    "1": "112600461313",
+                    "3": "112600461313",
+                    "2": "112600461313"
                   }
                 }
               },
               "Bridge": {
-                "LAGNumber": 1
+                "LAGNumber": 5
               },
               "Worker": {
-                "ConfigDirectory": "/var/mnt/s03100197001-archive/config",
-                "Real1IPAddress": "10.131.1.118",
-                "IPAddress": "10.131.1.42",
+                "ConfigDirectory": "/var/mnt/s03100297001-archive/config",
+                "Real1IPAddress": "10.131.63.13",
+                "IPAddress": "10.131.63.3",
                 "CopyJobTimeoutSecPerGiB": 67.5,
-                "Real2IPAddress": "10.131.1.120"
+                "Real2IPAddress": "10.131.63.14"
               },
               "Host": {
+                "BondingIF": "bond96",
                 "Selection": {
                   "Span": 4,
                   "Shuffle": true
                 }
               },
-              "Watchers": [
-                {
-                  "IPAddress": "10.131.1.105",
-                  "Name": "perfmate1"
-                }
-              ],
               "Subnet": {
                 "Plan": {
                   "Member": [
@@ -1903,13 +1411,13 @@
                 }
               }
             },
-            "Description": "石狩第1ゾーン",
-            "Name": "is1a"
+            "Description": "石狩第2ゾーン",
+            "Name": "is1b"
           }
         }
       },
       "ServiceClass": "cloud/archive/20g",
-      "CreatedAt": "2017-04-10T17:01:08+09:00",
+      "CreatedAt": "2017-06-16T11:14:40+09:00",
       "Icon": null,
       "Plan": {
         "ID": 2,
@@ -1982,11 +1490,11 @@
       ]
     },
     {
-      "Index": 9,
-      "ID": "112600699410",
-      "DisplayOrder": "100500711010",
-      "Name": "Debian GNU/Linux 7.11.0 64bit",
-      "Description": "<div class=\"lang ja\">\n管理ユーザ名は「root」です。\nサーバ作成後、rootユーザでログインしてください。\n<div class=\"advanced\">\n全サイズ対応：選択されたディスクプランに合わせてパーティションサイズが最適化されます。\n</div>\n</div>\n<div class=\"lang en\">\nThe administrator account name is \"root\".\nPlease login as \"root\" after the server has been created.\n<div class=\"advanced\">\nthis is a size extendable archive : partition size will be optimized to the capacity of the disk you selected\n</div>\n</div>",
+      "Index": 7,
+      "ID": "112901014759",
+      "DisplayOrder": "100500809010",
+      "Name": "Debian GNU/Linux 8.9.0 64bit",
+      "Description": "<div class=\"lang ja\">\n管理ユーザ名は「root」です。\nサーバ作成後、rootユーザでログインしてください。\n<div class=\"advanced\">\n全サイズ対応：選択されたディスクプランに合わせてパーティションサイズが最適化されます。\n</div>\n</div>\n<div class=\"lang en\">\nThe administrator account name is \"root\".\nPlease login as \"root\" after the server has been created.\n<div class=\"advanced\">\nthis is a size extendable archive : partition size will be optimized to the capacity of the disk you selected\n</div>\n</div>\n",
       "Scope": "shared",
       "Availability": "available",
       "SizeMB": 20480,
@@ -1994,99 +1502,11 @@
       "WaitingJobCount": null,
       "JobStatus": null,
       "OriginalArchive": {
-        "ID": "112600699410"
-      },
-      "SourceInfo": null,
-      "ServiceClass": "cloud/archive/20g",
-      "CreatedAt": "2014-09-03T17:56:13+09:00",
-      "Icon": null,
-      "Plan": {
-        "ID": 2,
-        "StorageClass": "iscsi1204",
-        "Name": "標準プラン"
-      },
-      "SourceDisk": null,
-      "SourceArchive": null,
-      "BundleInfo": null,
-      "Storage": {
-        "ID": "2900197001",
-        "Class": "iscsi1204",
-        "Name": "sac-tk1v-dummy-arc-st01",
-        "Description": "",
-        "Zone": {
-          "ID": 29001,
-          "DisplayOrder": 80029001,
-          "Name": "tk1v",
-          "Description": "Sandbox",
-          "IsDummy": true,
-          "VNCProxy": {
-            "HostName": "sac-tk1v-ssl.example.jp",
-            "IPAddress": "0.0.0.1"
-          },
-          "FTPServer": {
-            "HostName": "sac-tk1v-ftp.example.jp",
-            "IPAddress": "0.0.0.1"
-          },
-          "Settings": {
-            "Subnet": {
-              "Plan": {
-                "Member": [
-                  28,
-                  27,
-                  26
-                ],
-                "Staff": [
-                  28,
-                  27,
-                  26,
-                  25,
-                  24
-                ]
-              }
-            }
-          },
-          "Region": {
-            "ID": 290,
-            "Name": "Sandbox",
-            "Description": "Sandbox",
-            "NameServers": [
-              "133.242.0.3",
-              "133.242.0.4"
-            ]
-          }
-        },
-        "DiskPlan": {
-          "ID": 2,
-          "StorageClass": "iscsi1204",
-          "Name": "標準プラン"
-        }
-      },
-      "Tags": [
-        "@size-extendable",
-        "arch-64bit",
-        "distro-debian",
-        "distro-ver-7.11.0",
-        "os-linux"
-      ]
-    },
-    {
-      "Index": 10,
-      "ID": "112900116553",
-      "DisplayOrder": "100500807110",
-      "Name": "Debian GNU/Linux 8.7.1 64bit",
-      "Description": "<div class=\"lang ja\">\n管理ユーザ名は「root」です。\nサーバ作成後、rootユーザでログインしてください。\n<div class=\"advanced\">\n全サイズ対応：選択されたディスクプランに合わせてパーティションサイズが最適化されます。\n</div>\n</div>\n<div class=\"lang en\">\nThe administrator account name is \"root\".\nPlease login as \"root\" after the server has been created.\n<div class=\"advanced\">\nthis is a size extendable archive : partition size will be optimized to the capacity of the disk you selected\n</div>\n</div>",
-      "Scope": "shared",
-      "Availability": "available",
-      "SizeMB": 20480,
-      "MigratedMB": null,
-      "WaitingJobCount": null,
-      "JobStatus": null,
-      "OriginalArchive": {
-        "ID": "112900116553"
+        "ID": "112901014759"
       },
       "SourceInfo": {
         "ArchiveUnderZone": {
-          "ID": "112900116320",
+          "ID": "112901014711",
           "Account": {
             "Member": {
               "ID": "system",
@@ -2119,7 +1539,7 @@
             "FTPServer": {
               "BGIPAddress": "10.131.1.42",
               "IPAddress": "133.242.31.244",
-              "HostName": "sac-is1a-ssl.cloud.sakura.ad.jp"
+              "HostName": "sac-is1a-ftp.cloud.sakura.ad.jp"
             },
             "VNCProxy": {
               "BGIPAddress": "10.131.1.42",
@@ -2155,10 +1575,10 @@
               "CommonServiceItem": {
                 "Autobackup": {
                   "Settings": {
-                    "BackupHour": {
+                    "BackupSpanWeekdays": {
                       "Disable": [
-                        0,
-                        6
+                        "mon",
+                        "fri"
                       ]
                     }
                   }
@@ -2194,6 +1614,22 @@
                 "IPAddress": "192.168.8.220",
                 "Real2IPAddress": "192.168.8.219"
               },
+              "Licence": {
+                "CDROM": {
+                  "SQLSERVER": {
+                    "2014": {
+                      "standard": "112900884206"
+                    },
+                    "2016": {
+                      "web": "112900577284",
+                      "standard": "112900577321"
+                    }
+                  }
+                }
+              },
+              "Bridge": {
+                "LAGNumber": 1
+              },
               "Appliance": {
                 "loadbalancer": {
                   "Icon": {
@@ -2215,9 +1651,6 @@
                   }
                 }
               },
-              "Bridge": {
-                "LAGNumber": 1
-              },
               "Worker": {
                 "ConfigDirectory": "/var/mnt/s03100197001-archive/config",
                 "Real1IPAddress": "10.131.1.118",
@@ -2225,18 +1658,24 @@
                 "CopyJobTimeoutSecPerGiB": 67.5,
                 "Real2IPAddress": "10.131.1.120"
               },
-              "Host": {
-                "Selection": {
-                  "Span": 4,
-                  "Shuffle": true
-                }
-              },
               "Watchers": [
                 {
                   "IPAddress": "10.131.1.105",
                   "Name": "perfmate1"
                 }
               ],
+              "Host": {
+                "Selection": {
+                  "Span": 4,
+                  "Shuffle": true
+                }
+              },
+              "VNC": {
+                "IOServer": {
+                  "BGIPAddress": "192.168.6.130",
+                  "HostName": "sac-is1a-vnc.cloud.sakura.ad.jp"
+                }
+              },
               "Subnet": {
                 "Plan": {
                   "Member": [
@@ -2260,7 +1699,7 @@
         }
       },
       "ServiceClass": "cloud/archive/20g",
-      "CreatedAt": "2017-01-30T14:52:59+09:00",
+      "CreatedAt": "2017-08-09T10:43:55+09:00",
       "Icon": null,
       "Plan": {
         "ID": 2,
@@ -2328,12 +1767,12 @@
         "arch-64bit",
         "current-stable",
         "distro-debian",
-        "distro-ver-8.7.1",
+        "distro-ver-8.9.0",
         "os-linux"
       ]
     },
     {
-      "Index": 11,
+      "Index": 8,
       "ID": "112701060354",
       "DisplayOrder": "300300117010",
       "Name": "VyOS 1.1.7 64bit",
@@ -2571,7 +2010,7 @@
       ]
     },
     {
-      "Index": 12,
+      "Index": 9,
       "ID": "112600699426",
       "DisplayOrder": "300436701010",
       "Name": "CoreOS 367.1.0 (stable)",
@@ -2659,10 +2098,10 @@
       ]
     },
     {
-      "Index": 13,
-      "ID": "112900571238",
-      "DisplayOrder": "300500101000",
-      "Name": "RancherOS v1.0.1 LTS",
+      "Index": 10,
+      "ID": "112900877087",
+      "DisplayOrder": "300500103000",
+      "Name": "RancherOS v1.0.3",
       "Description": "<div class=\"lang ja\">\n管理ユーザ名は「rancher」です。\nサーバ作成後、rancherユーザでログインしてください。\n\n<span style=\"color:#d2322d\">[注意事項]\nサーバへの接続の際には公開鍵の登録が必須となります。\nリモートコンソールからのログインは出来ません。</span>\n<div class=\"advanced\">\nこちらは20GB固定サイズのアーカイブです。\n20GBより大きいディスクを作成する場合、\nパーティションをリサイズする cloud-config をご利用ください。\nhttps://docs.rancher.com/os/configuration/resizing-device-partition/\n</div>\n</div>\n<div class=\"lang en\">\nThe administrator account name is \"rancher\".\nPlease login as \"rancher\" after the server has been created.\n\n<span style=\"color:#d2322d\">[Notice]\nPublic key authentication is required to access RancherOS.\nPlease specify a public key in this page.\nYou cannot login to Remote Console using a password.</span>\n<div class=\"advanced\">\nThis is a 20GB fixed size archive.\nIf you create a disk larger than 20 GB,\nplease use cloud-config to resize the partition.\nhttps://docs.rancher.com/os/configuration/resizing-device-partition/\n</div>\n</div>",
       "Scope": "shared",
       "Availability": "available",
@@ -2671,11 +2110,11 @@
       "WaitingJobCount": null,
       "JobStatus": null,
       "OriginalArchive": {
-        "ID": "112900571238"
+        "ID": "112900877087"
       },
       "SourceInfo": {
         "ArchiveUnderZone": {
-          "ID": "112900571127",
+          "ID": "112900850550",
           "Account": {
             "Member": {
               "ID": "system",
@@ -2773,7 +2212,15 @@
                 "Autobackup": {
                   "Settings": {
                     "BackupSpanWeekdays": {
-                      "Disable": []
+                      "Disable": [
+                        "sun",
+                        "mon",
+                        "tue",
+                        "wed",
+                        "thu",
+                        "fri",
+                        "sat"
+                      ]
                     }
                   }
                 }
@@ -2807,6 +2254,22 @@
                 "IPAddress": "192.168.6.125",
                 "Real2IPAddress": "192.168.6.124"
               },
+              "Licence": {
+                "CDROM": {
+                  "SQLSERVER": {
+                    "2014": {
+                      "standard": "112900876298"
+                    },
+                    "2016": {
+                      "web": "112900571593",
+                      "standard": "112900571598"
+                    }
+                  }
+                }
+              },
+              "Bridge": {
+                "LAGNumber": 101
+              },
               "Appliance": {
                 "database": {
                   "Icon": {
@@ -2839,9 +2302,6 @@
                   }
                 }
               },
-              "Bridge": {
-                "LAGNumber": 101
-              },
               "Worker": {
                 "ConfigDirectory": "/var/mnt/s02100197001-archive/config",
                 "Real1IPAddress": "10.132.1.31",
@@ -2849,18 +2309,24 @@
                 "CopyJobTimeoutSecPerGiB": 67.5,
                 "Real2IPAddress": "10.132.1.32"
               },
-              "Host": {
-                "Selection": {
-                  "Span": 4,
-                  "Shuffle": true
-                }
-              },
               "Watchers": [
                 {
                   "IPAddress": "10.132.1.51",
                   "Name": "perfmate1"
                 }
               ],
+              "Host": {
+                "Selection": {
+                  "Span": 4,
+                  "Shuffle": true
+                }
+              },
+              "VNC": {
+                "IOServer": {
+                  "BGIPAddress": "192.168.6.134",
+                  "HostName": "sac-tk1a-vnc.cloud.sakura.ad.jp"
+                }
+              },
               "Subnet": {
                 "Plan": {
                   "Member": [
@@ -2884,7 +2350,7 @@
         }
       },
       "ServiceClass": "cloud/archive/20g",
-      "CreatedAt": "2017-05-09T10:38:46+09:00",
+      "CreatedAt": "2017-07-10T13:00:31+09:00",
       "Icon": null,
       "Plan": {
         "ID": 2,
@@ -2951,16 +2417,293 @@
         "arch-64bit",
         "current-stable",
         "distro-rancheros",
-        "distro-ver-1.0.1",
+        "distro-ver-1.0.3",
         "os-linux"
       ]
     },
     {
-      "Index": 14,
-      "ID": "112900355464",
-      "DisplayOrder": "478201620001",
-      "Name": "Windows Server 2016 for MS SQL 2016(Standard)",
-      "Description": "<div class=\"lang ja\">\n・Windows Server 2016 DataCenterにSQL Server 2016 Standard エディションがインストール済みの状態で提供されます。\n・サーバ、ディスク料金の他、ライセンスの利用料金が必要となります。\n・サーバ作成後、必要に応じてお客様にて初期設定を行ってください。\n・SQL Serverの利用料金はサーバのプランに応じて変更されます。\n　初期設定や料金、ご注意事項の詳細は以下URLを参照してください。\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/sqlserverplan/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/sqlserverplan/</a>\n<div class=\"advanced\">\n100GB以上の全サイズ対応：初回起動時に選択されたディスクプランに合わせてパーティションサイズが最適化されます。\n</div>\n</div>\n<div class=\"lang en\">\n・This archive includes Microsoft SQL Server 2016 Standard Edition installed on Windows Server 2016 Datacenter Edition.\n・License fee for operating system is not included to your server and disk charge.\n　An additional charge is required to use Windows OS and MS SQL Server Standard Edition.\n・You will need to perform initial configuration after creating a server.\n　Please refer to the link below for instructions.\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/sqlserverplan/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/sqlserverplan/</a>\n<div class=\"advanced\">\nsize extendable archive for 100GB+ disks : partition size will be optimized to the capacity of the disk at the first boot\n</div>\n</div>",
+      "Index": 11,
+      "ID": "112900580505",
+      "DisplayOrder": "300600175000",
+      "Name": "Plesk Onyx Web Pro Edition(CentOS7.x)",
+      "Description": "<div class=\"lang ja\">\n・サーバ、ディスク料金の他、Pleskの利用料金(月額)が必要となります。\n・本アーカイブはrootパスワードを設定することを推奨致します。\n・サーバ作成後、お客様にて初期設定を行ってください。\n  初期設定手順等の詳細は下記URLを参照してください。\n  <a href=\"http://cloud-news.sakura.ad.jp/plesk-plan/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/plesk-plan/</a>\n</div>\n</div>\n<div class=\"lang en\">\n- License fee for Plesk is not included to your server and disk charge.\n　An additional charge is required to use Plesk Archive.\n- Highly recommend set the root password for this server, if using this archive,\n- We recommend that you will set up the initial configuration of Plesk as soon as possible after creating the server.\n  For details of the initial configuration , license fee and etc, please refer to the following URL.\n  <a href=\"http://cloud-news.sakura.ad.jp/plesk-plan/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/plesk-plan/</a>\n</div>\n</div>",
+      "Scope": "shared",
+      "Availability": "available",
+      "SizeMB": 20480,
+      "MigratedMB": null,
+      "WaitingJobCount": null,
+      "JobStatus": null,
+      "OriginalArchive": {
+        "ID": "112900580505"
+      },
+      "SourceInfo": {
+        "ArchiveUnderZone": {
+          "ID": "112900576382",
+          "Account": {
+            "Member": {
+              "ID": "system",
+              "OperationPenalty": "none",
+              "IsEmailSakura": null,
+              "Code": "system",
+              "LastName": null,
+              "Errors": null,
+              "IsOTPSet": false,
+              "Remark": null,
+              "Class": "internal",
+              "OTP": null,
+              "DefaultPaymentMethod": "foc",
+              "Attr": null,
+              "InstancePenalty": "none",
+              "AccountClassLimit": "admin"
+            },
+            "PaymentMethod": "foc",
+            "ID": 1,
+            "Availability": "available",
+            "Code": "root",
+            "IsPasswordSet": true,
+            "Class": "admin",
+            "PasswordEncrypted": "IohMAry4E7bxcFXrwB/9xN7sjx/VXls=",
+            "Name": "internal.system.root",
+            "Description": ""
+          },
+          "Zone": {
+            "ID": 31001,
+            "FTPServer": {
+              "BGIPAddress": "10.131.1.42",
+              "IPAddress": "133.242.31.244",
+              "HostName": "sac-is1a-ftp.cloud.sakura.ad.jp"
+            },
+            "VNCProxy": {
+              "BGIPAddress": "10.131.1.42",
+              "IPAddress": "133.242.31.244",
+              "HostName": "sac-is1a-ssl.cloud.sakura.ad.jp"
+            },
+            "DisplayOrder": 20031001,
+            "Region": {
+              "ID": 310,
+              "Description_ja": "石狩",
+              "Bridge": {
+                "UserName": "admin",
+                "IPAddress": "0.0.0.0"
+              },
+              "Description_en": "Ishikari",
+              "Branch": "master",
+              "NameServers": [
+                "133.242.0.3",
+                "133.242.0.4"
+              ],
+              "Name_en": "Ishikari",
+              "PhysicalGroup": 3,
+              "Name": "石狩",
+              "Description": "石狩",
+              "Name_ja": "石狩"
+            },
+            "Description_ja": "石狩第1ゾーン",
+            "Manager": {
+              "BandWidthMbps": 500,
+              "IPAddress": "10.131.1.42"
+            },
+            "Settings": {
+              "CommonServiceItem": {
+                "Autobackup": {
+                  "Settings": {
+                    "BackupSpanWeekdays": {
+                      "Disable": []
+                    }
+                  }
+                }
+              },
+              "DisablePassport": true,
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "Description_en": "Ishikari 1st Zone",
+            "IsDummy": false,
+            "UserSVLANIDDef": "200-1001,1025-3500",
+            "BridgeIndex": 1,
+            "SharedSVLANIDDef": "100-139",
+            "PhysicalGroup": 30001,
+            "Remark": {
+              "TargetManager": {
+                "Real1IPAddress": "192.168.8.218",
+                "IPAddress": "192.168.8.220",
+                "Real2IPAddress": "192.168.8.219"
+              },
+              "Licence": {
+                "CDROM": {
+                  "SQLSERVER": {
+                    "2016": {
+                      "web": "112900577284",
+                      "standard": "112900577321"
+                    }
+                  }
+                }
+              },
+              "Bridge": {
+                "LAGNumber": 1
+              },
+              "Appliance": {
+                "loadbalancer": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112700885058",
+                    "2": "112700885058"
+                  }
+                },
+                "vpcrouter": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112600461236",
+                    "3": "112600461236",
+                    "2": "112600461236"
+                  }
+                }
+              },
+              "Worker": {
+                "ConfigDirectory": "/var/mnt/s03100197001-archive/config",
+                "Real1IPAddress": "10.131.1.118",
+                "IPAddress": "10.131.1.42",
+                "CopyJobTimeoutSecPerGiB": 67.5,
+                "Real2IPAddress": "10.131.1.120"
+              },
+              "Watchers": [
+                {
+                  "IPAddress": "10.131.1.105",
+                  "Name": "perfmate1"
+                }
+              ],
+              "Host": {
+                "Selection": {
+                  "Span": 4,
+                  "Shuffle": true
+                }
+              },
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "Description": "石狩第1ゾーン",
+            "Name": "is1a"
+          }
+        }
+      },
+      "ServiceClass": "cloud/archive/20g",
+      "CreatedAt": "2017-05-11T10:55:51+09:00",
+      "Icon": null,
+      "Plan": {
+        "ID": 2,
+        "StorageClass": "iscsi1204",
+        "Name": "標準プラン"
+      },
+      "SourceDisk": null,
+      "SourceArchive": null,
+      "BundleInfo": {
+        "ID": 30000,
+        "Group": null,
+        "HostClass": "dynamic",
+        "Name": "Plesk Onyx Web Pro",
+        "ServiceClass": "cloud/os/plesk/onyx-webpro",
+        "Attr": null
+      },
+      "Storage": {
+        "ID": "2900197001",
+        "Class": "iscsi1204",
+        "Name": "sac-tk1v-dummy-arc-st01",
+        "Description": "",
+        "Zone": {
+          "ID": 29001,
+          "DisplayOrder": 80029001,
+          "Name": "tk1v",
+          "Description": "Sandbox",
+          "IsDummy": true,
+          "VNCProxy": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "FTPServer": {
+            "HostName": "sac-tk1v-ftp.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "Settings": {
+            "Subnet": {
+              "Plan": {
+                "Member": [
+                  28,
+                  27,
+                  26
+                ],
+                "Staff": [
+                  28,
+                  27,
+                  26,
+                  25,
+                  24
+                ]
+              }
+            }
+          },
+          "Region": {
+            "ID": 290,
+            "Name": "Sandbox",
+            "Description": "Sandbox",
+            "NameServers": [
+              "133.242.0.3",
+              "133.242.0.4"
+            ]
+          }
+        },
+        "DiskPlan": {
+          "ID": 2,
+          "StorageClass": "iscsi1204",
+          "Name": "標準プラン"
+        }
+      },
+      "Tags": [
+        "@size-extendable",
+        "arch-64bit",
+        "current-stable",
+        "distro-ver-17.5",
+        "os-linux",
+        "pkg-plesk"
+      ]
+    },
+    {
+      "Index": 12,
+      "ID": "112900886269",
+      "DisplayOrder": "477201220001",
+      "Name": "Windows Server 2012 R2 for MS SQL 2014(Std) with RDS / MS Office",
+      "Description": "<div class=\"lang ja\">\n・Windows Server 2012 R2 DataCenter Editionに以下機能および、パッケージがインストール済みの状態で提供されます。\n　　Remote Desktop Service\n　　Office Professional Plus 2013\n　　SQL Server 2014 Standard Edition with SP2\n\n・サーバ、ディスク料金の他、ライセンスの利用料金が必要となります。\n\n・詳細は以下URLを参照してください。\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/sqlserverplan/#rds_office_sql\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/sqlserverplan/#rds_office_sql</a>\n<div class=\"advanced\">\n100GB以上の全サイズ対応：初回起動時に選択されたディスクプランに合わせてパーティションサイズが最適化されます。\n</div>\n</div>\n<div class=\"lang en\">\n・This archive includes the following functions and packages installed on Windows Server 2012 R2 Datacenter Edition.\n　　Remote Desktop Service\n　　Office Professional Plus 2013\n　　SQL Server 2014 Standard Edition with SP2\n\n・License fee for operating system is not included to your server and disk charge.\n　An additional charge is required to use Windows OS, MS SQL Server Standard Edition, Remote Desktop license and Office.\n\n・Please refer to the link below for details.\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/sqlserverplan/#rds_office_sql\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/sqlserverplan/#rds_office_sql</a>\n<div class=\"advanced\">\nsize extendable archive for 100GB+ disks : partition size will be optimized to the capacity of the disk at the first boot\n</div>\n</div>",
       "Scope": "shared",
       "Availability": "available",
       "SizeMB": 102400,
@@ -2968,11 +2711,11 @@
       "WaitingJobCount": null,
       "JobStatus": null,
       "OriginalArchive": {
-        "ID": "112900355464"
+        "ID": "112900886269"
       },
       "SourceInfo": {
         "ArchiveUnderZone": {
-          "ID": "112900313462",
+          "ID": "112900881916",
           "Account": {
             "Member": {
               "ID": "system",
@@ -3005,7 +2748,7 @@
             "FTPServer": {
               "BGIPAddress": "10.132.1.30",
               "IPAddress": "27.133.143.244",
-              "HostName": "sac-tk1a-ssl.cloud.sakura.ad.jp"
+              "HostName": "sac-tk1a-ftp.cloud.sakura.ad.jp"
             },
             "VNCProxy": {
               "BGIPAddress": "10.132.1.30",
@@ -3052,7 +2795,7 @@
                     },
                     {
                       "Versions": [
-                        "10.1.21"
+                        "10.1.22"
                       ],
                       "Availability": "available",
                       "DefaultPort": 3306,
@@ -3069,11 +2812,15 @@
               "CommonServiceItem": {
                 "Autobackup": {
                   "Settings": {
-                    "BackupHour": {
+                    "BackupSpanWeekdays": {
                       "Disable": [
-                        0,
-                        6,
-                        18
+                        "sun",
+                        "mon",
+                        "tue",
+                        "wed",
+                        "thu",
+                        "fri",
+                        "sat"
                       ]
                     }
                   }
@@ -3108,16 +2855,32 @@
                 "IPAddress": "192.168.6.125",
                 "Real2IPAddress": "192.168.6.124"
               },
+              "Licence": {
+                "CDROM": {
+                  "SQLSERVER": {
+                    "2014": {
+                      "standard": "112900876298"
+                    },
+                    "2016": {
+                      "web": "112900571593",
+                      "standard": "112900571598"
+                    }
+                  }
+                }
+              },
+              "Bridge": {
+                "LAGNumber": 101
+              },
               "Appliance": {
                 "database": {
                   "Icon": {
                     "ID": null
                   },
                   "SourceArchive": {
-                    "1": "112900305753",
-                    "3": "112900305753",
+                    "1": "112900422239",
+                    "3": "112900422239",
                     "1-old": "112800999313",
-                    "2": "112900305753"
+                    "2": "112900422239"
                   }
                 },
                 "loadbalancer": {
@@ -3140,9 +2903,6 @@
                   }
                 }
               },
-              "Bridge": {
-                "LAGNumber": 101
-              },
               "Worker": {
                 "ConfigDirectory": "/var/mnt/s02100197001-archive/config",
                 "Real1IPAddress": "10.132.1.31",
@@ -3150,18 +2910,24 @@
                 "CopyJobTimeoutSecPerGiB": 67.5,
                 "Real2IPAddress": "10.132.1.32"
               },
-              "Host": {
-                "Selection": {
-                  "Span": 4,
-                  "Shuffle": true
-                }
-              },
               "Watchers": [
                 {
                   "IPAddress": "10.132.1.51",
                   "Name": "perfmate1"
                 }
               ],
+              "Host": {
+                "Selection": {
+                  "Span": 4,
+                  "Shuffle": true
+                }
+              },
+              "VNC": {
+                "IOServer": {
+                  "BGIPAddress": "192.168.6.134",
+                  "HostName": "sac-tk1a-vnc.cloud.sakura.ad.jp"
+                }
+              },
               "Subnet": {
                 "Plan": {
                   "Member": [
@@ -3185,7 +2951,667 @@
         }
       },
       "ServiceClass": "cloud/archive/100g",
-      "CreatedAt": "2017-03-22T23:38:32+09:00",
+      "CreatedAt": "2017-07-12T17:59:23+09:00",
+      "Icon": null,
+      "Plan": {
+        "ID": 2,
+        "StorageClass": "iscsi1204",
+        "Name": "標準プラン"
+      },
+      "SourceDisk": null,
+      "SourceArchive": null,
+      "BundleInfo": {
+        "ID": 15000,
+        "Group": 15000,
+        "HostClass": "ms_windows",
+        "Name": "Windows Server for RDS+Office+MS SQL(Standard/0Core)",
+        "ServiceClass": "",
+        "Attr": {
+          "Constraint": {
+            "MaxCPU": 0
+          },
+          "RequireInitialize": true
+        }
+      },
+      "Storage": {
+        "ID": "2900197001",
+        "Class": "iscsi1204",
+        "Name": "sac-tk1v-dummy-arc-st01",
+        "Description": "",
+        "Zone": {
+          "ID": 29001,
+          "DisplayOrder": 80029001,
+          "Name": "tk1v",
+          "Description": "Sandbox",
+          "IsDummy": true,
+          "VNCProxy": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "FTPServer": {
+            "HostName": "sac-tk1v-ftp.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "Settings": {
+            "Subnet": {
+              "Plan": {
+                "Member": [
+                  28,
+                  27,
+                  26
+                ],
+                "Staff": [
+                  28,
+                  27,
+                  26,
+                  25,
+                  24
+                ]
+              }
+            }
+          },
+          "Region": {
+            "ID": 290,
+            "Name": "Sandbox",
+            "Description": "Sandbox",
+            "NameServers": [
+              "133.242.0.3",
+              "133.242.0.4"
+            ]
+          }
+        },
+        "DiskPlan": {
+          "ID": 2,
+          "StorageClass": "iscsi1204",
+          "Name": "標準プラン"
+        }
+      },
+      "Tags": [
+        "arch-64bit",
+        "current-stable",
+        "distro-ver-2012.2",
+        "edition-standard",
+        "os-windows",
+        "sqlserver-2014",
+        "windows-rds",
+        "windows-sqlserver",
+        "with-office"
+      ]
+    },
+    {
+      "Index": 13,
+      "ID": "112900726715",
+      "DisplayOrder": "477201620001",
+      "Name": "Windows Server 2016 for MS SQL 2016(Std) with RDS / MS Office ",
+      "Description": "<div class=\"lang ja\">\n・Windows Server 2016 DataCenterに以下機能および、パッケージがインストール済みの状態で提供されます。\n　　Remote Desktop Service\n　　Office Professional Plus 2016\n　　SQL Server 2016 Standard Edition\n\n・サーバ、ディスク料金の他、ライセンスの利用料金が必要となります。\n\n・詳細は以下URLを参照してください。\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/sqlserverplan/#rds_office_sql\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/sqlserverplan/#rds_office_sql</a>\n<div class=\"advanced\">\n100GB以上の全サイズ対応：初回起動時に選択されたディスクプランに合わせてパーティションサイズが最適化されます。\n</div>\n</div>\n<div class=\"lang en\">\n・This archive includes the following functions and packages installed on Windows Server 2016 Datacenter Edition.\n　　Remote Desktop Service\n　　Office Professional Plus 2016\n　　SQL Server 2016 Standard Edition\n\n・License fee for operating system is not included to your server and disk charge.\n　An additional charge is required to use Windows OS, MS SQL Server Standard Edition, Remote Desktop license and Office.\n\n・Please refer to the link below for details.\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/sqlserverplan/#rds_office_sql\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/sqlserverplan/#rds_office_sql</a>\n<div class=\"advanced\">\nsize extendable archive for 100GB+ disks : partition size will be optimized to the capacity of the disk at the first boot\n</div>\n</div>",
+      "Scope": "shared",
+      "Availability": "available",
+      "SizeMB": 102400,
+      "MigratedMB": null,
+      "WaitingJobCount": null,
+      "JobStatus": null,
+      "OriginalArchive": {
+        "ID": "112900726715"
+      },
+      "SourceInfo": {
+        "ArchiveUnderZone": {
+          "ID": "112900720685",
+          "Account": {
+            "Member": {
+              "ID": "system",
+              "OperationPenalty": "none",
+              "IsEmailSakura": null,
+              "Code": "system",
+              "LastName": null,
+              "Errors": null,
+              "IsOTPSet": false,
+              "Remark": null,
+              "Class": "internal",
+              "OTP": null,
+              "DefaultPaymentMethod": "foc",
+              "Attr": null,
+              "InstancePenalty": "none",
+              "AccountClassLimit": "admin"
+            },
+            "PaymentMethod": "foc",
+            "ID": 1,
+            "Availability": "available",
+            "Code": "root",
+            "IsPasswordSet": true,
+            "Class": "admin",
+            "PasswordEncrypted": "IohMAry4E7bxcFXrwB/9xN7sjx/VXls=",
+            "Name": "internal.system.root",
+            "Description": ""
+          },
+          "Zone": {
+            "ID": 21001,
+            "FTPServer": {
+              "BGIPAddress": "10.132.1.30",
+              "IPAddress": "27.133.143.244",
+              "HostName": "sac-tk1a-ftp.cloud.sakura.ad.jp"
+            },
+            "VNCProxy": {
+              "BGIPAddress": "10.132.1.30",
+              "IPAddress": "27.133.143.244",
+              "HostName": "sac-tk1a-ssl.cloud.sakura.ad.jp"
+            },
+            "DisplayOrder": 20021001,
+            "Region": {
+              "ID": 210,
+              "Description_ja": "東京",
+              "Bridge": {
+                "UserName": "admin",
+                "IPAddress": "127.0.0.1"
+              },
+              "Description_en": "Tokyo",
+              "Branch": "tk1a",
+              "NameServers": [
+                "210.188.224.10",
+                "210.188.224.11"
+              ],
+              "Name_en": "Tokyo",
+              "PhysicalGroup": 2,
+              "Name": "東京",
+              "Description": "東京",
+              "Name_ja": "東京"
+            },
+            "Description_ja": "東京第1ゾーン",
+            "Manager": {
+              "BandWidthMbps": 500,
+              "IPAddress": "10.132.1.30"
+            },
+            "Settings": {
+              "Appliance": {
+                "Database": {
+                  "Products": [
+                    {
+                      "Versions": [
+                        "9.6.2"
+                      ],
+                      "Availability": "available",
+                      "DefaultPort": 5432,
+                      "Name": "PostgreSQL",
+                      "Package": "postgres"
+                    },
+                    {
+                      "Versions": [
+                        "10.1.22"
+                      ],
+                      "Availability": "available",
+                      "DefaultPort": 3306,
+                      "Name": "MariaDB",
+                      "Package": "MariaDB"
+                    }
+                  ],
+                  "Backup": {
+                    "LockLimit": 8,
+                    "RotateLimit": 8
+                  }
+                }
+              },
+              "CommonServiceItem": {
+                "Autobackup": {
+                  "Settings": {
+                    "BackupSpanWeekdays": {
+                      "Disable": [
+                        "sun",
+                        "mon",
+                        "tue",
+                        "wed",
+                        "thu",
+                        "fri",
+                        "sat"
+                      ]
+                    }
+                  }
+                }
+              },
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "Description_en": "Tokyo 1st Zone",
+            "IsDummy": false,
+            "UserSVLANIDDef": "200-1001,1025-3500",
+            "BridgeIndex": 99,
+            "SharedSVLANIDDef": "100-149",
+            "PhysicalGroup": 20001,
+            "Remark": {
+              "TargetManager": {
+                "Real1IPAddress": "192.168.6.123",
+                "IPAddress": "192.168.6.125",
+                "Real2IPAddress": "192.168.6.124"
+              },
+              "Licence": {
+                "CDROM": {
+                  "SQLSERVER": {
+                    "2016": {
+                      "web": "112900571593",
+                      "standard": "112900571598"
+                    }
+                  }
+                }
+              },
+              "Bridge": {
+                "LAGNumber": 101
+              },
+              "Appliance": {
+                "database": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112900422239",
+                    "3": "112900422239",
+                    "1-old": "112800999313",
+                    "2": "112900422239"
+                  }
+                },
+                "loadbalancer": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112700943418",
+                    "2": "112700943418"
+                  }
+                },
+                "vpcrouter": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112700943417",
+                    "3": "112700943417",
+                    "2": "112700943417"
+                  }
+                }
+              },
+              "Worker": {
+                "ConfigDirectory": "/var/mnt/s02100197001-archive/config",
+                "Real1IPAddress": "10.132.1.31",
+                "IPAddress": "10.132.1.30",
+                "CopyJobTimeoutSecPerGiB": 67.5,
+                "Real2IPAddress": "10.132.1.32"
+              },
+              "Watchers": [
+                {
+                  "IPAddress": "10.132.1.51",
+                  "Name": "perfmate1"
+                }
+              ],
+              "Host": {
+                "Selection": {
+                  "Span": 4,
+                  "Shuffle": true
+                }
+              },
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "Description": "東京第1ゾーン",
+            "Name": "tk1a"
+          }
+        }
+      },
+      "ServiceClass": "cloud/archive/100g",
+      "CreatedAt": "2017-06-08T10:17:03+09:00",
+      "Icon": null,
+      "Plan": {
+        "ID": 2,
+        "StorageClass": "iscsi1204",
+        "Name": "標準プラン"
+      },
+      "SourceDisk": null,
+      "SourceArchive": null,
+      "BundleInfo": {
+        "ID": 14000,
+        "Group": 14000,
+        "HostClass": "ms_windows",
+        "Name": "Windows Server for RDS+Office+MS SQL(Standard/0Core)(McAfeeなし)",
+        "ServiceClass": "",
+        "Attr": {
+          "Constraint": {
+            "MaxCPU": 0
+          },
+          "RequireInitialize": true
+        }
+      },
+      "Storage": {
+        "ID": "2900197001",
+        "Class": "iscsi1204",
+        "Name": "sac-tk1v-dummy-arc-st01",
+        "Description": "",
+        "Zone": {
+          "ID": 29001,
+          "DisplayOrder": 80029001,
+          "Name": "tk1v",
+          "Description": "Sandbox",
+          "IsDummy": true,
+          "VNCProxy": {
+            "HostName": "sac-tk1v-ssl.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "FTPServer": {
+            "HostName": "sac-tk1v-ftp.example.jp",
+            "IPAddress": "0.0.0.1"
+          },
+          "Settings": {
+            "Subnet": {
+              "Plan": {
+                "Member": [
+                  28,
+                  27,
+                  26
+                ],
+                "Staff": [
+                  28,
+                  27,
+                  26,
+                  25,
+                  24
+                ]
+              }
+            }
+          },
+          "Region": {
+            "ID": 290,
+            "Name": "Sandbox",
+            "Description": "Sandbox",
+            "NameServers": [
+              "133.242.0.3",
+              "133.242.0.4"
+            ]
+          }
+        },
+        "DiskPlan": {
+          "ID": 2,
+          "StorageClass": "iscsi1204",
+          "Name": "標準プラン"
+        }
+      },
+      "Tags": [
+        "arch-64bit",
+        "current-stable",
+        "distro-ver-2016",
+        "edition-standard",
+        "os-windows",
+        "sqlserver-2016",
+        "windows-rds",
+        "windows-sqlserver",
+        "with-office"
+      ]
+    },
+    {
+      "Index": 14,
+      "ID": "112900580537",
+      "DisplayOrder": "478201620001",
+      "Name": "Windows Server 2016 for MS SQL 2016(Standard)",
+      "Description": "<div class=\"lang ja\">\n・Windows Server 2016 DataCenterにSQL Server 2016 Standard エディションがインストール済みの状態で提供されます。\n・サーバ、ディスク料金の他、ライセンスの利用料金が必要となります。\n・サーバ作成後、必要に応じてお客様にて初期設定を行ってください。\n・SQL Serverの利用料金はサーバのプランに応じて変更されます。\n　初期設定や料金、ご注意事項の詳細は以下URLを参照してください。\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/sqlserverplan/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/sqlserverplan/</a>\n<div class=\"advanced\">\n100GB以上の全サイズ対応：初回起動時に選択されたディスクプランに合わせてパーティションサイズが最適化されます。\n</div>\n</div>\n<div class=\"lang en\">\n・This archive includes Microsoft SQL Server 2016 Standard Edition installed on Windows Server 2016 Datacenter Edition.\n・License fee for operating system is not included to your server and disk charge.\n　An additional charge is required to use Windows OS and MS SQL Server Standard Edition.\n・You will need to perform initial configuration after creating a server.\n　Please refer to the link below for instructions.\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/sqlserverplan/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/sqlserverplan/</a>\n<div class=\"advanced\">\nsize extendable archive for 100GB+ disks : partition size will be optimized to the capacity of the disk at the first boot\n</div>\n</div>",
+      "Scope": "shared",
+      "Availability": "available",
+      "SizeMB": 102400,
+      "MigratedMB": null,
+      "WaitingJobCount": null,
+      "JobStatus": null,
+      "OriginalArchive": {
+        "ID": "112900580537"
+      },
+      "SourceInfo": {
+        "ArchiveUnderZone": {
+          "ID": "112900567250",
+          "Account": {
+            "Member": {
+              "ID": "system",
+              "OperationPenalty": "none",
+              "IsEmailSakura": null,
+              "Code": "system",
+              "LastName": null,
+              "Errors": null,
+              "IsOTPSet": false,
+              "Remark": null,
+              "Class": "internal",
+              "OTP": null,
+              "DefaultPaymentMethod": "foc",
+              "Attr": null,
+              "InstancePenalty": "none",
+              "AccountClassLimit": "admin"
+            },
+            "PaymentMethod": "foc",
+            "ID": 1,
+            "Availability": "available",
+            "Code": "root",
+            "IsPasswordSet": true,
+            "Class": "admin",
+            "PasswordEncrypted": "IohMAry4E7bxcFXrwB/9xN7sjx/VXls=",
+            "Name": "internal.system.root",
+            "Description": ""
+          },
+          "Zone": {
+            "ID": 21001,
+            "FTPServer": {
+              "BGIPAddress": "10.132.1.30",
+              "IPAddress": "27.133.143.244",
+              "HostName": "sac-tk1a-ftp.cloud.sakura.ad.jp"
+            },
+            "VNCProxy": {
+              "BGIPAddress": "10.132.1.30",
+              "IPAddress": "27.133.143.244",
+              "HostName": "sac-tk1a-ssl.cloud.sakura.ad.jp"
+            },
+            "DisplayOrder": 20021001,
+            "Region": {
+              "ID": 210,
+              "Description_ja": "東京",
+              "Bridge": {
+                "UserName": "admin",
+                "IPAddress": "127.0.0.1"
+              },
+              "Description_en": "Tokyo",
+              "Branch": "tk1a",
+              "NameServers": [
+                "210.188.224.10",
+                "210.188.224.11"
+              ],
+              "Name_en": "Tokyo",
+              "PhysicalGroup": 2,
+              "Name": "東京",
+              "Description": "東京",
+              "Name_ja": "東京"
+            },
+            "Description_ja": "東京第1ゾーン",
+            "Manager": {
+              "BandWidthMbps": 500,
+              "IPAddress": "10.132.1.30"
+            },
+            "Settings": {
+              "Appliance": {
+                "Database": {
+                  "Products": [
+                    {
+                      "Versions": [
+                        "9.6.2"
+                      ],
+                      "Availability": "available",
+                      "DefaultPort": 5432,
+                      "Name": "PostgreSQL",
+                      "Package": "postgres"
+                    },
+                    {
+                      "Versions": [
+                        "10.1.22"
+                      ],
+                      "Availability": "available",
+                      "DefaultPort": 3306,
+                      "Name": "MariaDB",
+                      "Package": "MariaDB"
+                    }
+                  ],
+                  "Backup": {
+                    "LockLimit": 8,
+                    "RotateLimit": 8
+                  }
+                }
+              },
+              "CommonServiceItem": {
+                "Autobackup": {
+                  "Settings": {
+                    "BackupSpanWeekdays": {
+                      "Disable": [
+                        "sun",
+                        "mon",
+                        "tue",
+                        "wed",
+                        "sat"
+                      ]
+                    }
+                  }
+                }
+              },
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "Description_en": "Tokyo 1st Zone",
+            "IsDummy": false,
+            "UserSVLANIDDef": "200-1001,1025-3500",
+            "BridgeIndex": 99,
+            "SharedSVLANIDDef": "100-149",
+            "PhysicalGroup": 20001,
+            "Remark": {
+              "TargetManager": {
+                "Real1IPAddress": "192.168.6.123",
+                "IPAddress": "192.168.6.125",
+                "Real2IPAddress": "192.168.6.124"
+              },
+              "Licence": {
+                "CDROM": {
+                  "SQLSERVER": {
+                    "2016": {
+                      "web": "112900571593",
+                      "standard": "112900571598"
+                    }
+                  }
+                }
+              },
+              "Bridge": {
+                "LAGNumber": 101
+              },
+              "Appliance": {
+                "database": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112900422239",
+                    "3": "112900422239",
+                    "1-old": "112800999313",
+                    "2": "112900422239"
+                  }
+                },
+                "loadbalancer": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112700943418",
+                    "2": "112700943418"
+                  }
+                },
+                "vpcrouter": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112700943417",
+                    "3": "112700943417",
+                    "2": "112700943417"
+                  }
+                }
+              },
+              "Worker": {
+                "ConfigDirectory": "/var/mnt/s02100197001-archive/config",
+                "Real1IPAddress": "10.132.1.31",
+                "IPAddress": "10.132.1.30",
+                "CopyJobTimeoutSecPerGiB": 67.5,
+                "Real2IPAddress": "10.132.1.32"
+              },
+              "Watchers": [
+                {
+                  "IPAddress": "10.132.1.51",
+                  "Name": "perfmate1"
+                }
+              ],
+              "Host": {
+                "Selection": {
+                  "Span": 4,
+                  "Shuffle": true
+                }
+              },
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "Description": "東京第1ゾーン",
+            "Name": "tk1a"
+          }
+        }
+      },
+      "ServiceClass": "cloud/archive/100g",
+      "CreatedAt": "2017-05-11T11:02:43+09:00",
       "Icon": null,
       "Plan": {
         "ID": 2,
@@ -3272,7 +3698,7 @@
     },
     {
       "Index": 15,
-      "ID": "112900355463",
+      "ID": "112900580533",
       "DisplayOrder": "479201620001",
       "Name": "Windows Server 2016 for MS SQL 2016(Web)",
       "Description": "<div class=\"lang ja\">\n・Windows Server 2016 DataCenterにSQL Server 2016 Web エディションがインストール済みの状態で提供されます。\n・サーバ、ディスク料金の他、ライセンスの利用料金が必要となります。\n・サーバ作成後、必要に応じてお客様にて初期設定を行ってください。\n・SQL Serverの利用料金はサーバのプランに応じて変更されます。\n　初期設定や料金、ご注意事項の詳細は以下URLを参照してください。\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/sqlserverplan/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/sqlserverplan/</a>\n<div class=\"advanced\">\n100GB以上の全サイズ対応：初回起動時に選択されたディスクプランに合わせてパーティションサイズが最適化されます。\n</div>\n</div>\n<div class=\"lang en\">\n・This archive includes Microsoft SQL Server 2016 Web Edition installed on Windows Server 2016 Datacenter Edition.\n・License fee for operating system is not included to your server and disk charge.\n　An additional charge is required to use Windows OS and MS SQL Server Web Edition.\n・You will need to perform initial configuration after creating a server.\n　Please refer to the link below for instructions.\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/sqlserverplan/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/sqlserverplan/</a>\n<div class=\"advanced\">\nsize extendable archive for 100GB+ disks : partition size will be optimized to the capacity of the disk at the first boot\n</div>\n</div>",
@@ -3283,11 +3709,11 @@
       "WaitingJobCount": null,
       "JobStatus": null,
       "OriginalArchive": {
-        "ID": "112900355463"
+        "ID": "112900580533"
       },
       "SourceInfo": {
         "ArchiveUnderZone": {
-          "ID": "112900323774",
+          "ID": "112900567252",
           "Account": {
             "Member": {
               "ID": "system",
@@ -3320,7 +3746,7 @@
             "FTPServer": {
               "BGIPAddress": "10.132.1.30",
               "IPAddress": "27.133.143.244",
-              "HostName": "sac-tk1a-ssl.cloud.sakura.ad.jp"
+              "HostName": "sac-tk1a-ftp.cloud.sakura.ad.jp"
             },
             "VNCProxy": {
               "BGIPAddress": "10.132.1.30",
@@ -3367,7 +3793,7 @@
                     },
                     {
                       "Versions": [
-                        "10.1.21"
+                        "10.1.22"
                       ],
                       "Availability": "available",
                       "DefaultPort": 3306,
@@ -3384,11 +3810,13 @@
               "CommonServiceItem": {
                 "Autobackup": {
                   "Settings": {
-                    "BackupHour": {
+                    "BackupSpanWeekdays": {
                       "Disable": [
-                        0,
-                        6,
-                        18
+                        "sun",
+                        "mon",
+                        "tue",
+                        "wed",
+                        "sat"
                       ]
                     }
                   }
@@ -3423,16 +3851,29 @@
                 "IPAddress": "192.168.6.125",
                 "Real2IPAddress": "192.168.6.124"
               },
+              "Licence": {
+                "CDROM": {
+                  "SQLSERVER": {
+                    "2016": {
+                      "web": "112900571593",
+                      "standard": "112900571598"
+                    }
+                  }
+                }
+              },
+              "Bridge": {
+                "LAGNumber": 101
+              },
               "Appliance": {
                 "database": {
                   "Icon": {
                     "ID": null
                   },
                   "SourceArchive": {
-                    "1": "112900305753",
-                    "3": "112900305753",
+                    "1": "112900422239",
+                    "3": "112900422239",
                     "1-old": "112800999313",
-                    "2": "112900305753"
+                    "2": "112900422239"
                   }
                 },
                 "loadbalancer": {
@@ -3455,9 +3896,6 @@
                   }
                 }
               },
-              "Bridge": {
-                "LAGNumber": 101
-              },
               "Worker": {
                 "ConfigDirectory": "/var/mnt/s02100197001-archive/config",
                 "Real1IPAddress": "10.132.1.31",
@@ -3465,18 +3903,18 @@
                 "CopyJobTimeoutSecPerGiB": 67.5,
                 "Real2IPAddress": "10.132.1.32"
               },
-              "Host": {
-                "Selection": {
-                  "Span": 4,
-                  "Shuffle": true
-                }
-              },
               "Watchers": [
                 {
                   "IPAddress": "10.132.1.51",
                   "Name": "perfmate1"
                 }
               ],
+              "Host": {
+                "Selection": {
+                  "Span": 4,
+                  "Shuffle": true
+                }
+              },
               "Subnet": {
                 "Plan": {
                   "Member": [
@@ -3500,7 +3938,7 @@
         }
       },
       "ServiceClass": "cloud/archive/100g",
-      "CreatedAt": "2017-03-22T23:38:25+09:00",
+      "CreatedAt": "2017-05-11T11:02:35+09:00",
       "Icon": null,
       "Plan": {
         "ID": 2,
@@ -3587,7 +4025,7 @@
     },
     {
       "Index": 16,
-      "ID": "112800341461",
+      "ID": "112900585708",
       "DisplayOrder": "488201220002",
       "Name": "Windows Server 2012 R2 for RDS(MS Office付)",
       "Description": "<div class=\"lang ja\">\n・サーバ、ディスク料金の他、OSの利用料金が必要となります。\n・サーバ作成後、必要に応じてお客様にて初期設定を行ってください。\n　手順については以下URLを参照してください。\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/</a>\n　<a href=\"http://cloud-news.sakura.ad.jp/modifydisk/windows/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/modifydisk/windows/</a>\n・リモートデスクトップ用途でご利用いただけるライセンスが1つ組み込まれています。\n　2名以上でのご利用される場合には人数のライセンスをお申し込みください。\n　詳細は下記URLを参照してください。\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-rds/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-rds/</a>\n<div class=\"advanced\">\n100GB以上の全サイズ対応：初回起動時に選択されたディスクプランに合わせてパーティションサイズが最適化されます\n</div>\n</div>\n<div class=\"lang en\">\n・License fee for operating system is not included to your server and disk charge.\n　An additional charge is required to use Windows OS.\n・You may be required to perform initial configuration after creating a server.\n　Please refer to the link below for instructions.\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/</a>\n　<a href=\"http://cloud-news.sakura.ad.jp/modifydisk/windows/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/modifydisk/windows/</a>\n・The seleced archive includes Remote Desktop Licence for 1 user.\n　Please purchase additional license according to the number of users\n　if more than 2 users make concurrent connections to the server.\n　Please refer to the link below for details.\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-rds/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-rds/</a>\n<div class=\"advanced\">\nsize extendable archive for 100GB+ disks : partition size will be optimized to the capacity of the disk at the first boot\n</div>\n</div>",
@@ -3598,11 +4036,11 @@
       "WaitingJobCount": null,
       "JobStatus": null,
       "OriginalArchive": {
-        "ID": "112800341461"
+        "ID": "112900585708"
       },
       "SourceInfo": {
         "ArchiveUnderZone": {
-          "ID": "112800288500",
+          "ID": "112900582539",
           "Account": {
             "Member": {
               "ID": "system",
@@ -3625,50 +4063,92 @@
             "Availability": "available",
             "Code": "root",
             "IsPasswordSet": true,
-            "Remark": null,
             "Class": "admin",
             "PasswordEncrypted": "IohMAry4E7bxcFXrwB/9xN7sjx/VXls=",
             "Name": "internal.system.root",
             "Description": ""
           },
           "Zone": {
-            "ID": 31001,
+            "ID": 21001,
             "FTPServer": {
-              "BGIPAddress": "10.131.1.42",
-              "IPAddress": "133.242.31.244",
-              "HostName": "sac-is1a-ssl.sakura.ad.jp"
+              "BGIPAddress": "10.132.1.30",
+              "IPAddress": "27.133.143.244",
+              "HostName": "sac-tk1a-ftp.cloud.sakura.ad.jp"
             },
             "VNCProxy": {
-              "BGIPAddress": "10.131.1.42",
-              "IPAddress": "133.242.31.244",
-              "HostName": "sac-is1a-ssl.sakura.ad.jp"
+              "BGIPAddress": "10.132.1.30",
+              "IPAddress": "27.133.143.244",
+              "HostName": "sac-tk1a-ssl.cloud.sakura.ad.jp"
             },
-            "DisplayOrder": 20031001,
+            "DisplayOrder": 20021001,
             "Region": {
-              "ID": 310,
-              "Description_ja": "石狩",
+              "ID": 210,
+              "Description_ja": "東京",
               "Bridge": {
                 "UserName": "admin",
-                "IPAddress": "0.0.0.0"
+                "IPAddress": "127.0.0.1"
               },
-              "Description_en": "Ishikari",
-              "Branch": "master",
+              "Description_en": "Tokyo",
+              "Branch": "tk1a",
               "NameServers": [
-                "133.242.0.3",
-                "133.242.0.4"
+                "210.188.224.10",
+                "210.188.224.11"
               ],
-              "Name_en": "Ishikari",
-              "PhysicalGroup": 3,
-              "Name": "石狩",
-              "Description": "石狩",
-              "Name_ja": "石狩"
+              "Name_en": "Tokyo",
+              "PhysicalGroup": 2,
+              "Name": "東京",
+              "Description": "東京",
+              "Name_ja": "東京"
             },
-            "Description_ja": "石狩第1ゾーン",
+            "Description_ja": "東京第1ゾーン",
             "Manager": {
               "BandWidthMbps": 500,
-              "IPAddress": "10.131.1.42"
+              "IPAddress": "10.132.1.30"
             },
             "Settings": {
+              "Appliance": {
+                "Database": {
+                  "Products": [
+                    {
+                      "Versions": [
+                        "9.6.2"
+                      ],
+                      "Availability": "available",
+                      "DefaultPort": 5432,
+                      "Name": "PostgreSQL",
+                      "Package": "postgres"
+                    },
+                    {
+                      "Versions": [
+                        "10.1.22"
+                      ],
+                      "Availability": "available",
+                      "DefaultPort": 3306,
+                      "Name": "MariaDB",
+                      "Package": "MariaDB"
+                    }
+                  ],
+                  "Backup": {
+                    "LockLimit": 8,
+                    "RotateLimit": 8
+                  }
+                }
+              },
+              "CommonServiceItem": {
+                "Autobackup": {
+                  "Settings": {
+                    "BackupSpanWeekdays": {
+                      "Disable": [
+                        "sun",
+                        "mon",
+                        "tue",
+                        "wed",
+                        "sat"
+                      ]
+                    }
+                  }
+                }
+              },
               "Subnet": {
                 "Plan": {
                   "Member": [
@@ -3686,21 +4166,50 @@
                 }
               }
             },
-            "Description_en": "Ishikari 1st Zone",
+            "Description_en": "Tokyo 1st Zone",
             "IsDummy": false,
             "UserSVLANIDDef": "200-1001,1025-3500",
-            "BridgeIndex": 1,
-            "SharedSVLANIDDef": "100-139",
-            "PhysicalGroup": 30001,
+            "BridgeIndex": 99,
+            "SharedSVLANIDDef": "100-149",
+            "PhysicalGroup": 20001,
             "Remark": {
+              "TargetManager": {
+                "Real1IPAddress": "192.168.6.123",
+                "IPAddress": "192.168.6.125",
+                "Real2IPAddress": "192.168.6.124"
+              },
+              "Licence": {
+                "CDROM": {
+                  "SQLSERVER": {
+                    "2016": {
+                      "web": "112900571593",
+                      "standard": "112900571598"
+                    }
+                  }
+                }
+              },
+              "Bridge": {
+                "LAGNumber": 101
+              },
               "Appliance": {
+                "database": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112900422239",
+                    "3": "112900422239",
+                    "1-old": "112800999313",
+                    "2": "112900422239"
+                  }
+                },
                 "loadbalancer": {
                   "Icon": {
                     "ID": null
                   },
                   "SourceArchive": {
-                    "1": "112700885058",
-                    "2": "112700885058"
+                    "1": "112700943418",
+                    "2": "112700943418"
                   }
                 },
                 "vpcrouter": {
@@ -3708,34 +4217,31 @@
                     "ID": null
                   },
                   "SourceArchive": {
-                    "1": "112600461236",
-                    "3": "112600461236",
-                    "2": "112600461236"
+                    "1": "112700943417",
+                    "3": "112700943417",
+                    "2": "112700943417"
                   }
                 }
               },
-              "Bridge": {
-                "LAGNumber": 1
-              },
               "Worker": {
-                "ConfigDirectory": "/var/mnt/s03100197001-archive/config",
-                "Real1IPAddress": "10.131.1.118",
-                "IPAddress": "10.131.1.42",
+                "ConfigDirectory": "/var/mnt/s02100197001-archive/config",
+                "Real1IPAddress": "10.132.1.31",
+                "IPAddress": "10.132.1.30",
                 "CopyJobTimeoutSecPerGiB": 67.5,
-                "Real2IPAddress": "10.131.1.120"
+                "Real2IPAddress": "10.132.1.32"
               },
+              "Watchers": [
+                {
+                  "IPAddress": "10.132.1.51",
+                  "Name": "perfmate1"
+                }
+              ],
               "Host": {
                 "Selection": {
                   "Span": 4,
                   "Shuffle": true
                 }
               },
-              "Watchers": [
-                {
-                  "IPAddress": "10.131.1.105",
-                  "Name": "perfmate1"
-                }
-              ],
               "Subnet": {
                 "Plan": {
                   "Member": [
@@ -3753,13 +4259,13 @@
                 }
               }
             },
-            "Description": "石狩第1ゾーン",
-            "Name": "is1a"
+            "Description": "東京第1ゾーン",
+            "Name": "tk1a"
           }
         }
       },
       "ServiceClass": "cloud/archive/100g",
-      "CreatedAt": "2016-03-31T11:09:53+09:00",
+      "CreatedAt": "2017-05-12T15:17:06+09:00",
       "Icon": null,
       "Plan": {
         "ID": 2,
@@ -4145,7 +4651,7 @@
     },
     {
       "Index": 18,
-      "ID": "112800341462",
+      "ID": "112900585707",
       "DisplayOrder": "489201220002",
       "Name": "Windows Server 2012 R2 for RDS",
       "Description": "<div class=\"lang ja\">\n・サーバ、ディスク料金の他、OSの利用料金が必要となります。\n・サーバ作成後、必要に応じてお客様にて初期設定を行ってください。\n　手順については以下URLを参照してください。\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/</a>\n　<a href=\"http://cloud-news.sakura.ad.jp/modifydisk/windows/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/modifydisk/windows/</a>\n・リモートデスクトップ用途でご利用いただけるライセンスが1つ組み込まれています。\n　2名以上でのご利用される場合には人数のライセンスをお申し込みください。\n　詳細は下記URLを参照してください。\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-rds/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-rds/</a>\n<div class=\"advanced\">\n100GB以上の全サイズ対応：初回起動時に選択されたディスクプランに合わせてパーティションサイズが最適化されます\n</div>\n</div>\n<div class=\"lang en\">\n・License fee for operating system is not included to your server and disk charge.\n　An additional charge is required to use Windows OS.\n・You may be required to perform initial configuration after creating a server.\n　Please refer to the link below for instructions.\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/</a>\n　<a href=\"http://cloud-news.sakura.ad.jp/modifydisk/windows/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/modifydisk/windows/</a>\n・The seleced archive includes Remote Desktop Licence for 1 user.\n　Please purchase additional license according to the number of users\n　if more than 2 users make concurrent connections to the server.\n　Please refer to the link below for details.\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-rds/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-rds/</a>\n<div class=\"advanced\">\nsize extendable archive for 100GB+ disks : partition size will be optimized to the capacity of the disk at the first boot\n</div>\n</div>",
@@ -4156,11 +4662,11 @@
       "WaitingJobCount": null,
       "JobStatus": null,
       "OriginalArchive": {
-        "ID": "112800341462"
+        "ID": "112900585707"
       },
       "SourceInfo": {
         "ArchiveUnderZone": {
-          "ID": "112800288504",
+          "ID": "112900582537",
           "Account": {
             "Member": {
               "ID": "system",
@@ -4183,50 +4689,92 @@
             "Availability": "available",
             "Code": "root",
             "IsPasswordSet": true,
-            "Remark": null,
             "Class": "admin",
             "PasswordEncrypted": "IohMAry4E7bxcFXrwB/9xN7sjx/VXls=",
             "Name": "internal.system.root",
             "Description": ""
           },
           "Zone": {
-            "ID": 31001,
+            "ID": 21001,
             "FTPServer": {
-              "BGIPAddress": "10.131.1.42",
-              "IPAddress": "133.242.31.244",
-              "HostName": "sac-is1a-ssl.sakura.ad.jp"
+              "BGIPAddress": "10.132.1.30",
+              "IPAddress": "27.133.143.244",
+              "HostName": "sac-tk1a-ftp.cloud.sakura.ad.jp"
             },
             "VNCProxy": {
-              "BGIPAddress": "10.131.1.42",
-              "IPAddress": "133.242.31.244",
-              "HostName": "sac-is1a-ssl.sakura.ad.jp"
+              "BGIPAddress": "10.132.1.30",
+              "IPAddress": "27.133.143.244",
+              "HostName": "sac-tk1a-ssl.cloud.sakura.ad.jp"
             },
-            "DisplayOrder": 20031001,
+            "DisplayOrder": 20021001,
             "Region": {
-              "ID": 310,
-              "Description_ja": "石狩",
+              "ID": 210,
+              "Description_ja": "東京",
               "Bridge": {
                 "UserName": "admin",
-                "IPAddress": "0.0.0.0"
+                "IPAddress": "127.0.0.1"
               },
-              "Description_en": "Ishikari",
-              "Branch": "master",
+              "Description_en": "Tokyo",
+              "Branch": "tk1a",
               "NameServers": [
-                "133.242.0.3",
-                "133.242.0.4"
+                "210.188.224.10",
+                "210.188.224.11"
               ],
-              "Name_en": "Ishikari",
-              "PhysicalGroup": 3,
-              "Name": "石狩",
-              "Description": "石狩",
-              "Name_ja": "石狩"
+              "Name_en": "Tokyo",
+              "PhysicalGroup": 2,
+              "Name": "東京",
+              "Description": "東京",
+              "Name_ja": "東京"
             },
-            "Description_ja": "石狩第1ゾーン",
+            "Description_ja": "東京第1ゾーン",
             "Manager": {
               "BandWidthMbps": 500,
-              "IPAddress": "10.131.1.42"
+              "IPAddress": "10.132.1.30"
             },
             "Settings": {
+              "Appliance": {
+                "Database": {
+                  "Products": [
+                    {
+                      "Versions": [
+                        "9.6.2"
+                      ],
+                      "Availability": "available",
+                      "DefaultPort": 5432,
+                      "Name": "PostgreSQL",
+                      "Package": "postgres"
+                    },
+                    {
+                      "Versions": [
+                        "10.1.22"
+                      ],
+                      "Availability": "available",
+                      "DefaultPort": 3306,
+                      "Name": "MariaDB",
+                      "Package": "MariaDB"
+                    }
+                  ],
+                  "Backup": {
+                    "LockLimit": 8,
+                    "RotateLimit": 8
+                  }
+                }
+              },
+              "CommonServiceItem": {
+                "Autobackup": {
+                  "Settings": {
+                    "BackupSpanWeekdays": {
+                      "Disable": [
+                        "sun",
+                        "mon",
+                        "tue",
+                        "wed",
+                        "sat"
+                      ]
+                    }
+                  }
+                }
+              },
               "Subnet": {
                 "Plan": {
                   "Member": [
@@ -4244,21 +4792,50 @@
                 }
               }
             },
-            "Description_en": "Ishikari 1st Zone",
+            "Description_en": "Tokyo 1st Zone",
             "IsDummy": false,
             "UserSVLANIDDef": "200-1001,1025-3500",
-            "BridgeIndex": 1,
-            "SharedSVLANIDDef": "100-139",
-            "PhysicalGroup": 30001,
+            "BridgeIndex": 99,
+            "SharedSVLANIDDef": "100-149",
+            "PhysicalGroup": 20001,
             "Remark": {
+              "TargetManager": {
+                "Real1IPAddress": "192.168.6.123",
+                "IPAddress": "192.168.6.125",
+                "Real2IPAddress": "192.168.6.124"
+              },
+              "Licence": {
+                "CDROM": {
+                  "SQLSERVER": {
+                    "2016": {
+                      "web": "112900571593",
+                      "standard": "112900571598"
+                    }
+                  }
+                }
+              },
+              "Bridge": {
+                "LAGNumber": 101
+              },
               "Appliance": {
+                "database": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112900422239",
+                    "3": "112900422239",
+                    "1-old": "112800999313",
+                    "2": "112900422239"
+                  }
+                },
                 "loadbalancer": {
                   "Icon": {
                     "ID": null
                   },
                   "SourceArchive": {
-                    "1": "112700885058",
-                    "2": "112700885058"
+                    "1": "112700943418",
+                    "2": "112700943418"
                   }
                 },
                 "vpcrouter": {
@@ -4266,34 +4843,31 @@
                     "ID": null
                   },
                   "SourceArchive": {
-                    "1": "112600461236",
-                    "3": "112600461236",
-                    "2": "112600461236"
+                    "1": "112700943417",
+                    "3": "112700943417",
+                    "2": "112700943417"
                   }
                 }
               },
-              "Bridge": {
-                "LAGNumber": 1
-              },
               "Worker": {
-                "ConfigDirectory": "/var/mnt/s03100197001-archive/config",
-                "Real1IPAddress": "10.131.1.118",
-                "IPAddress": "10.131.1.42",
+                "ConfigDirectory": "/var/mnt/s02100197001-archive/config",
+                "Real1IPAddress": "10.132.1.31",
+                "IPAddress": "10.132.1.30",
                 "CopyJobTimeoutSecPerGiB": 67.5,
-                "Real2IPAddress": "10.131.1.120"
+                "Real2IPAddress": "10.132.1.32"
               },
+              "Watchers": [
+                {
+                  "IPAddress": "10.132.1.51",
+                  "Name": "perfmate1"
+                }
+              ],
               "Host": {
                 "Selection": {
                   "Span": 4,
                   "Shuffle": true
                 }
               },
-              "Watchers": [
-                {
-                  "IPAddress": "10.131.1.105",
-                  "Name": "perfmate1"
-                }
-              ],
               "Subnet": {
                 "Plan": {
                   "Member": [
@@ -4311,13 +4885,13 @@
                 }
               }
             },
-            "Description": "石狩第1ゾーン",
-            "Name": "is1a"
+            "Description": "東京第1ゾーン",
+            "Name": "tk1a"
           }
         }
       },
       "ServiceClass": "cloud/archive/100g",
-      "CreatedAt": "2016-03-31T11:10:10+09:00",
+      "CreatedAt": "2017-05-12T15:16:59+09:00",
       "Icon": null,
       "Plan": {
         "ID": 2,
@@ -4701,7 +5275,7 @@
     },
     {
       "Index": 20,
-      "ID": "112600699429",
+      "ID": "112900585705",
       "DisplayOrder": "490201220002",
       "Name": "Windows Server 2012 R2 Datacenter Edition",
       "Description": "<div class=\"lang ja\">\n・サーバ、ディスク料金の他、OSの利用料金が必要となります。\n・サーバ作成後、必要に応じてお客様にて初期設定を行ってください。\n　手順については以下URLを参照してください。\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/</a>\n　<a href=\"http://cloud-news.sakura.ad.jp/modifydisk/windows/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/modifydisk/windows/</a>\n<div class=\"advanced\">\n100GB以上の全サイズ対応：初回起動時に選択されたディスクプランに合わせてパーティションサイズが最適化されます\n</div>\n</div>\n<div class=\"lang en\">\n・License fee for operating system is not included to your server and disk charge.\n　An additional charge is required to use Windows OS.\n・You may be required to perform initial configuration after creating a server.\n　Please refer to the link below for instructions.\n　<a href=\"http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/windows-server-plan/windows-server-setup/</a>\n　<a href=\"http://cloud-news.sakura.ad.jp/modifydisk/windows/\" target=\"_blank\">http://cloud-news.sakura.ad.jp/modifydisk/windows/</a>\n<div class=\"advanced\">\nsize extendable archive for 100GB+ disks : partition size will be optimized to the capacity of the disk at the first boot\n</div>\n</div>",
@@ -4712,11 +5286,236 @@
       "WaitingJobCount": null,
       "JobStatus": null,
       "OriginalArchive": {
-        "ID": "112600699429"
+        "ID": "112900585705"
       },
-      "SourceInfo": null,
+      "SourceInfo": {
+        "ArchiveUnderZone": {
+          "ID": "112900582536",
+          "Account": {
+            "Member": {
+              "ID": "system",
+              "OperationPenalty": "none",
+              "IsEmailSakura": null,
+              "Code": "system",
+              "LastName": null,
+              "Errors": null,
+              "IsOTPSet": false,
+              "Remark": null,
+              "Class": "internal",
+              "OTP": null,
+              "DefaultPaymentMethod": "foc",
+              "Attr": null,
+              "InstancePenalty": "none",
+              "AccountClassLimit": "admin"
+            },
+            "PaymentMethod": "foc",
+            "ID": 1,
+            "Availability": "available",
+            "Code": "root",
+            "IsPasswordSet": true,
+            "Class": "admin",
+            "PasswordEncrypted": "IohMAry4E7bxcFXrwB/9xN7sjx/VXls=",
+            "Name": "internal.system.root",
+            "Description": ""
+          },
+          "Zone": {
+            "ID": 21001,
+            "FTPServer": {
+              "BGIPAddress": "10.132.1.30",
+              "IPAddress": "27.133.143.244",
+              "HostName": "sac-tk1a-ftp.cloud.sakura.ad.jp"
+            },
+            "VNCProxy": {
+              "BGIPAddress": "10.132.1.30",
+              "IPAddress": "27.133.143.244",
+              "HostName": "sac-tk1a-ssl.cloud.sakura.ad.jp"
+            },
+            "DisplayOrder": 20021001,
+            "Region": {
+              "ID": 210,
+              "Description_ja": "東京",
+              "Bridge": {
+                "UserName": "admin",
+                "IPAddress": "127.0.0.1"
+              },
+              "Description_en": "Tokyo",
+              "Branch": "tk1a",
+              "NameServers": [
+                "210.188.224.10",
+                "210.188.224.11"
+              ],
+              "Name_en": "Tokyo",
+              "PhysicalGroup": 2,
+              "Name": "東京",
+              "Description": "東京",
+              "Name_ja": "東京"
+            },
+            "Description_ja": "東京第1ゾーン",
+            "Manager": {
+              "BandWidthMbps": 500,
+              "IPAddress": "10.132.1.30"
+            },
+            "Settings": {
+              "Appliance": {
+                "Database": {
+                  "Products": [
+                    {
+                      "Versions": [
+                        "9.6.2"
+                      ],
+                      "Availability": "available",
+                      "DefaultPort": 5432,
+                      "Name": "PostgreSQL",
+                      "Package": "postgres"
+                    },
+                    {
+                      "Versions": [
+                        "10.1.22"
+                      ],
+                      "Availability": "available",
+                      "DefaultPort": 3306,
+                      "Name": "MariaDB",
+                      "Package": "MariaDB"
+                    }
+                  ],
+                  "Backup": {
+                    "LockLimit": 8,
+                    "RotateLimit": 8
+                  }
+                }
+              },
+              "CommonServiceItem": {
+                "Autobackup": {
+                  "Settings": {
+                    "BackupSpanWeekdays": {
+                      "Disable": [
+                        "sun",
+                        "mon",
+                        "tue",
+                        "wed",
+                        "sat"
+                      ]
+                    }
+                  }
+                }
+              },
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "Description_en": "Tokyo 1st Zone",
+            "IsDummy": false,
+            "UserSVLANIDDef": "200-1001,1025-3500",
+            "BridgeIndex": 99,
+            "SharedSVLANIDDef": "100-149",
+            "PhysicalGroup": 20001,
+            "Remark": {
+              "TargetManager": {
+                "Real1IPAddress": "192.168.6.123",
+                "IPAddress": "192.168.6.125",
+                "Real2IPAddress": "192.168.6.124"
+              },
+              "Licence": {
+                "CDROM": {
+                  "SQLSERVER": {
+                    "2016": {
+                      "web": "112900571593",
+                      "standard": "112900571598"
+                    }
+                  }
+                }
+              },
+              "Bridge": {
+                "LAGNumber": 101
+              },
+              "Appliance": {
+                "database": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112900422239",
+                    "3": "112900422239",
+                    "1-old": "112800999313",
+                    "2": "112900422239"
+                  }
+                },
+                "loadbalancer": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112700943418",
+                    "2": "112700943418"
+                  }
+                },
+                "vpcrouter": {
+                  "Icon": {
+                    "ID": null
+                  },
+                  "SourceArchive": {
+                    "1": "112700943417",
+                    "3": "112700943417",
+                    "2": "112700943417"
+                  }
+                }
+              },
+              "Worker": {
+                "ConfigDirectory": "/var/mnt/s02100197001-archive/config",
+                "Real1IPAddress": "10.132.1.31",
+                "IPAddress": "10.132.1.30",
+                "CopyJobTimeoutSecPerGiB": 67.5,
+                "Real2IPAddress": "10.132.1.32"
+              },
+              "Watchers": [
+                {
+                  "IPAddress": "10.132.1.51",
+                  "Name": "perfmate1"
+                }
+              ],
+              "Host": {
+                "Selection": {
+                  "Span": 4,
+                  "Shuffle": true
+                }
+              },
+              "Subnet": {
+                "Plan": {
+                  "Member": [
+                    28,
+                    27,
+                    26
+                  ],
+                  "Staff": [
+                    28,
+                    27,
+                    26,
+                    25,
+                    24
+                  ]
+                }
+              }
+            },
+            "Description": "東京第1ゾーン",
+            "Name": "tk1a"
+          }
+        }
+      },
       "ServiceClass": "cloud/archive/100g",
-      "CreatedAt": "2014-09-03T17:56:43+09:00",
+      "CreatedAt": "2017-05-12T15:16:51+09:00",
       "Icon": null,
       "Plan": {
         "ID": 2,
